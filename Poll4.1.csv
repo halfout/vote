@@ -1,0 +1,633 @@
+"","Poll","Date","Sample","Votes","candidate","poll_date"
+"2","IBD/TIPPIBD/TIPP","5/31 - 6/5","351 RV",51,"Clinton",2016-05-31
+"3","QuinnipiacQuinnipiac","5/24 - 5/30","678 RV",53,"Clinton",2016-05-24
+"4","ABC News/Wash PostABC/WP","5/16 - 5/19","373 RV",56,"Clinton",2016-05-16
+"5","NBC News/Wall St. JrnlNBC/WSJ","5/15 - 5/19","342 LV",53,"Clinton",2016-05-15
+"6","CBS News/NY TimesCBS/NYT","5/13 - 5/17","371 LV",51,"Clinton",2016-05-13
+"7","CNN/ORCCNN/ORC","4/28 - 5/1","405 LV",51,"Clinton",2016-04-28
+"8","IBD/TIPPIBD/TIPP","4/22 - 4/28","355 RV",49,"Clinton",2016-04-22
+"9","USA Today/SuffolkUSA Today","4/20 - 4/24","363 LV",50,"Clinton",2016-04-20
+"10","Pew ResearchPew","4/12 - 4/19","738 RV",54,"Clinton",2016-04-12
+"11","FOX NewsFOX News","4/11 - 4/13","450 RV",48,"Clinton",2016-04-11
+"12","NBC News/Wall St. JrnlNBC/WSJ","4/10 - 4/14","339 LV",50,"Clinton",2016-04-10
+"13","CBS NewsCBS News","4/8 - 4/12","359 LV",50,"Clinton",2016-04-08
+"14","The Atlantic/PRRIThe Atlantic","3/30 - 4/3","788 RV",46,"Clinton",2016-03-30
+"15","IBD/TIPPIBD/TIPP","3/28 - 4/2","388 RV",45,"Clinton",2016-03-28
+"16","McClatchy/MaristMcClatchy","3/29 - 3/31","497 RV",47,"Clinton",2016-03-29
+"17","Pew ResearchPew","3/17 - 3/27","842 RV",49,"Clinton",2016-03-17
+"18","PPP (D)PPP (D)","3/24 - 3/26","505 LV",54,"Clinton",2016-03-24
+"19","FOX NewsFOX News","3/20 - 3/22","410 LV",55,"Clinton",2016-03-20
+"20","BloombergBloomberg","3/19 - 3/22","311 LV",48,"Clinton",2016-03-19
+"21","CBS News/NY TimesCBS/NYT","3/17 - 3/20","388 LV",50,"Clinton",2016-03-17
+"22","CNN/ORCCNN/ORC","3/17 - 3/20","397 RV",51,"Clinton",2016-03-17
+"23","MonmouthMonmouth","3/17 - 3/20","391 RV",55,"Clinton",2016-03-17
+"24","QuinnipiacQuinnipiac","3/16 - 3/21","635 RV",50,"Clinton",2016-03-16
+"25","NBC News/Wall St. JrnlNBC/WSJ","3/3 - 3/6","410 LV",53,"Clinton",2016-03-03
+"26","ABC News/Wash PostABC/WP","3/3 - 3/6","RV",49,"Clinton",2016-03-03
+"27","CNN/ORCCNN/ORC","2/24 - 2/27","427 RV",55,"Clinton",2016-02-24
+"28","Rasmussen ReportsRasmussen","2/25 - 2/28","541 LV",53,"Clinton",2016-02-25
+"29","IBD/TIPPIBD/TIPP","2/19 - 2/24","334 RV",45,"Clinton",2016-02-19
+"30","FOX NewsFOX News","2/15 - 2/17","429 LV",44,"Clinton",2016-02-15
+"31","NBC News/Wall St. JrnlNBC/WSJ","2/14 - 2/16","400 LV",53,"Clinton",2016-02-14
+"32","CBS NewsCBS News","2/12 - 2/16","549 LV",47,"Clinton",2016-02-12
+"33","USA Today/SuffolkUSA Today","2/11 - 2/15","319 LV",50,"Clinton",2016-02-11
+"34","QuinnipiacQuinnipiac","2/10 - 2/15","563 LV",44,"Clinton",2016-02-10
+"35","QuinnipiacQuinnipiac","2/2 - 2/4","484 RV",44,"Clinton",2016-02-02
+"36","Rasmussen ReportsRasmussen","2/3 - 2/4","574 LV",50,"Clinton",2016-02-03
+"37","PPP (D)PPP (D)","2/2 - 2/3","517 LV",53,"Clinton",2016-02-02
+"38","IBD/TIPPIBD/TIPP","1/22 - 1/27","349 RV",50,"Clinton",2016-01-22
+"39","CNN/ORCCNN/ORC","1/21 - 1/24","440 RV",52,"Clinton",2016-01-21
+"40","ABC News/Wash PostABC/WP","1/21 - 1/24","406 RV",55,"Clinton",2016-01-21
+"41","FOX NewsFOX News","1/18 - 1/21","375 LV",49,"Clinton",2016-01-18
+"42","MonmouthMonmouth","1/15 - 1/18","352 RV",52,"Clinton",2016-01-15
+"43","NBC News/Wall St. JrnlNBC/WSJ","1/9 - 1/13","400 LV",59,"Clinton",2016-01-09
+"44","CBS/NY TimesCBS/NYT","1/7 - 1/10","389 LV",48,"Clinton",2016-01-07
+"45","IBD/TIPPIBD/TIPP","1/4 - 1/8","378 LV",43,"Clinton",2016-01-04
+"46","FOX NewsFOX News","1/4 - 1/7","360 RV",54,"Clinton",2016-01-04
+"47","Rasmussen ReportsRasmussen","12/20 - 12/21","546 LV",46,"Clinton",2015-12-21
+"48","CNN/ORCCNN/ORC","12/17 - 12/21","414 RV",50,"Clinton",2015-12-18
+"49","QuinnipiacQuinnipiac","12/16 - 12/20","462 RV",61,"Clinton",2015-12-17
+"50","FOX NewsFOX News","12/16 - 12/17","390 RV",56,"Clinton",2015-12-17
+"51","PPP (D)PPP (D)","12/16 - 12/17","525 LV",56,"Clinton",2015-12-17
+"52","ABC News/Wash PostABC/WP","12/10 - 12/13","377 RV",59,"Clinton",2015-12-11
+"53","MonmouthMonmouth","12/10 - 12/13","374 RV",59,"Clinton",2015-12-11
+"54","NBC/WSJNBC/WSJ","12/6 - 12/9","400 LV",56,"Clinton",2015-12-07
+"55","CBS/NY TimesCBS/NYT","12/4 - 12/8","384 LV",52,"Clinton",2015-12-05
+"56","USA Today/SuffolkUSA Today","12/2 - 12/6","363 LV",56,"Clinton",2015-12-03
+"57","IBD/TIPPIBD/TIPP","11/30 - 12/4","345 RV",51,"Clinton",2015-12-01
+"58","CNN/ORCCNN/ORC","11/27 - 12/1","403 RV",58,"Clinton",2015-11-28
+"59","QuinnipiacQuinnipiac","11/23 - 11/30","573 RV",60,"Clinton",2015-11-24
+"60","FOX NewsFOX News","11/16 - 11/19","366 RV",55,"Clinton",2015-11-17
+"61","ABC/Wash PostABC/WP","11/16 - 11/19","352 RV",60,"Clinton",2015-11-17
+"62","PPP (D)PPP (D)","11/16 - 11/17","538 RV",59,"Clinton",2015-11-17
+"63","BloombergBloomberg","11/15 - 11/17","385 RV",55,"Clinton",2015-11-16
+"64","Rasmussen ReportsRasmussen","11/15 - 11/16","506 LV",50,"Clinton",2015-11-16
+"65","CBS News/NYTCBS/NYT","11/6 - 11/10","418 RV",52,"Clinton",2015-11-07
+"66","FOX NewsFOX News","11/1 - 11/3","505 RV",56,"Clinton",2015-11-02
+"67","McClatchy/MaristMcClatchy","10/30 - 11/5","511 RV",57,"Clinton",2015-10-31
+"68","QuinnipiacQuinnipiac","10/29 - 11/2","502 RV",53,"Clinton",2015-10-30
+"69","NBC/WSJNBC/WSJ","10/25 - 10/29","400 LV",62,"Clinton",2015-10-26
+"70","IBD/TIPPIBD/TIPP","10/24 - 10/29","356 RV",48,"Clinton",2015-10-25
+"71","NBC News/Wall St. JrnlNBC/WSJ","10/15 - 10/18","400 RV",49,"Clinton",2015-10-16
+"72","MonmouthMonmouth","10/15 - 10/18","340 RV",48,"Clinton",2015-10-16
+"73","ABC News/Wash PostABC/WP","10/15 - 10/18","444 RV",54,"Clinton",2015-10-16
+"74","CNN/ORCCNN/ORC","10/14 - 10/17","291 RV",45,"Clinton",2015-10-15
+"75","FOX NewsFOX News","10/10 - 10/12","353 RV",45,"Clinton",2015-10-11
+"76","CBS NewsCBS News","10/4 - 10/8","343 RV",46,"Clinton",2015-10-05
+"77","PPP (D)PPP (D)","10/1 - 10/4","551 RV",42,"Clinton",2015-10-02
+"78","IBD/TIPPIBD/TIPP","9/26 - 10/1","348 RV",42,"Clinton",2015-09-27
+"79","USA Today/SuffolkUSA Today","9/24 - 9/28","430 LV",41,"Clinton",2015-09-25
+"80","Pew Research*Pew*","9/22 - 9/27","387 RV",45,"Clinton",2015-09-23
+"81","NBC News/Wall St. JrnlNBC/WSJ","9/20 - 9/24","256 RV",42,"Clinton",2015-09-21
+"82","FOX NewsFOX News","9/20 - 9/22","381 LV",44,"Clinton",2015-09-21
+"83","BloombergBloomberg","9/18 - 9/21","375 RV",33,"Clinton",2015-09-19
+"84","QuinnipiacQuinnipiac","9/17 - 9/21","587 RV",43,"Clinton",2015-09-18
+"85","CNN/ORCCNN/ORC","9/17 - 9/19","392 RV",42,"Clinton",2015-09-18
+"86","CBS News/NY TimesCBS/NYT","9/9 - 9/13","351 RV",47,"Clinton",2015-09-10
+"87","ABC News/Wash PostABC/WP","9/7 - 9/10","RV",42,"Clinton",2015-09-08
+"88","CNN/ORCCNN/ORC","9/4 - 9/8","395 RV",37,"Clinton",2015-09-05
+"89","MonmouthMonmouth","8/31 - 9/2","339 RV",42,"Clinton",2015-09-01
+"90","PPP (D)PPP (D)","8/28 - 8/30","545 LV",55,"Clinton",2015-08-29
+"91","QuinnipiacQuinnipiac","8/20 - 8/25","647 RV",45,"Clinton",2015-08-21
+"92","Rasmussen ReportsRasmussen","8/23 - 8/24","536 LV",50,"Clinton",2015-08-24
+"93","CNN/ORCCNN/ORC","8/13 - 8/16","358 RV",47,"Clinton",2015-08-14
+"94","FOX NewsFOX News","8/11 - 8/13","401 LV",49,"Clinton",2015-08-12
+"95","MonmouthMonmouth","7/30 - 8/2","429 RV",52,"Clinton",2015-07-31
+"96","FOX NewsFOX News","7/30 - 8/2","499 LV",51,"Clinton",2015-07-31
+"97","CBS NewsCBS News","7/29 - 8/2","362 RV",58,"Clinton",2015-07-30
+"98","NBC News/Wall St. JrnlNBC/WSJ","7/26 - 7/30","253 RV",59,"Clinton",2015-07-27
+"99","QuinnipiacQuinnipiac","7/23 - 7/28","681 RV",55,"Clinton",2015-07-24
+"100","CNN/ORCCNN/ORC","7/22 - 7/25","392 RV",56,"Clinton",2015-07-23
+"101","PPP (D)PPP (D)","7/20 - 7/21","496 RV",57,"Clinton",2015-07-21
+"102","ABC News/Wash PostABC/WP","7/16 - 7/19","RV",63,"Clinton",2015-07-17
+"103","FOX NewsFOX News","7/13 - 7/15","382 RV",59,"Clinton",2015-07-14
+"104","USA Today/SuffolkUSA Today","7/9 - 7/12","434 LV",59,"Clinton",2015-07-10
+"105","MonmouthMonmouth","7/9 - 7/12","357 RV",51,"Clinton",2015-07-10
+"106","CNN/ORCCNN/ORC","6/26 - 6/28","428 RV",58,"Clinton",2015-06-27
+"107","FOX NewsFOX News","6/21 - 6/23","375 RV",61,"Clinton",2015-06-22
+"108","NBC News/Wall St. JrnlNBC/WSJ","6/14 - 6/18","247 RV",75,"Clinton",2015-06-15
+"109","MonmouthMonmouth","6/11 - 6/14","350 RV",57,"Clinton",2015-06-12
+"110","PPP (D)PPP (D)","6/11 - 6/14","471 RV",65,"Clinton",2015-06-12
+"111","FOX NewsFOX News","5/31 - 6/2","395 RV",57,"Clinton",2015-06-01
+"112","CNN/ORCCNN/ORC","5/29 - 5/31","433 A",60,"Clinton",2015-05-30
+"113","ABC News/Wash PostABC/WP","5/28 - 5/31","376 RV",62,"Clinton",2015-05-29
+"114","QuinnipiacQuinnipiac","5/19 - 5/26","748 RV",57,"Clinton",2015-05-20
+"115","FOX NewsFOX News","5/9 - 5/12","370 LV",63,"Clinton",2015-05-10
+"116","PPP (D)PPP (D)","5/7 - 5/10","600 RV",63,"Clinton",2015-05-08
+"117","FOX NewsFOX News","4/19 - 4/21","388 LV",62,"Clinton",2015-04-20
+"118","QuinnipiacQuinnipiac","4/16 - 4/21","569 RV",60,"Clinton",2015-04-17
+"119","CNN/ORCCNN/ORC","4/16 - 4/19","458 A",69,"Clinton",2015-04-17
+"120","FOX NewsFOX News","3/29 - 3/31","397 LV",61,"Clinton",2015-03-30
+"121","PPP (D)PPP (D)","3/26 - 3/31","449 RV",54,"Clinton",2015-03-27
+"122","ABC News/Wash PostABC/WP","3/26 - 3/29","RV",66,"Clinton",2015-03-27
+"123","CNN/ORCCNN/ORC","3/13 - 3/15","466 A",62,"Clinton",2015-03-14
+"124","McClatchy/MaristMcClatchy","3/1 - 3/4","462 RV",60,"Clinton",2015-03-02
+"125","QuinnipiacQuinnipiac","2/26 - 3/2","493 RV",56,"Clinton",2015-02-26
+"126","PPP (D)PPP (D)","2/20 - 2/22","310 RV",54,"Clinton",2015-02-20
+"127","CNN/ORCCNN/ORC","2/12 - 2/15","RV",60,"Clinton",2015-02-12
+"128","FOX NewsFOX News","1/25 - 1/27","390 RV",55,"Clinton",2015-01-25
+"129","PPP (D)PPP (D)","1/22 - 1/25","386 RV",60,"Clinton",2015-01-22
+"130","Rasmussen ReportsRasmussen","1/18 - 1/19","648 LV",59,"Clinton",2015-01-18
+"131","CNN/ORCCNN/ORC","12/18 - 12/21","469 A",66,"Clinton",2014-12-19
+"210","IBD/TIPPIBD/TIPP","5/31 - 6/5","351 RV",37,"Sanders",2016-05-31
+"310","QuinnipiacQuinnipiac","5/24 - 5/30","678 RV",39,"Sanders",2016-05-24
+"410","ABC News/Wash PostABC/WP","5/16 - 5/19","373 RV",42,"Sanders",2016-05-16
+"510","NBC News/Wall St. JrnlNBC/WSJ","5/15 - 5/19","342 LV",45,"Sanders",2016-05-15
+"610","CBS News/NY TimesCBS/NYT","5/13 - 5/17","371 LV",44,"Sanders",2016-05-13
+"710","CNN/ORCCNN/ORC","4/28 - 5/1","405 LV",43,"Sanders",2016-04-28
+"810","IBD/TIPPIBD/TIPP","4/22 - 4/28","355 RV",43,"Sanders",2016-04-22
+"910","USA Today/SuffolkUSA Today","4/20 - 4/24","363 LV",45,"Sanders",2016-04-20
+"1010","Pew ResearchPew","4/12 - 4/19","738 RV",42,"Sanders",2016-04-12
+"1110","FOX NewsFOX News","4/11 - 4/13","450 RV",46,"Sanders",2016-04-11
+"1210","NBC News/Wall St. JrnlNBC/WSJ","4/10 - 4/14","339 LV",48,"Sanders",2016-04-10
+"132","CBS NewsCBS News","4/8 - 4/12","359 LV",44,"Sanders",2016-04-08
+"141","The Atlantic/PRRIThe Atlantic","3/30 - 4/3","788 RV",47,"Sanders",2016-03-30
+"151","IBD/TIPPIBD/TIPP","3/28 - 4/2","388 RV",44,"Sanders",2016-03-28
+"161","McClatchy/MaristMcClatchy","3/29 - 3/31","497 RV",49,"Sanders",2016-03-29
+"171","Pew ResearchPew","3/17 - 3/27","842 RV",43,"Sanders",2016-03-17
+"181","PPP (D)PPP (D)","3/24 - 3/26","505 LV",36,"Sanders",2016-03-24
+"191","FOX NewsFOX News","3/20 - 3/22","410 LV",42,"Sanders",2016-03-20
+"201","BloombergBloomberg","3/19 - 3/22","311 LV",49,"Sanders",2016-03-19
+"211","CBS News/NY TimesCBS/NYT","3/17 - 3/20","388 LV",45,"Sanders",2016-03-17
+"221","CNN/ORCCNN/ORC","3/17 - 3/20","397 RV",44,"Sanders",2016-03-17
+"231","MonmouthMonmouth","3/17 - 3/20","391 RV",37,"Sanders",2016-03-17
+"241","QuinnipiacQuinnipiac","3/16 - 3/21","635 RV",38,"Sanders",2016-03-16
+"251","NBC News/Wall St. JrnlNBC/WSJ","3/3 - 3/6","410 LV",44,"Sanders",2016-03-03
+"261","ABC News/Wash PostABC/WP","3/3 - 3/6","RV",42,"Sanders",2016-03-03
+"271","CNN/ORCCNN/ORC","2/24 - 2/27","427 RV",38,"Sanders",2016-02-24
+"281","Rasmussen ReportsRasmussen","2/25 - 2/28","541 LV",31,"Sanders",2016-02-25
+"291","IBD/TIPPIBD/TIPP","2/19 - 2/24","334 RV",43,"Sanders",2016-02-19
+"301","FOX NewsFOX News","2/15 - 2/17","429 LV",47,"Sanders",2016-02-15
+"311","NBC News/Wall St. JrnlNBC/WSJ","2/14 - 2/16","400 LV",42,"Sanders",2016-02-14
+"321","CBS NewsCBS News","2/12 - 2/16","549 LV",39,"Sanders",2016-02-12
+"331","USA Today/SuffolkUSA Today","2/11 - 2/15","319 LV",40,"Sanders",2016-02-11
+"341","QuinnipiacQuinnipiac","2/10 - 2/15","563 LV",42,"Sanders",2016-02-10
+"351","QuinnipiacQuinnipiac","2/2 - 2/4","484 RV",42,"Sanders",2016-02-02
+"361","Rasmussen ReportsRasmussen","2/3 - 2/4","574 LV",32,"Sanders",2016-02-03
+"371","PPP (D)PPP (D)","2/2 - 2/3","517 LV",32,"Sanders",2016-02-02
+"381","IBD/TIPPIBD/TIPP","1/22 - 1/27","349 RV",38,"Sanders",2016-01-22
+"391","CNN/ORCCNN/ORC","1/21 - 1/24","440 RV",38,"Sanders",2016-01-21
+"401","ABC News/Wash PostABC/WP","1/21 - 1/24","406 RV",36,"Sanders",2016-01-21
+"411","FOX NewsFOX News","1/18 - 1/21","375 LV",37,"Sanders",2016-01-18
+"421","MonmouthMonmouth","1/15 - 1/18","352 RV",37,"Sanders",2016-01-15
+"431","NBC News/Wall St. JrnlNBC/WSJ","1/9 - 1/13","400 LV",34,"Sanders",2016-01-09
+"441","CBS/NY TimesCBS/NYT","1/7 - 1/10","389 LV",41,"Sanders",2016-01-07
+"451","IBD/TIPPIBD/TIPP","1/4 - 1/8","378 LV",39,"Sanders",2016-01-04
+"461","FOX NewsFOX News","1/4 - 1/7","360 RV",39,"Sanders",2016-01-04
+"471","Rasmussen ReportsRasmussen","12/20 - 12/21","546 LV",30,"Sanders",2015-12-21
+"481","CNN/ORCCNN/ORC","12/17 - 12/21","414 RV",34,"Sanders",2015-12-18
+"491","QuinnipiacQuinnipiac","12/16 - 12/20","462 RV",30,"Sanders",2015-12-17
+"501","FOX NewsFOX News","12/16 - 12/17","390 RV",34,"Sanders",2015-12-17
+"511","PPP (D)PPP (D)","12/16 - 12/17","525 LV",28,"Sanders",2015-12-17
+"521","ABC News/Wash PostABC/WP","12/10 - 12/13","377 RV",28,"Sanders",2015-12-11
+"531","MonmouthMonmouth","12/10 - 12/13","374 RV",26,"Sanders",2015-12-11
+"541","NBC/WSJNBC/WSJ","12/6 - 12/9","400 LV",37,"Sanders",2015-12-07
+"551","CBS/NY TimesCBS/NYT","12/4 - 12/8","384 LV",32,"Sanders",2015-12-05
+"561","USA Today/SuffolkUSA Today","12/2 - 12/6","363 LV",29,"Sanders",2015-12-03
+"571","IBD/TIPPIBD/TIPP","11/30 - 12/4","345 RV",33,"Sanders",2015-12-01
+"581","CNN/ORCCNN/ORC","11/27 - 12/1","403 RV",30,"Sanders",2015-11-28
+"591","QuinnipiacQuinnipiac","11/23 - 11/30","573 RV",30,"Sanders",2015-11-24
+"601","FOX NewsFOX News","11/16 - 11/19","366 RV",32,"Sanders",2015-11-17
+"611","ABC/Wash PostABC/WP","11/16 - 11/19","352 RV",34,"Sanders",2015-11-17
+"621","PPP (D)PPP (D)","11/16 - 11/17","538 RV",26,"Sanders",2015-11-17
+"631","BloombergBloomberg","11/15 - 11/17","385 RV",30,"Sanders",2015-11-16
+"641","Rasmussen ReportsRasmussen","11/15 - 11/16","506 LV",29,"Sanders",2015-11-16
+"651","CBS News/NYTCBS/NYT","11/6 - 11/10","418 RV",33,"Sanders",2015-11-07
+"661","FOX NewsFOX News","11/1 - 11/3","505 RV",31,"Sanders",2015-11-02
+"671","McClatchy/MaristMcClatchy","10/30 - 11/5","511 RV",35,"Sanders",2015-10-31
+"681","QuinnipiacQuinnipiac","10/29 - 11/2","502 RV",35,"Sanders",2015-10-30
+"691","NBC/WSJNBC/WSJ","10/25 - 10/29","400 LV",31,"Sanders",2015-10-26
+"701","IBD/TIPPIBD/TIPP","10/24 - 10/29","356 RV",33,"Sanders",2015-10-25
+"711","NBC News/Wall St. JrnlNBC/WSJ","10/15 - 10/18","400 RV",29,"Sanders",2015-10-16
+"721","MonmouthMonmouth","10/15 - 10/18","340 RV",21,"Sanders",2015-10-16
+"731","ABC News/Wash PostABC/WP","10/15 - 10/18","444 RV",23,"Sanders",2015-10-16
+"741","CNN/ORCCNN/ORC","10/14 - 10/17","291 RV",29,"Sanders",2015-10-15
+"751","FOX NewsFOX News","10/10 - 10/12","353 RV",25,"Sanders",2015-10-11
+"761","CBS NewsCBS News","10/4 - 10/8","343 RV",27,"Sanders",2015-10-05
+"771","PPP (D)PPP (D)","10/1 - 10/4","551 RV",24,"Sanders",2015-10-02
+"781","IBD/TIPPIBD/TIPP","9/26 - 10/1","348 RV",18,"Sanders",2015-09-27
+"791","USA Today/SuffolkUSA Today","9/24 - 9/28","430 LV",23,"Sanders",2015-09-25
+"801","Pew Research*Pew*","9/22 - 9/27","387 RV",24,"Sanders",2015-09-23
+"811","NBC News/Wall St. JrnlNBC/WSJ","9/20 - 9/24","256 RV",35,"Sanders",2015-09-21
+"821","FOX NewsFOX News","9/20 - 9/22","381 LV",30,"Sanders",2015-09-21
+"831","BloombergBloomberg","9/18 - 9/21","375 RV",24,"Sanders",2015-09-19
+"841","QuinnipiacQuinnipiac","9/17 - 9/21","587 RV",25,"Sanders",2015-09-18
+"851","CNN/ORCCNN/ORC","9/17 - 9/19","392 RV",24,"Sanders",2015-09-18
+"861","CBS News/NY TimesCBS/NYT","9/9 - 9/13","351 RV",27,"Sanders",2015-09-10
+"871","ABC News/Wash PostABC/WP","9/7 - 9/10","RV",24,"Sanders",2015-09-08
+"881","CNN/ORCCNN/ORC","9/4 - 9/8","395 RV",27,"Sanders",2015-09-05
+"891","MonmouthMonmouth","8/31 - 9/2","339 RV",20,"Sanders",2015-09-01
+"901","PPP (D)PPP (D)","8/28 - 8/30","545 LV",20,"Sanders",2015-08-29
+"911","QuinnipiacQuinnipiac","8/20 - 8/25","647 RV",22,"Sanders",2015-08-21
+"921","Rasmussen ReportsRasmussen","8/23 - 8/24","536 LV",24,"Sanders",2015-08-24
+"931","CNN/ORCCNN/ORC","8/13 - 8/16","358 RV",29,"Sanders",2015-08-14
+"941","FOX NewsFOX News","8/11 - 8/13","401 LV",30,"Sanders",2015-08-12
+"951","MonmouthMonmouth","7/30 - 8/2","429 RV",16,"Sanders",2015-07-31
+"961","FOX NewsFOX News","7/30 - 8/2","499 LV",22,"Sanders",2015-07-31
+"971","CBS NewsCBS News","7/29 - 8/2","362 RV",17,"Sanders",2015-07-30
+"981","NBC News/Wall St. JrnlNBC/WSJ","7/26 - 7/30","253 RV",25,"Sanders",2015-07-27
+"991","QuinnipiacQuinnipiac","7/23 - 7/28","681 RV",17,"Sanders",2015-07-24
+"1001","CNN/ORCCNN/ORC","7/22 - 7/25","392 RV",19,"Sanders",2015-07-23
+"1011","PPP (D)PPP (D)","7/20 - 7/21","496 RV",22,"Sanders",2015-07-21
+"1021","ABC News/Wash PostABC/WP","7/16 - 7/19","RV",14,"Sanders",2015-07-17
+"1031","FOX NewsFOX News","7/13 - 7/15","382 RV",19,"Sanders",2015-07-14
+"1041","USA Today/SuffolkUSA Today","7/9 - 7/12","434 LV",14,"Sanders",2015-07-10
+"1051","MonmouthMonmouth","7/9 - 7/12","357 RV",17,"Sanders",2015-07-10
+"1061","CNN/ORCCNN/ORC","6/26 - 6/28","428 RV",15,"Sanders",2015-06-27
+"1071","FOX NewsFOX News","6/21 - 6/23","375 RV",15,"Sanders",2015-06-22
+"1081","NBC News/Wall St. JrnlNBC/WSJ","6/14 - 6/18","247 RV",15,"Sanders",2015-06-15
+"1091","MonmouthMonmouth","6/11 - 6/14","350 RV",12,"Sanders",2015-06-12
+"1101","PPP (D)PPP (D)","6/11 - 6/14","471 RV",9,"Sanders",2015-06-12
+"1111","FOX NewsFOX News","5/31 - 6/2","395 RV",11,"Sanders",2015-06-01
+"1121","CNN/ORCCNN/ORC","5/29 - 5/31","433 A",10,"Sanders",2015-05-30
+"1131","ABC News/Wash PostABC/WP","5/28 - 5/31","376 RV",10,"Sanders",2015-05-29
+"1141","QuinnipiacQuinnipiac","5/19 - 5/26","748 RV",15,"Sanders",2015-05-20
+"1151","FOX NewsFOX News","5/9 - 5/12","370 LV",6,"Sanders",2015-05-10
+"1161","PPP (D)PPP (D)","5/7 - 5/10","600 RV",13,"Sanders",2015-05-08
+"1171","FOX NewsFOX News","4/19 - 4/21","388 LV",4,"Sanders",2015-04-20
+"1181","QuinnipiacQuinnipiac","4/16 - 4/21","569 RV",8,"Sanders",2015-04-17
+"1191","CNN/ORCCNN/ORC","4/16 - 4/19","458 A",5,"Sanders",2015-04-17
+"1201","FOX NewsFOX News","3/29 - 3/31","397 LV",3,"Sanders",2015-03-30
+"1211","PPP (D)PPP (D)","3/26 - 3/31","449 RV",6,"Sanders",2015-03-27
+"1221","ABC News/Wash PostABC/WP","3/26 - 3/29","RV",5,"Sanders",2015-03-27
+"1231","CNN/ORCCNN/ORC","3/13 - 3/15","466 A",3,"Sanders",2015-03-14
+"1241","McClatchy/MaristMcClatchy","3/1 - 3/4","462 RV",5,"Sanders",2015-03-02
+"1251","QuinnipiacQuinnipiac","2/26 - 3/2","493 RV",4,"Sanders",2015-02-26
+"1261","PPP (D)PPP (D)","2/20 - 2/22","310 RV",5,"Sanders",2015-02-20
+"1271","CNN/ORCCNN/ORC","2/12 - 2/15","RV",3,"Sanders",2015-02-12
+"1281","FOX NewsFOX News","1/25 - 1/27","390 RV",3,"Sanders",2015-01-25
+"1291","PPP (D)PPP (D)","1/22 - 1/25","386 RV",2,"Sanders",2015-01-22
+"1301","Rasmussen ReportsRasmussen","1/18 - 1/19","648 LV",4,"Sanders",2015-01-18
+"1311","CNN/ORCCNN/ORC","12/18 - 12/21","469 A",3,"Sanders",2014-12-19
+"212","CNN/ORCCNN/ORC","4/28 - 5/1","406 LV",49,"Trump",2016-04-28
+"312","IBD/TIPPIBD/TIPP","4/22 - 4/28","397 RV",48,"Trump",2016-04-22
+"412","USA Today/SuffolkUSA Today","4/20 - 4/24","292 LV",45,"Trump",2016-04-20
+"512","Pew ResearchPew","4/12 - 4/19","740 RV",44,"Trump",2016-04-12
+"612","FOX NewsFOX News","4/11 - 4/13","419 RV",45,"Trump",2016-04-11
+"712","NBC News/Wall St. JrnlNBC/WSJ","4/10 - 4/14","310 LV",40,"Trump",2016-04-10
+"812","CBS NewsCBS News","4/8 - 4/12","399 LV",42,"Trump",2016-04-08
+"912","The Atlantic/PRRIThe Atlantic","3/30 - 4/3","676 RV",37,"Trump",2016-03-30
+"1012","IBD/TIPPIBD/TIPP","3/28 - 4/2","388 RV",38,"Trump",2016-03-28
+"1112","McClatchy/MaristMcClatchy","3/29 - 3/31","444 RV",40,"Trump",2016-03-29
+"1212","Pew ResearchPew","3/17 - 3/27","834 RV",41,"Trump",2016-03-17
+"133","PPP (D)PPP (D)","3/24 - 3/26","505 LV",42,"Trump",2016-03-24
+"142","FOX NewsFOX News","3/20 - 3/22","388 LV",41,"Trump",2016-03-20
+"152","BloombergBloomberg","3/19 - 3/22","366 LV",40,"Trump",2016-03-19
+"162","MonmouthMonmouth","3/17 - 3/20","353 RV",41,"Trump",2016-03-17
+"172","CNN/ORCCNN/ORC","3/17 - 3/20","397 RV",47,"Trump",2016-03-17
+"182","CBS News/NY TimesCBS/NYT","3/17 - 3/20","362 LV",46,"Trump",2016-03-17
+"192","QuinnipiacQuinnipiac","3/16 - 3/21","652 RV",43,"Trump",2016-03-16
+"202","Rasmussen ReportsRasmussen","3/16 - 3/17","719 LV",43,"Trump",2016-03-16
+"213","NBC News/Wall St. JrnlNBC/WSJ","3/3 - 3/6","397 LV",30,"Trump",2016-03-03
+"222","ABC News/Wash PostABC/WP","3/3 - 3/6","RV",34,"Trump",2016-03-03
+"232","CNN/ORCCNN/ORC","2/24 - 2/27","427 RV",49,"Trump",2016-02-24
+"242","IBD/TIPPIBD/TIPP","2/19 - 2/24","400 RV",31,"Trump",2016-02-19
+"252","Rasmussen ReportsRasmussen","2/21 - 2/22","697 LV",36,"Trump",2016-02-21
+"262","FOX NewsFOX News","2/15 - 2/17","404 LV",36,"Trump",2016-02-15
+"272","NBC News/Wall St. JrnlNBC/WSJ","2/14 - 2/16","400 LV",26,"Trump",2016-02-14
+"282","CBS NewsCBS News","2/12 - 2/16","581 LV",35,"Trump",2016-02-12
+"292","USA Today/SuffolkUSA Today","2/11 - 2/15","358 LV",35,"Trump",2016-02-11
+"302","QuinnipiacQuinnipiac","2/10 - 2/15","602 LV",39,"Trump",2016-02-10
+"313","QuinnipiacQuinnipiac","2/2 - 2/4","507 RV",31,"Trump",2016-02-02
+"322","Rasmussen ReportsRasmussen","2/3 - 2/4","725 LV",31,"Trump",2016-02-03
+"332","PPP (D)PPP (D)","2/2 - 2/3","531 LV",25,"Trump",2016-02-02
+"342","IBD/TIPPIBD/TIPP","1/22 - 1/27","395 RV",31,"Trump",2016-01-22
+"352","CNN/ORCCNN/ORC","1/21 - 1/24","405 RV",41,"Trump",2016-01-21
+"362","ABC News/Wash PostABC/WP","1/21 - 1/24","356 RV",37,"Trump",2016-01-21
+"372","FOX NewsFOX News","1/18 - 1/21","405 LV",34,"Trump",2016-01-18
+"382","MonmouthMonmouth","1/15 - 1/18","385 RV",36,"Trump",2016-01-15
+"392","NBC News/Wall St. JrnlNBC/WSJ","1/9 - 1/13","400 LV",33,"Trump",2016-01-09
+"402","CBS News/NY TimesCBS/NYT","1/7 - 1/10","442 LV",36,"Trump",2016-01-07
+"413","IBD/TIPPIBD/TIPP","1/4 - 1/8","414 LV",34,"Trump",2016-01-04
+"422","FOX NewsFOX News","1/4 - 1/7","423 RV",35,"Trump",2016-01-04
+"432","CNN/ORCCNN/ORC","12/17 - 12/21","438 RV",39,"Trump",2015-12-18
+"442","QuinnipiacQuinnipiac","12/16 - 12/20","508 RV",28,"Trump",2015-12-17
+"452","FOX NewsFOX News","12/16 - 12/17","402 RV",39,"Trump",2015-12-17
+"462","PPP (D)PPP (D)","12/16 - 12/17","532 LV",34,"Trump",2015-12-17
+"472","ABC News/Wash PostABC/WP","12/10 - 12/13","1002 A",38,"Trump",2015-12-11
+"482","MonmouthMonmouth","12/10 - 12/13","385 RV",41,"Trump",2015-12-11
+"492","NBC News/Wall St. JrnlNBC/WSJ","12/6 - 12/9","400 LV",27,"Trump",2015-12-07
+"502","CBS News/NY TimesCBS/NYT","12/4 - 12/8","431 LV",35,"Trump",2015-12-05
+"513","USA Today/SuffolkUSA Today","12/2 - 12/6","357 LV",27,"Trump",2015-12-03
+"522","IBD/TIPPIBD/TIPP","11/30 - 12/4","394 RV",27,"Trump",2015-12-01
+"532","CNN/ORCCNN/ORC","11/27 - 12/1","445 RV",36,"Trump",2015-11-28
+"542","QuinnipiacQuinnipiac","11/23 - 11/30","672 RV",27,"Trump",2015-11-24
+"552","FOX NewsFOX News","11/16 - 11/19","434 RV",28,"Trump",2015-11-17
+"562","ABC News/Wash PostABC/WP","11/16 - 11/19","373 RV",32,"Trump",2015-11-17
+"572","PPP (D)PPP (D)","11/16 - 11/17","607 RV",26,"Trump",2015-11-17
+"582","BloombergBloomberg","11/15 - 11/17","379 RV",24,"Trump",2015-11-16
+"592","FOX NewsFOX News","11/1 - 11/3","--",26,"Trump",2015-11-02
+"602","McClatchy/MaristMcClatchy","10/29 - 11/4","426 RV",23,"Trump",2015-10-30
+"613","QuinnipiacQuinnipiac","10/29 - 11/2","502 RV",24,"Trump",2015-10-30
+"622","NBC News/Wall St. JrnlNBC/WSJ","10/25 - 10/29","400 LV",23,"Trump",2015-10-26
+"632","IBD/TIPPIBD/TIPP","10/24 - 10/29","402 RV",28,"Trump",2015-10-25
+"642","CBS News/NY TimesCBS/NYT","10/21 - 10/25","575 RV",22,"Trump",2015-10-22
+"652","NBC News/Wall St. JrnlNBC/WSJ","10/15 - 10/18","400 RV",25,"Trump",2015-10-16
+"662","MonmouthMonmouth","10/15 - 10/18","348 RV",28,"Trump",2015-10-16
+"672","ABC News/Wash PostABC/WP","10/15 - 10/18","RV",32,"Trump",2015-10-16
+"682","CNN/ORCCNN/ORC","10/14 - 10/17","465 RV",27,"Trump",2015-10-15
+"692","FOX NewsFOX News","10/10 - 10/12","398 LV",24,"Trump",2015-10-11
+"702","CBS NewsCBS News","10/4 - 10/8","419 RV",27,"Trump",2015-10-05
+"713","PPP (D)PPP (D)","10/1 - 10/4","627 RV",27,"Trump",2015-10-02
+"722","IBD/TIPPIBD/TIPP","9/26 - 10/1","377 RV",17,"Trump",2015-09-27
+"732","USA Today/SuffolkUSA Today","9/24 - 9/28","380 LV",23,"Trump",2015-09-25
+"742","Pew Research*Pew*","9/22 - 9/27","496 RV",25,"Trump",2015-09-23
+"752","NBC News/Wall St. JrnlNBC/WSJ","9/20 - 9/24","230 RV",21,"Trump",2015-09-21
+"762","FOX NewsFOX News","9/20 - 9/22","398 LV",26,"Trump",2015-09-21
+"772","BloombergBloomberg","9/18 - 9/21","391 RV",21,"Trump",2015-09-19
+"782","QuinnipiacQuinnipiac","9/17 - 9/21","737 RV",25,"Trump",2015-09-18
+"792","CNN/ORCCNN/ORC","9/17 - 9/19","444 RV",24,"Trump",2015-09-18
+"802","CBS News/NY TimesCBS/NYT","9/9 - 9/13","376 RV",27,"Trump",2015-09-10
+"813","ABC News/Wash PostABC/WP","9/7 - 9/10","821 RV",33,"Trump",2015-09-08
+"822","CNN/ORCCNN/ORC","9/4 - 9/8","474 RV",32,"Trump",2015-09-05
+"832","MonmouthMonmouth","8/31 - 9/2","366 RV",30,"Trump",2015-09-01
+"842","PPP (D)PPP (D)","8/28 - 8/30","527 RV",29,"Trump",2015-08-29
+"852","QuinnipiacQuinnipiac","8/20 - 8/25","666 RV",28,"Trump",2015-08-21
+"862","CNN/ORCCNN/ORC","8/13 - 8/16","466 RV",24,"Trump",2015-08-14
+"872","FOX NewsFOX News","8/11 - 8/13","381 LV",25,"Trump",2015-08-12
+"882","Rasmussen ReportsRasmussen","8/9 - 8/10","651 LV",17,"Trump",2015-08-10
+"892","FOX NewsFOX News","7/30 - 8/2","475 LV",26,"Trump",2015-07-31
+"902","MonmouthMonmouth","7/30 - 8/2","423 RV",26,"Trump",2015-07-31
+"913","BloombergBloomberg","7/30 - 8/2","500 RV",21,"Trump",2015-07-31
+"922","CBS NewsCBS News","7/29 - 8/2","408 RV",24,"Trump",2015-07-30
+"932","NBC/WSJNBC/WSJ","7/26 - 7/30","252 RV",19,"Trump",2015-07-27
+"942","QuinnipiacQuinnipiac","7/23 - 7/28","710 RV",20,"Trump",2015-07-24
+"952","RasmussenRasmussen","7/26 - 7/27","471 LV",26,"Trump",2015-07-27
+"962","CNN/ORCCNN/ORC","7/22 - 7/25","419 RV",18,"Trump",2015-07-23
+"972","PPP (D)PPP (D)","7/20 - 7/21","524 RV",19,"Trump",2015-07-21
+"982","ABC News/Wash PostABC/WP","7/16 - 7/19","RV",24,"Trump",2015-07-17
+"992","FOX NewsFOX News","7/13 - 7/15","389 RV",18,"Trump",2015-07-14
+"1002","USA Today/SuffolkUSA Today","7/9 - 7/12","349 LV",17,"Trump",2015-07-10
+"1013","MonmouthMonmouth","7/9 - 7/12","336 RV",13,"Trump",2015-07-10
+"1022","CNN/ORCCNN/ORC","6/26 - 6/28","407 RV",12,"Trump",2015-06-27
+"1032","FOX NewsFOX News","6/21 - 6/23","378 RV",11,"Trump",2015-06-22
+"1042","NBC News/Wall St. JrnlNBC/WSJ","6/14 - 6/18","236 RV",1,"Trump",2015-06-15
+"1052","MonmouthMonmouth","6/11 - 6/14","351 RV",2,"Trump",2015-06-12
+"1062","FOX NewsFOX News","5/31 - 6/2","370 RV",4,"Trump",2015-06-01
+"1072","CNN/ORCCNN/ORC","5/29 - 5/31","483 A",3,"Trump",2015-05-30
+"1082","ABC News/Wash PostABC/WP","5/28 - 5/31","362 RV",4,"Trump",2015-05-29
+"1092","QuinnipiacQuinnipiac","5/19 - 5/26","679 RV",5,"Trump",2015-05-20
+"1102","FOX NewsFOX News","5/9 - 5/12","432 LV",4,"Trump",2015-05-10
+"1113","PPP (D)PPP (D)","5/7 - 5/10","685 RV",,"Trump",2015-05-08
+"1122","NBC News/Wall St. JrnlNBC/WSJ","4/26 - 4/30","251 RV",,"Trump",2015-04-27
+"1132","FOX NewsFOX News","4/19 - 4/21","383 LV",5,"Trump",2015-04-20
+"1142","QuinnipiacQuinnipiac","4/16 - 4/21","567 RV",,"Trump",2015-04-17
+"1152","CNN/ORCCNN/ORC","4/16 - 4/19","435 A",,"Trump",2015-04-17
+"1162","FOX NewsFOX News","3/29 - 3/31","379 LV",3,"Trump",2015-03-30
+"1172","ABC News/Wash PostABC/WP","3/26 - 3/29","RV",,"Trump",2015-03-27
+"1182","PPP (D)PPP (D)","3/26 - 3/31","443 RV",,"Trump",2015-03-27
+"1192","CNN/ORCCNN/ORC","3/13 - 3/15","450 A",,"Trump",2015-03-14
+"1202","McClatchy/MaristMcClatchy","3/1 - 3/4","426 RV",,"Trump",2015-03-02
+"1213","QuinnipiacQuinnipiac","2/26 - 3/2","554 RV",,"Trump",2015-02-26
+"1222","PPP (D)PPP (D)","2/20 - 2/22","316 RV",,"Trump",2015-02-20
+"1232","CNN/ORCCNN/ORC","2/12 - 2/15","RV",,"Trump",2015-02-12
+"1242","FOX NewsFOX News","1/25 - 1/27","394 RV",,"Trump",2015-01-25
+"1252","CNN/ORCCNN/ORC","12/18 - 12/21","453 A",,"Trump",2014-12-19
+"214","CNN/ORCCNN/ORC","4/28 - 5/1","406 LV",25,"Cruz",2016-04-28
+"314","IBD/TIPPIBD/TIPP","4/22 - 4/28","397 RV",29,"Cruz",2016-04-22
+"414","USA Today/SuffolkUSA Today","4/20 - 4/24","292 LV",29,"Cruz",2016-04-20
+"514","Pew ResearchPew","4/12 - 4/19","740 RV",25,"Cruz",2016-04-12
+"614","FOX NewsFOX News","4/11 - 4/13","419 RV",27,"Cruz",2016-04-11
+"714","NBC News/Wall St. JrnlNBC/WSJ","4/10 - 4/14","310 LV",35,"Cruz",2016-04-10
+"814","CBS NewsCBS News","4/8 - 4/12","399 LV",29,"Cruz",2016-04-08
+"914","The Atlantic/PRRIThe Atlantic","3/30 - 4/3","676 RV",31,"Cruz",2016-03-30
+"1014","IBD/TIPPIBD/TIPP","3/28 - 4/2","388 RV",31,"Cruz",2016-03-28
+"1114","McClatchy/MaristMcClatchy","3/29 - 3/31","444 RV",35,"Cruz",2016-03-29
+"1214","Pew ResearchPew","3/17 - 3/27","834 RV",32,"Cruz",2016-03-17
+"134","PPP (D)PPP (D)","3/24 - 3/26","505 LV",32,"Cruz",2016-03-24
+"143","FOX NewsFOX News","3/20 - 3/22","388 LV",38,"Cruz",2016-03-20
+"153","BloombergBloomberg","3/19 - 3/22","366 LV",31,"Cruz",2016-03-19
+"163","MonmouthMonmouth","3/17 - 3/20","353 RV",29,"Cruz",2016-03-17
+"173","CNN/ORCCNN/ORC","3/17 - 3/20","397 RV",31,"Cruz",2016-03-17
+"183","CBS News/NY TimesCBS/NYT","3/17 - 3/20","362 LV",26,"Cruz",2016-03-17
+"193","QuinnipiacQuinnipiac","3/16 - 3/21","652 RV",29,"Cruz",2016-03-16
+"203","Rasmussen ReportsRasmussen","3/16 - 3/17","719 LV",28,"Cruz",2016-03-16
+"215","NBC News/Wall St. JrnlNBC/WSJ","3/3 - 3/6","397 LV",27,"Cruz",2016-03-03
+"223","ABC News/Wash PostABC/WP","3/3 - 3/6","RV",25,"Cruz",2016-03-03
+"233","CNN/ORCCNN/ORC","2/24 - 2/27","427 RV",15,"Cruz",2016-02-24
+"243","IBD/TIPPIBD/TIPP","2/19 - 2/24","400 RV",20,"Cruz",2016-02-19
+"253","Rasmussen ReportsRasmussen","2/21 - 2/22","697 LV",17,"Cruz",2016-02-21
+"263","FOX NewsFOX News","2/15 - 2/17","404 LV",19,"Cruz",2016-02-15
+"273","NBC News/Wall St. JrnlNBC/WSJ","2/14 - 2/16","400 LV",28,"Cruz",2016-02-14
+"283","CBS NewsCBS News","2/12 - 2/16","581 LV",18,"Cruz",2016-02-12
+"293","USA Today/SuffolkUSA Today","2/11 - 2/15","358 LV",20,"Cruz",2016-02-11
+"303","QuinnipiacQuinnipiac","2/10 - 2/15","602 LV",18,"Cruz",2016-02-10
+"315","QuinnipiacQuinnipiac","2/2 - 2/4","507 RV",22,"Cruz",2016-02-02
+"323","Rasmussen ReportsRasmussen","2/3 - 2/4","725 LV",20,"Cruz",2016-02-03
+"333","PPP (D)PPP (D)","2/2 - 2/3","531 LV",21,"Cruz",2016-02-02
+"343","IBD/TIPPIBD/TIPP","1/22 - 1/27","395 RV",21,"Cruz",2016-01-22
+"353","CNN/ORCCNN/ORC","1/21 - 1/24","405 RV",19,"Cruz",2016-01-21
+"363","ABC News/Wash PostABC/WP","1/21 - 1/24","356 RV",21,"Cruz",2016-01-21
+"373","FOX NewsFOX News","1/18 - 1/21","405 LV",20,"Cruz",2016-01-18
+"383","MonmouthMonmouth","1/15 - 1/18","385 RV",17,"Cruz",2016-01-15
+"393","NBC News/Wall St. JrnlNBC/WSJ","1/9 - 1/13","400 LV",20,"Cruz",2016-01-09
+"403","CBS News/NY TimesCBS/NYT","1/7 - 1/10","442 LV",19,"Cruz",2016-01-07
+"415","IBD/TIPPIBD/TIPP","1/4 - 1/8","414 LV",18,"Cruz",2016-01-04
+"423","FOX NewsFOX News","1/4 - 1/7","423 RV",20,"Cruz",2016-01-04
+"433","CNN/ORCCNN/ORC","12/17 - 12/21","438 RV",18,"Cruz",2015-12-18
+"443","QuinnipiacQuinnipiac","12/16 - 12/20","508 RV",24,"Cruz",2015-12-17
+"453","FOX NewsFOX News","12/16 - 12/17","402 RV",18,"Cruz",2015-12-17
+"463","PPP (D)PPP (D)","12/16 - 12/17","532 LV",18,"Cruz",2015-12-17
+"473","ABC News/Wash PostABC/WP","12/10 - 12/13","1002 A",15,"Cruz",2015-12-11
+"483","MonmouthMonmouth","12/10 - 12/13","385 RV",14,"Cruz",2015-12-11
+"493","NBC News/Wall St. JrnlNBC/WSJ","12/6 - 12/9","400 LV",22,"Cruz",2015-12-07
+"503","CBS News/NY TimesCBS/NYT","12/4 - 12/8","431 LV",16,"Cruz",2015-12-05
+"515","USA Today/SuffolkUSA Today","12/2 - 12/6","357 LV",17,"Cruz",2015-12-03
+"523","IBD/TIPPIBD/TIPP","11/30 - 12/4","394 RV",13,"Cruz",2015-12-01
+"533","CNN/ORCCNN/ORC","11/27 - 12/1","445 RV",16,"Cruz",2015-11-28
+"543","QuinnipiacQuinnipiac","11/23 - 11/30","672 RV",16,"Cruz",2015-11-24
+"553","FOX NewsFOX News","11/16 - 11/19","434 RV",14,"Cruz",2015-11-17
+"563","ABC News/Wash PostABC/WP","11/16 - 11/19","373 RV",8,"Cruz",2015-11-17
+"573","PPP (D)PPP (D)","11/16 - 11/17","607 RV",14,"Cruz",2015-11-17
+"583","BloombergBloomberg","11/15 - 11/17","379 RV",9,"Cruz",2015-11-16
+"593","FOX NewsFOX News","11/1 - 11/3","--",11,"Cruz",2015-11-02
+"603","McClatchy/MaristMcClatchy","10/29 - 11/4","426 RV",8,"Cruz",2015-10-30
+"615","QuinnipiacQuinnipiac","10/29 - 11/2","502 RV",13,"Cruz",2015-10-30
+"623","NBC News/Wall St. JrnlNBC/WSJ","10/25 - 10/29","400 LV",10,"Cruz",2015-10-26
+"633","IBD/TIPPIBD/TIPP","10/24 - 10/29","402 RV",6,"Cruz",2015-10-25
+"643","CBS News/NY TimesCBS/NYT","10/21 - 10/25","575 RV",4,"Cruz",2015-10-22
+"653","NBC News/Wall St. JrnlNBC/WSJ","10/15 - 10/18","400 RV",9,"Cruz",2015-10-16
+"663","MonmouthMonmouth","10/15 - 10/18","348 RV",10,"Cruz",2015-10-16
+"673","ABC News/Wash PostABC/WP","10/15 - 10/18","RV",6,"Cruz",2015-10-16
+"683","CNN/ORCCNN/ORC","10/14 - 10/17","465 RV",4,"Cruz",2015-10-15
+"693","FOX NewsFOX News","10/10 - 10/12","398 LV",10,"Cruz",2015-10-11
+"703","CBS NewsCBS News","10/4 - 10/8","419 RV",9,"Cruz",2015-10-05
+"715","PPP (D)PPP (D)","10/1 - 10/4","627 RV",7,"Cruz",2015-10-02
+"723","IBD/TIPPIBD/TIPP","9/26 - 10/1","377 RV",6,"Cruz",2015-09-27
+"733","USA Today/SuffolkUSA Today","9/24 - 9/28","380 LV",6,"Cruz",2015-09-25
+"743","Pew Research*Pew*","9/22 - 9/27","496 RV",6,"Cruz",2015-09-23
+"753","NBC News/Wall St. JrnlNBC/WSJ","9/20 - 9/24","230 RV",5,"Cruz",2015-09-21
+"763","FOX NewsFOX News","9/20 - 9/22","398 LV",8,"Cruz",2015-09-21
+"773","BloombergBloomberg","9/18 - 9/21","391 RV",5,"Cruz",2015-09-19
+"783","QuinnipiacQuinnipiac","9/17 - 9/21","737 RV",7,"Cruz",2015-09-18
+"793","CNN/ORCCNN/ORC","9/17 - 9/19","444 RV",6,"Cruz",2015-09-18
+"803","CBS News/NY TimesCBS/NYT","9/9 - 9/13","376 RV",5,"Cruz",2015-09-10
+"815","ABC News/Wash PostABC/WP","9/7 - 9/10","821 RV",7,"Cruz",2015-09-08
+"823","CNN/ORCCNN/ORC","9/4 - 9/8","474 RV",7,"Cruz",2015-09-05
+"833","MonmouthMonmouth","8/31 - 9/2","366 RV",8,"Cruz",2015-09-01
+"843","PPP (D)PPP (D)","8/28 - 8/30","527 RV",6,"Cruz",2015-08-29
+"853","QuinnipiacQuinnipiac","8/20 - 8/25","666 RV",7,"Cruz",2015-08-21
+"863","CNN/ORCCNN/ORC","8/13 - 8/16","466 RV",5,"Cruz",2015-08-14
+"873","FOX NewsFOX News","8/11 - 8/13","381 LV",10,"Cruz",2015-08-12
+"883","Rasmussen ReportsRasmussen","8/9 - 8/10","651 LV",7,"Cruz",2015-08-10
+"893","FOX NewsFOX News","7/30 - 8/2","475 LV",6,"Cruz",2015-07-31
+"903","MonmouthMonmouth","7/30 - 8/2","423 RV",6,"Cruz",2015-07-31
+"915","BloombergBloomberg","7/30 - 8/2","500 RV",4,"Cruz",2015-07-31
+"923","CBS NewsCBS News","7/29 - 8/2","408 RV",6,"Cruz",2015-07-30
+"933","NBC/WSJNBC/WSJ","7/26 - 7/30","252 RV",9,"Cruz",2015-07-27
+"943","QuinnipiacQuinnipiac","7/23 - 7/28","710 RV",5,"Cruz",2015-07-24
+"953","RasmussenRasmussen","7/26 - 7/27","471 LV",7,"Cruz",2015-07-27
+"963","CNN/ORCCNN/ORC","7/22 - 7/25","419 RV",7,"Cruz",2015-07-23
+"973","PPP (D)PPP (D)","7/20 - 7/21","524 RV",4,"Cruz",2015-07-21
+"983","ABC News/Wash PostABC/WP","7/16 - 7/19","RV",4,"Cruz",2015-07-17
+"993","FOX NewsFOX News","7/13 - 7/15","389 RV",4,"Cruz",2015-07-14
+"1003","USA Today/SuffolkUSA Today","7/9 - 7/12","349 LV",6,"Cruz",2015-07-10
+"1015","MonmouthMonmouth","7/9 - 7/12","336 RV",9,"Cruz",2015-07-10
+"1023","CNN/ORCCNN/ORC","6/26 - 6/28","407 RV",3,"Cruz",2015-06-27
+"1033","FOX NewsFOX News","6/21 - 6/23","378 RV",4,"Cruz",2015-06-22
+"1043","NBC News/Wall St. JrnlNBC/WSJ","6/14 - 6/18","236 RV",4,"Cruz",2015-06-15
+"1053","MonmouthMonmouth","6/11 - 6/14","351 RV",5,"Cruz",2015-06-12
+"1063","FOX NewsFOX News","5/31 - 6/2","370 RV",8,"Cruz",2015-06-01
+"1073","CNN/ORCCNN/ORC","5/29 - 5/31","483 A",8,"Cruz",2015-05-30
+"1083","ABC News/Wash PostABC/WP","5/28 - 5/31","362 RV",8,"Cruz",2015-05-29
+"1093","QuinnipiacQuinnipiac","5/19 - 5/26","679 RV",6,"Cruz",2015-05-20
+"1103","FOX NewsFOX News","5/9 - 5/12","432 LV",6,"Cruz",2015-05-10
+"1115","PPP (D)PPP (D)","5/7 - 5/10","685 RV",10,"Cruz",2015-05-08
+"1123","NBC News/Wall St. JrnlNBC/WSJ","4/26 - 4/30","251 RV",11,"Cruz",2015-04-27
+"1133","FOX NewsFOX News","4/19 - 4/21","383 LV",8,"Cruz",2015-04-20
+"1143","QuinnipiacQuinnipiac","4/16 - 4/21","567 RV",9,"Cruz",2015-04-17
+"1153","CNN/ORCCNN/ORC","4/16 - 4/19","435 A",7,"Cruz",2015-04-17
+"1163","FOX NewsFOX News","3/29 - 3/31","379 LV",10,"Cruz",2015-03-30
+"1173","ABC News/Wash PostABC/WP","3/26 - 3/29","RV",12,"Cruz",2015-03-27
+"1183","PPP (D)PPP (D)","3/26 - 3/31","443 RV",16,"Cruz",2015-03-27
+"1193","CNN/ORCCNN/ORC","3/13 - 3/15","450 A",4,"Cruz",2015-03-14
+"1203","McClatchy/MaristMcClatchy","3/1 - 3/4","426 RV",4,"Cruz",2015-03-02
+"1215","QuinnipiacQuinnipiac","2/26 - 3/2","554 RV",6,"Cruz",2015-02-26
+"1223","PPP (D)PPP (D)","2/20 - 2/22","316 RV",5,"Cruz",2015-02-20
+"1233","CNN/ORCCNN/ORC","2/12 - 2/15","RV",3,"Cruz",2015-02-12
+"1243","FOX NewsFOX News","1/25 - 1/27","394 RV",4,"Cruz",2015-01-25
+"1253","CNN/ORCCNN/ORC","12/18 - 12/21","453 A",4,"Cruz",2014-12-19
+"216","CNN/ORCCNN/ORC","4/28 - 5/1","406 LV",19,"Kasich",2016-04-28
+"316","IBD/TIPPIBD/TIPP","4/22 - 4/28","397 RV",16,"Kasich",2016-04-22
+"416","USA Today/SuffolkUSA Today","4/20 - 4/24","292 LV",17,"Kasich",2016-04-20
+"516","Pew ResearchPew","4/12 - 4/19","740 RV",20,"Kasich",2016-04-12
+"616","FOX NewsFOX News","4/11 - 4/13","419 RV",25,"Kasich",2016-04-11
+"716","NBC News/Wall St. JrnlNBC/WSJ","4/10 - 4/14","310 LV",24,"Kasich",2016-04-10
+"816","CBS NewsCBS News","4/8 - 4/12","399 LV",18,"Kasich",2016-04-08
+"916","The Atlantic/PRRIThe Atlantic","3/30 - 4/3","676 RV",23,"Kasich",2016-03-30
+"1016","IBD/TIPPIBD/TIPP","3/28 - 4/2","388 RV",19,"Kasich",2016-03-28
+"1116","McClatchy/MaristMcClatchy","3/29 - 3/31","444 RV",20,"Kasich",2016-03-29
+"1216","Pew ResearchPew","3/17 - 3/27","834 RV",20,"Kasich",2016-03-17
+"135","PPP (D)PPP (D)","3/24 - 3/26","505 LV",22,"Kasich",2016-03-24
+"144","FOX NewsFOX News","3/20 - 3/22","388 LV",17,"Kasich",2016-03-20
+"154","BloombergBloomberg","3/19 - 3/22","366 LV",25,"Kasich",2016-03-19
+"164","MonmouthMonmouth","3/17 - 3/20","353 RV",18,"Kasich",2016-03-17
+"174","CNN/ORCCNN/ORC","3/17 - 3/20","397 RV",17,"Kasich",2016-03-17
+"184","CBS News/NY TimesCBS/NYT","3/17 - 3/20","362 LV",20,"Kasich",2016-03-17
+"194","QuinnipiacQuinnipiac","3/16 - 3/21","652 RV",16,"Kasich",2016-03-16
+"204","Rasmussen ReportsRasmussen","3/16 - 3/17","719 LV",21,"Kasich",2016-03-16
+"217","NBC News/Wall St. JrnlNBC/WSJ","3/3 - 3/6","397 LV",22,"Kasich",2016-03-03
+"224","ABC News/Wash PostABC/WP","3/3 - 3/6","RV",13,"Kasich",2016-03-03
+"234","CNN/ORCCNN/ORC","2/24 - 2/27","427 RV",6,"Kasich",2016-02-24
+"244","IBD/TIPPIBD/TIPP","2/19 - 2/24","400 RV",7,"Kasich",2016-02-19
+"254","Rasmussen ReportsRasmussen","2/21 - 2/22","697 LV",12,"Kasich",2016-02-21
+"264","FOX NewsFOX News","2/15 - 2/17","404 LV",8,"Kasich",2016-02-15
+"274","NBC News/Wall St. JrnlNBC/WSJ","2/14 - 2/16","400 LV",11,"Kasich",2016-02-14
+"284","CBS NewsCBS News","2/12 - 2/16","581 LV",11,"Kasich",2016-02-12
+"294","USA Today/SuffolkUSA Today","2/11 - 2/15","358 LV",7,"Kasich",2016-02-11
+"304","QuinnipiacQuinnipiac","2/10 - 2/15","602 LV",6,"Kasich",2016-02-10
+"317","QuinnipiacQuinnipiac","2/2 - 2/4","507 RV",3,"Kasich",2016-02-02
+"324","Rasmussen ReportsRasmussen","2/3 - 2/4","725 LV",6,"Kasich",2016-02-03
+"334","PPP (D)PPP (D)","2/2 - 2/3","531 LV",5,"Kasich",2016-02-02
+"344","IBD/TIPPIBD/TIPP","1/22 - 1/27","395 RV",2,"Kasich",2016-01-22
+"354","CNN/ORCCNN/ORC","1/21 - 1/24","405 RV",1,"Kasich",2016-01-21
+"364","ABC News/Wash PostABC/WP","1/21 - 1/24","356 RV",2,"Kasich",2016-01-21
+"374","FOX NewsFOX News","1/18 - 1/21","405 LV",4,"Kasich",2016-01-18
+"384","MonmouthMonmouth","1/15 - 1/18","385 RV",3,"Kasich",2016-01-15
+"394","NBC News/Wall St. JrnlNBC/WSJ","1/9 - 1/13","400 LV",3,"Kasich",2016-01-09
+"404","CBS News/NY TimesCBS/NYT","1/7 - 1/10","442 LV",2,"Kasich",2016-01-07
+"417","IBD/TIPPIBD/TIPP","1/4 - 1/8","414 LV",2,"Kasich",2016-01-04
+"424","FOX NewsFOX News","1/4 - 1/7","423 RV",2,"Kasich",2016-01-04
+"434","CNN/ORCCNN/ORC","12/17 - 12/21","438 RV",2,"Kasich",2015-12-18
+"444","QuinnipiacQuinnipiac","12/16 - 12/20","508 RV",1,"Kasich",2015-12-17
+"454","FOX NewsFOX News","12/16 - 12/17","402 RV",2,"Kasich",2015-12-17
+"464","PPP (D)PPP (D)","12/16 - 12/17","532 LV",2,"Kasich",2015-12-17
+"474","ABC News/Wash PostABC/WP","12/10 - 12/13","1002 A",2,"Kasich",2015-12-11
+"484","MonmouthMonmouth","12/10 - 12/13","385 RV",3,"Kasich",2015-12-11
+"494","NBC News/Wall St. JrnlNBC/WSJ","12/6 - 12/9","400 LV",2,"Kasich",2015-12-07
+"504","CBS News/NY TimesCBS/NYT","12/4 - 12/8","431 LV",3,"Kasich",2015-12-05
+"517","USA Today/SuffolkUSA Today","12/2 - 12/6","357 LV",2,"Kasich",2015-12-03
+"524","IBD/TIPPIBD/TIPP","11/30 - 12/4","394 RV",2,"Kasich",2015-12-01
+"534","CNN/ORCCNN/ORC","11/27 - 12/1","445 RV",2,"Kasich",2015-11-28
+"544","QuinnipiacQuinnipiac","11/23 - 11/30","672 RV",2,"Kasich",2015-11-24
+"554","FOX NewsFOX News","11/16 - 11/19","434 RV",2,"Kasich",2015-11-17
+"564","ABC News/Wash PostABC/WP","11/16 - 11/19","373 RV",3,"Kasich",2015-11-17
+"574","PPP (D)PPP (D)","11/16 - 11/17","607 RV",3,"Kasich",2015-11-17
+"584","BloombergBloomberg","11/15 - 11/17","379 RV",3,"Kasich",2015-11-16
+"594","FOX NewsFOX News","11/1 - 11/3","--",4,"Kasich",2015-11-02
+"604","McClatchy/MaristMcClatchy","10/29 - 11/4","426 RV",4,"Kasich",2015-10-30
+"617","QuinnipiacQuinnipiac","10/29 - 11/2","502 RV",3,"Kasich",2015-10-30
+"624","NBC News/Wall St. JrnlNBC/WSJ","10/25 - 10/29","400 LV",3,"Kasich",2015-10-26
+"634","IBD/TIPPIBD/TIPP","10/24 - 10/29","402 RV",1,"Kasich",2015-10-25
+"644","CBS News/NY TimesCBS/NYT","10/21 - 10/25","575 RV",4,"Kasich",2015-10-22
+"654","NBC News/Wall St. JrnlNBC/WSJ","10/15 - 10/18","400 RV",3,"Kasich",2015-10-16
+"664","MonmouthMonmouth","10/15 - 10/18","348 RV",1,"Kasich",2015-10-16
+"674","ABC News/Wash PostABC/WP","10/15 - 10/18","RV",2,"Kasich",2015-10-16
+"684","CNN/ORCCNN/ORC","10/14 - 10/17","465 RV",3,"Kasich",2015-10-15
+"694","FOX NewsFOX News","10/10 - 10/12","398 LV",1,"Kasich",2015-10-11
+"704","CBS NewsCBS News","10/4 - 10/8","419 RV",2,"Kasich",2015-10-05
+"717","PPP (D)PPP (D)","10/1 - 10/4","627 RV",4,"Kasich",2015-10-02
+"724","IBD/TIPPIBD/TIPP","9/26 - 10/1","377 RV",4,"Kasich",2015-09-27
+"734","USA Today/SuffolkUSA Today","9/24 - 9/28","380 LV",2,"Kasich",2015-09-25
+"744","Pew Research*Pew*","9/22 - 9/27","496 RV",1,"Kasich",2015-09-23
+"754","NBC News/Wall St. JrnlNBC/WSJ","9/20 - 9/24","230 RV",6,"Kasich",2015-09-21
+"764","FOX NewsFOX News","9/20 - 9/22","398 LV",4,"Kasich",2015-09-21
+"774","BloombergBloomberg","9/18 - 9/21","391 RV",4,"Kasich",2015-09-19
+"784","QuinnipiacQuinnipiac","9/17 - 9/21","737 RV",2,"Kasich",2015-09-18
+"794","CNN/ORCCNN/ORC","9/17 - 9/19","444 RV",2,"Kasich",2015-09-18
+"804","CBS News/NY TimesCBS/NYT","9/9 - 9/13","376 RV",3,"Kasich",2015-09-10
+"817","ABC News/Wash PostABC/WP","9/7 - 9/10","821 RV",3,"Kasich",2015-09-08
+"824","CNN/ORCCNN/ORC","9/4 - 9/8","474 RV",2,"Kasich",2015-09-05
+"834","MonmouthMonmouth","8/31 - 9/2","366 RV",2,"Kasich",2015-09-01
+"844","PPP (D)PPP (D)","8/28 - 8/30","527 RV",6,"Kasich",2015-08-29
+"854","QuinnipiacQuinnipiac","8/20 - 8/25","666 RV",5,"Kasich",2015-08-21
+"864","CNN/ORCCNN/ORC","8/13 - 8/16","466 RV",5,"Kasich",2015-08-14
+"874","FOX NewsFOX News","8/11 - 8/13","381 LV",4,"Kasich",2015-08-12
+"884","Rasmussen ReportsRasmussen","8/9 - 8/10","651 LV",4,"Kasich",2015-08-10
+"894","FOX NewsFOX News","7/30 - 8/2","475 LV",3,"Kasich",2015-07-31
+"904","MonmouthMonmouth","7/30 - 8/2","423 RV",3,"Kasich",2015-07-31
+"917","BloombergBloomberg","7/30 - 8/2","500 RV",4,"Kasich",2015-07-31
+"924","CBS NewsCBS News","7/29 - 8/2","408 RV",1,"Kasich",2015-07-30
+"934","NBC/WSJNBC/WSJ","7/26 - 7/30","252 RV",3,"Kasich",2015-07-27
+"944","QuinnipiacQuinnipiac","7/23 - 7/28","710 RV",5,"Kasich",2015-07-24
+"954","RasmussenRasmussen","7/26 - 7/27","471 LV",5,"Kasich",2015-07-27
+"964","CNN/ORCCNN/ORC","7/22 - 7/25","419 RV",4,"Kasich",2015-07-23
+"974","PPP (D)PPP (D)","7/20 - 7/21","524 RV",3,"Kasich",2015-07-21
+"984","ABC News/Wash PostABC/WP","7/16 - 7/19","RV",2,"Kasich",2015-07-17
+"994","FOX NewsFOX News","7/13 - 7/15","389 RV",2,"Kasich",2015-07-14
+"1004","USA Today/SuffolkUSA Today","7/9 - 7/12","349 LV",1,"Kasich",2015-07-10
+"1017","MonmouthMonmouth","7/9 - 7/12","336 RV",1,"Kasich",2015-07-10
+"1024","CNN/ORCCNN/ORC","6/26 - 6/28","407 RV",2,"Kasich",2015-06-27
+"1034","FOX NewsFOX News","6/21 - 6/23","378 RV",2,"Kasich",2015-06-22
+"1044","NBC News/Wall St. JrnlNBC/WSJ","6/14 - 6/18","236 RV",1,"Kasich",2015-06-15
+"1054","MonmouthMonmouth","6/11 - 6/14","351 RV",1,"Kasich",2015-06-12
+"1064","FOX NewsFOX News","5/31 - 6/2","370 RV",2,"Kasich",2015-06-01
+"1074","CNN/ORCCNN/ORC","5/29 - 5/31","483 A",1,"Kasich",2015-05-30
+"1084","ABC News/Wash PostABC/WP","5/28 - 5/31","362 RV",3,"Kasich",2015-05-29
+"1094","QuinnipiacQuinnipiac","5/19 - 5/26","679 RV",2,"Kasich",2015-05-20
+"1104","FOX NewsFOX News","5/9 - 5/12","432 LV",2,"Kasich",2015-05-10
+"1117","PPP (D)PPP (D)","5/7 - 5/10","685 RV",,"Kasich",2015-05-08
+"1124","NBC News/Wall St. JrnlNBC/WSJ","4/26 - 4/30","251 RV",,"Kasich",2015-04-27
+"1134","FOX NewsFOX News","4/19 - 4/21","383 LV",2,"Kasich",2015-04-20
+"1144","QuinnipiacQuinnipiac","4/16 - 4/21","567 RV",2,"Kasich",2015-04-17
+"1154","CNN/ORCCNN/ORC","4/16 - 4/19","435 A",2,"Kasich",2015-04-17
+"1164","FOX NewsFOX News","3/29 - 3/31","379 LV",1,"Kasich",2015-03-30
+"1174","ABC News/Wash PostABC/WP","3/26 - 3/29","RV",1,"Kasich",2015-03-27
+"1184","PPP (D)PPP (D)","3/26 - 3/31","443 RV",,"Kasich",2015-03-27
+"1194","CNN/ORCCNN/ORC","3/13 - 3/15","450 A",2,"Kasich",2015-03-14
+"1204","McClatchy/MaristMcClatchy","3/1 - 3/4","426 RV",,"Kasich",2015-03-02
+"1217","QuinnipiacQuinnipiac","2/26 - 3/2","554 RV",1,"Kasich",2015-02-26
+"1224","PPP (D)PPP (D)","2/20 - 2/22","316 RV",,"Kasich",2015-02-20
+"1234","CNN/ORCCNN/ORC","2/12 - 2/15","RV",2,"Kasich",2015-02-12
+"1244","FOX NewsFOX News","1/25 - 1/27","394 RV",2,"Kasich",2015-01-25
+"1254","CNN/ORCCNN/ORC","12/18 - 12/21","453 A",3,"Kasich",2014-12-19

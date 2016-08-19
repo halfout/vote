@@ -1,0 +1,639 @@
+"","Poll","Date","Sample","Favorable","Unfavorable","Spread","poll_date","candidate","gain","net"
+"2","NBC News/Wall St. JrnlNBC/WSJ","7/9 - 7/13","1000 RV",45,32,"+13",2016-07-09,"Sanders",16.8831168831169,13
+"3","USA Today/SuffolkUSA Today","6/26 - 6/29","1000 LV",49,39,"+10",2016-06-26,"Sanders",11.3636363636364,10
+"4","PPP (D)PPP (D)","6/27 - 6/28","947 RV",44,42,"+2",2016-06-27,"Sanders",2.32558139534884,2
+"5","NBC News/Wall St. JrnlNBC/WSJ","6/19 - 6/23","1000 RV",43,34,"+9",2016-06-19,"Sanders",11.6883116883117,9
+"6","CNN/ORCCNN/ORC","6/16 - 6/19","891 RV",59,35,"+24",2016-06-16,"Sanders",25.531914893617,24
+"7","The Economist/YouGovEconomist","5/20 - 5/23","2000 RV",54,41,"+13",2016-05-20,"Sanders",13.6842105263158,13
+"8","ABC News/Wash PostABC/WP","5/16 - 5/19","829 RV",49,41,"+8",2016-05-16,"Sanders",8.88888888888889,8
+"9","CBS News/NY TimesCBS/NYT","5/13 - 5/17","1109 RV",41,33,"+8",2016-05-13,"Sanders",10.8108108108108,8
+"10","PPP (D)PPP (D)","5/6 - 5/9","1222 RV",43,46,"-3",2016-05-06,"Sanders",-3.37078651685393,-3
+"11","The Economist/YouGovEconomist","5/6 - 5/8","2000 A",49,43,"+6",2016-05-06,"Sanders",6.52173913043478,6
+"12","CNN/ORCCNN/ORC","4/28 - 5/1","1001 A",60,32,"+28",2016-04-28,"Sanders",30.4347826086957,28
+"13","The Economist/YouGovEconomist","4/22 - 4/26","2000 A",53,41,"+12",2016-04-22,"Sanders",12.7659574468085,12
+"14","USA Today/SuffolkUSA Today","4/20 - 4/24","1000 LV",43,44,"-1",2016-04-20,"Sanders",-1.14942528735632,-1
+"15","GWU/BattlegroundGWU/Battleground","4/17 - 4/20","1000 LV",49,44,"+5",2016-04-17,"Sanders",5.37634408602151,5
+"16","NBC News/Wall St. JrnlNBC/WSJ","4/10 - 4/14","1000 RV",45,36,"+9",2016-04-10,"Sanders",11.1111111111111,9
+"17","CBS NewsCBS News","4/8 - 4/12","1320 A",39,34,"+5",2016-04-08,"Sanders",6.84931506849315,5
+"18","The Economist/YouGovEconomist","4/8 - 4/11","2000 A",51,43,"+8",2016-04-08,"Sanders",8.51063829787234,8
+"19","The Atlantic/PRRIThe Atlantic","3/30 - 4/3","2033 A",47,41,"+6",2016-03-30,"Sanders",6.81818181818182,6
+"20","The Economist/YouGovEconomist","3/26 - 3/29","2000 A",51,42,"+9",2016-03-26,"Sanders",9.67741935483871,9
+"21","PPP (D)PPP (D)","3/24 - 3/26","1083 RV",41,48,"-7",2016-03-24,"Sanders",-7.86516853932584,-7
+"22","FOX NewsFOX News","3/20 - 3/22","1016 RV",44,49,"-5",2016-03-20,"Sanders",-5.37634408602151,-5
+"23","QuinnipiacQuinnipiac","3/16 - 3/21","1451 RV",50,37,"+13",2016-03-16,"Sanders",14.9425287356322,13
+"24","BloombergBloomberg","3/19 - 3/22","1000 A",52,41,"+11",2016-03-19,"Sanders",11.8279569892473,11
+"25","CNN/ORCCNN/ORC","3/17 - 3/20","1001 A",48,43,"+5",2016-03-17,"Sanders",5.49450549450549,5
+"26","MonmouthMonmouth","3/17 - 3/20","848 RV",48,37,"+11",2016-03-17,"Sanders",12.9411764705882,11
+"27","The Economist/YouGovEconomist","3/10 - 3/12","2000 A",50,41,"+9",2016-03-10,"Sanders",9.89010989010989,9
+"28","CNN/ORCCNN/ORC","2/24 - 2/27","920 RV",57,33,"+24",2016-02-24,"Sanders",26.6666666666667,24
+"29","The Economist/YouGovEconomist","2/24 - 2/27","2000 A",48,39,"+9",2016-02-24,"Sanders",10.3448275862069,9
+"30","NBC News/Wall St. JrnlNBC/WSJ","2/14 - 2/16","800 RV",42,35,"+7",2016-02-14,"Sanders",9.09090909090909,7
+"31","Associated Press-GfKAP-GfK","2/11 - 2/15","1033 A",40,39,"+1",2016-02-11,"Sanders",1.26582278481013,1
+"32","QuinnipiacQuinnipiac","2/10 - 2/15","1342 RV",51,36,"+15",2016-02-10,"Sanders",17.2413793103448,15
+"33","PPP (D)PPP (D)","2/2 - 2/3","1236 RV",39,46,"-7",2016-02-02,"Sanders",-8.23529411764706,-7
+"34","The Economist/YouGovEconomist","2/11 - 2/15","2000 A",49,40,"+9",2016-02-11,"Sanders",10.1123595505618,9
+"35","The Economist/YouGovEconomist","1/27 - 1/30","2000 A",47,38,"+9",2016-01-27,"Sanders",10.5882352941176,9
+"36","The Economist/YouGovEconomist","1/15 - 1/19","2000 A",43,39,"+4",2016-01-15,"Sanders",4.8780487804878,4
+"37","ABC News/Wash PostABC/WP","1/6 - 1/10","1000 A",44,40,"+4",2016-01-06,"Sanders",4.76190476190476,4
+"38","The Economist/YouGovEconomist","12/30 - 1/6","2000 A",43,39,"+4",2015-12-31,"Sanders",4.8780487804878,4
+"39","The Economist/YouGovEconomist","12/18 - 12/21","2000 A",44,41,"+3",2015-12-19,"Sanders",3.52941176470588,3
+"40","QuinnipiacQuinnipiac","12/16 - 12/20","1140 RV",40,31,"+9",2015-12-17,"Sanders",12.6760563380282,9
+"41","PPP (D)PPP (D)","12/16 - 12/17","1267 RV",34,49,"-15",2015-12-17,"Sanders",-18.0722891566265,-15
+"42","The Economist/YouGovEconomist","12/4 - 12/9","2000 A",44,36,"+8",2015-12-05,"Sanders",10,8
+"43","Associated Press-GfKAP-GfK","12/3 - 12/7","1007 A",31,32,"-1",2015-12-04,"Sanders",-1.58730158730159,-1
+"44","QuinnipiacQuinnipiac","11/23 - 11/30","1473 RV",44,31,"+13",2015-11-24,"Sanders",17.3333333333333,13
+"45","The Economist/YouGovEconomist","11/19 - 11/23","2000 A",42,40,"+2",2015-11-20,"Sanders",2.4390243902439,2
+"46","ABC News/Wash PostABC/WP","11/4 - 11/8","1023 A",40,38,"+2",2015-11-05,"Sanders",2.56410256410256,2
+"47","The Economist/YouGovEconomist","11/5 - 11/9","2000 A",41,37,"+4",2015-11-06,"Sanders",5.12820512820513,4
+"48","The Economist/YouGovEconomist","10/23 - 10/27","2000 A",42,37,"+5",2015-10-24,"Sanders",6.32911392405063,5
+"49","Associated Press-GfKAP-GfK","10/15 - 10/19","1027 A",32,30,"+2",2015-10-16,"Sanders",3.2258064516129,2
+"50","MonmouthMonmouth","10/15 - 10/18","836 RV",35,30,"+5",2015-10-16,"Sanders",7.69230769230769,5
+"51","The Economist/YouGovEconomist","10/8 - 10/12","2000 A",38,36,"+2",2015-10-09,"Sanders",2.7027027027027,2
+"52","ABC News/Wash PostABC/WP","10/7 - 10/11","1002 A",35,35,"Tie",2015-10-08,"Sanders",0,0
+"53","FOX NewsFOX News","9/20 - 9/22","1013 RV",34,36,"-2",2015-09-21,"Sanders",-2.85714285714286,-2
+"54","QuinnipiacQuinnipiac","9/17 - 9/21","1574 RV",35,28,"+7",2015-09-18,"Sanders",11.1111111111111,7
+"55","The Economist/YouGovEconomist","9/11 - 9/15","2000 A",39,33,"+6",2015-09-12,"Sanders",8.33333333333333,6
+"56","The Economist/YouGovEconomist","8/28 - 9/1","2000 A",38,34,"+4",2015-08-29,"Sanders",5.55555555555556,4
+"57","The Economist/YouGovEconomist","8/14 - 8/18","2000 A",39,32,"+7",2015-08-15,"Sanders",9.85915492957746,7
+"58","The Economist/YouGovEconomist","7/18 - 7/20","1000 A",33,30,"+3",2015-07-19,"Sanders",4.76190476190476,3
+"59","ABC News/Wash PostABC/WP","7/8 - 7/12","1011 A",27,28,"-1",2015-07-09,"Sanders",-1.81818181818182,-1
+"60","The Economist/YouGovEconomist","7/4 - 7/6","1000  A",32,32,"Tie",2015-07-05,"Sanders",0,0
+"61","The Economist/YouGovEconomist","6/27 - 6/29","1000 A",29,34,"-5",2015-06-28,"Sanders",-7.93650793650794,-5
+"62","The Economist/YouGovEconomist","6/20 - 6/22","1000 A",29,35,"-6",2015-06-21,"Sanders",-9.375,-6
+"63","MonmouthMonmouth","6/11 - 6/14","829 RV",15,24,"-9",2015-06-12,"Sanders",-23.0769230769231,-9
+"64","The Economist/YouGovEconomist","6/13 - 6/15","1000 A",28,35,"-7",2015-06-14,"Sanders",-11.1111111111111,-7
+"65","The Economist/YouGovEconomist","6/6 - 6/8","1000 A",25,32,"-7",2015-06-07,"Sanders",-12.280701754386,-7
+"66","The Economist/YouGovEconomist","5/30 - 6/1","1000 A",27,31,"-4",2015-05-31,"Sanders",-6.89655172413793,-4
+"67","The Economist/YouGovEconomist","5/23 - 5/25","1000 A",28,29,"-1",2015-05-24,"Sanders",-1.75438596491228,-1
+"68","QuinnipiacQuinnipiac","5/19 - 5/26","1711 RV",19,18,"+1",2015-05-20,"Sanders",2.7027027027027,1
+"69","The Economist/YouGovEconomist","5/16 - 5/18","1000 A",26,31,"-5",2015-05-17,"Sanders",-8.7719298245614,-5
+"70","Rasmussen ReportsRasmussen","5/3 - 5/4","1000 LV",29,27,"+2",2015-05-04,"Sanders",3.57142857142857,2
+"71","The Economist/YouGovEconomist","4/25 - 4/27","1000 A",21,25,"-4",2015-04-26,"Sanders",-8.69565217391304,-4
+"72","Associated Press/GfKAP-GfK","4/23 - 4/27","1077 A",10,11,"-1",2015-04-24,"Sanders",-4.76190476190476,-1
+"73","The Economist/YouGovEconomist","4/18 - 4/20","1000 A",22,28,"-6",2015-04-19,"Sanders",-12,-6
+"74","The Economist/YouGovEconomist","4/11 - 4/13","1000 A",22,28,"-6",2015-04-12,"Sanders",-12,-6
+"75","The Economist/YouGovEconomist","4/4 - 4/6","1000 A",20,27,"-7",2015-04-05,"Sanders",-14.8936170212766,-7
+"76","The Economist/YouGovEconomist","3/28 - 3/30","1000 A",24,22,"+2",2015-03-29,"Sanders",4.34782608695652,2
+"77","The Economist/YouGovEconomist","3/21 - 3/23","1000 A",22,21,"+1",2015-03-22,"Sanders",2.32558139534884,1
+"78","The Economist/YouGovEconomist","3/14 - 3/16","1000 A",24,22,"+2",2015-03-15,"Sanders",4.34782608695652,2
+"79","GallupGallup","3/2 - 3/4","1522 A",12,12,"Tie",2015-03-03,"Sanders",0,0
+"80","The Economist/YouGovEconomist","2/28 - 3/2","1000 A",25,22,"+3",2015-02-28,"Sanders",6.38297872340426,3
+"81","The Economist/YouGovEconomist","2/21 - 2/23","1000 A",20,20,"Tie",2015-02-21,"Sanders",0,0
+"82","The Economist/YouGovEconomist","2/14 - 2/16","1000 A",22,21,"+1",2015-02-14,"Sanders",2.32558139534884,1
+"83","The Economist/YouGovEconomist","2/7 - 2/9","1000 A",20,22,"-2",2015-02-07,"Sanders",-4.76190476190476,-2
+"84","The Economist/YouGovEconomist","1/31 - 2/2","1000 A",20,22,"-2",2015-01-31,"Sanders",-4.76190476190476,-2
+"85","The Economist/YouGovEconomist","1/24 - 1/26","1000 A",21,25,"-4",2015-01-24,"Sanders",-8.69565217391304,-4
+"86","The Economist/YouGovEconomist","1/17 - 1/19","1000 A",18,25,"-7",2015-01-17,"Sanders",-16.2790697674419,-7
+"87","The Economist/YouGovEconomist","1/10 - 1/12","1000 A",23,23,"Tie",2015-01-10,"Sanders",0,0
+"88","The Economist/YouGovEconomist","1/3 - 1/5","1000 A",22,23,"-1",2015-01-03,"Sanders",-2.22222222222222,-1
+"89","The Economist/YouGovEconomist","12/27 - 12/29","1000 A",25,25,"Tie",2014-12-28,"Sanders",0,0
+"210","The Economist/YouGovThe Economist/YouGov","5/6 - 5/8","2000 A",42,37,"+5",2016-05-06,"Kasich",6.32911392405063,5
+"310","CNN/ORCCNN/ORC","4/28 - 5/1","1001 A",49,30,"+19",2016-04-28,"Kasich",24.0506329113924,19
+"410","IBD/TIPPIBD/TIPP","4/22 - 4/28","903 A",38,35,"+3",2016-04-22,"Kasich",4.10958904109589,3
+"510","The Economist/YouGovThe Economist/YouGov","4/22 - 4/26","2000 A",36,43,"-7",2016-04-22,"Kasich",-8.86075949367089,-7
+"610","USA Today/SuffolkUSA Today/Suffolk","4/20 - 4/24","1000 LV",43,30,"+13",2016-04-20,"Kasich",17.8082191780822,13
+"710","GWU/BattlegroundGWU/Battleground","4/17 - 4/20","1000 LV",45,29,"+16",2016-04-17,"Kasich",21.6216216216216,16
+"810","NBC News/Wall St. JrnlNBC News/Wall St. Jrnl","4/10 - 4/14","1000 RV",31,19,"+12",2016-04-10,"Kasich",24,12
+"91","CBS NewsCBS News","4/8 - 4/12","1320 A",26,21,"+5",2016-04-08,"Kasich",10.6382978723404,5
+"101","The Economist/YouGovThe Economist/YouGov","4/8 - 4/11","2000 A",35,42,"-7",2016-04-08,"Kasich",-9.09090909090909,-7
+"111","ABC News/Wash PostABC News/Wash Post","4/6 - 4/10","1010 A",39,39,"Tie",2016-04-06,"Kasich",0,0
+"121","The Economist/YouGovThe Economist/YouGov","3/26 - 3/29","2000 A",38,38,"Tie",2016-03-26,"Kasich",0,0
+"131","PPP (D)PPP (D)","3/24 - 3/26","1083 RV",41,39,"+2",2016-03-24,"Kasich",2.5,2
+"141","FOX NewsFOX News","3/20 - 3/22","1016 RV",40,33,"+7",2016-03-20,"Kasich",9.58904109589041,7
+"151","BloombergBloomberg","3/19 - 3/22","1000 A",46,32,"+14",2016-03-19,"Kasich",17.9487179487179,14
+"161","QuinnipiacQuinnipiac","3/16 - 3/21","1451 RV",43,20,"+23",2016-03-16,"Kasich",36.5079365079365,23
+"171","CNN/ORCCNN/ORC","3/17 - 3/20","1001 A",40,31,"+9",2016-03-17,"Kasich",12.6760563380282,9
+"181","MonmouthMonmouth","3/17 - 3/20","848 RV",50,18,"+32",2016-03-17,"Kasich",47.0588235294118,32
+"191","The Economist/YouGovThe Economist/YouGov","3/10 - 3/12","2000 A",40,36,"+4",2016-03-10,"Kasich",5.26315789473684,4
+"201","CNN/ORCCNN/ORC","2/24 - 2/27","920 RV",41,22,"+19",2016-02-24,"Kasich",30.1587301587302,19
+"211","The Economist/YouGovThe Economist/YouGov","2/24 - 2/27","2000 A",33,37,"-4",2016-02-24,"Kasich",-5.71428571428571,-4
+"221","NBC News/Wall St. JrnlNBC News/Wall St. Jrnl","2/14 - 2/16","800 RV",26,14,"+12",2016-02-14,"Kasich",30,12
+"231","Associated Press-GfKAssociated Press-GfK","2/11 - 2/15","1033 A",26,24,"+2",2016-02-11,"Kasich",4,2
+"241","QuinnipiacQuinnipiac","2/10 - 2/15","1342 RV",35,18,"+17",2016-02-10,"Kasich",32.0754716981132,17
+"251","The Economist/YouGovThe Economist/YouGov","2/11 - 2/15","2000 A",32,34,"-2",2016-02-11,"Kasich",-3.03030303030303,-2
+"261","The Economist/YouGovThe Economist/YouGov","1/27 - 1/30","2000 A",27,35,"-8",2016-01-27,"Kasich",-12.9032258064516,-8
+"271","CNN/ORCCNN/ORC","1/21 - 1/24","1002 A",24,26,"-2",2016-01-21,"Kasich",-4,-2
+"281","The Economist/YouGovThe Economist/YouGov","12/30 - 1/6","2000 A",24,36,"-12",2015-12-31,"Kasich",-20,-12
+"291","The Economist/YouGovThe Economist/YouGov","12/18 - 12/21","2000 A",24,39,"-15",2015-12-19,"Kasich",-23.8095238095238,-15
+"301","CNN/ORCCNN/ORC","12/17 - 12/21","1002 A",22,31,"-9",2015-12-18,"Kasich",-16.9811320754717,-9
+"311","QuinnipiacQuinnipiac","12/16 - 12/20","1140 RV",21,20,"+1",2015-12-17,"Kasich",2.4390243902439,1
+"321","The Economist/YouGovThe Economist/YouGov","12/4 - 12/9","2000 A",23,37,"-14",2015-12-05,"Kasich",-23.3333333333333,-14
+"331","Associated Press-GfKAssociated Press-GfK","12/3 - 12/7","1007 A",14,25,"-11",2015-12-04,"Kasich",-28.2051282051282,-11
+"341","QuinnipiacQuinnipiac","11/23 - 11/30","1473 RV",19,23,"-4",2015-11-24,"Kasich",-9.52380952380952,-4
+"351","The Economist/YouGovThe Economist/YouGov","11/19 - 11/23","2000 A",22,37,"-15",2015-11-20,"Kasich",-25.4237288135593,-15
+"361","The Economist/YouGovThe Economist/YouGov","11/5 - 11/9","2000 A",22,34,"-12",2015-11-06,"Kasich",-21.4285714285714,-12
+"371","The Economist/YouGovThe Economist/YouGov","10/23 - 10/27","2000 A",21,34,"-13",2015-10-24,"Kasich",-23.6363636363636,-13
+"381","The Economist/YouGovThe Economist/YouGov","10/8 - 10/12","2000 A",23,32,"-9",2015-10-09,"Kasich",-16.3636363636364,-9
+"391","FOX NewsFOX News","9/20 - 9/22","1013 RV",23,25,"-2",2015-09-21,"Kasich",-4.16666666666667,-2
+"401","QuinnipiacQuinnipiac","9/17 - 9/21","1574 RV",27,15,"+12",2015-09-18,"Kasich",28.5714285714286,12
+"411","The Economist/YouGovThe Economist/YouGov","9/11 - 9/15","2000 A",23,30,"-7",2015-09-12,"Kasich",-13.2075471698113,-7
+"421","The Economist/YouGovThe Economist/YouGov","8/28 - 9/1","2000 A",23,30,"-7",2015-08-29,"Kasich",-13.2075471698113,-7
+"431","The Economist/YouGovThe Economist/YouGov","8/14 - 8/18","2000 A",26,30,"-4",2015-08-15,"Kasich",-7.14285714285714,-4
+"441","The Economist/YouGovThe Economist/YouGov","7/18 - 7/20","1000 A",18,24,"-6",2015-07-19,"Kasich",-14.2857142857143,-6
+"451","Associated Press-GfKAssociated Press-GfK","7/9 - 7/13","1004 A",9,13,"-4",2015-07-10,"Kasich",-18.1818181818182,-4
+"461","The Economist/YouGovThe Economist/YouGov","7/4 - 7/6","1000  A",20,24,"-4",2015-07-05,"Kasich",-9.09090909090909,-4
+"471","The Economist/YouGovThe Economist/YouGov","6/27 - 6/29","1000 A",18,22,"-4",2015-06-28,"Kasich",-10,-4
+"481","The Economist/YouGovThe Economist/YouGov","6/20 - 6/22","1000 A",17,27,"-10",2015-06-21,"Kasich",-22.7272727272727,-10
+"491","The Economist/YouGovThe Economist/YouGov","6/13 - 6/15","1000 A",17,23,"-6",2015-06-14,"Kasich",-15,-6
+"501","The Economist/YouGovThe Economist/YouGov","6/6 - 6/8","1000 A",18,24,"-6",2015-06-07,"Kasich",-14.2857142857143,-6
+"511","The Economist/YouGovThe Economist/YouGov","5/30 - 6/1","1000 A",16,23,"-7",2015-05-31,"Kasich",-17.9487179487179,-7
+"521","The Economist/YouGovThe Economist/YouGov","5/23 - 5/25","1000 A",19,25,"-6",2015-05-24,"Kasich",-13.6363636363636,-6
+"531","QuinnipiacQuinnipiac","5/19 - 5/26","1711 RV",12,12,"Tie",2015-05-20,"Kasich",0,0
+"541","The Economist/YouGovThe Economist/YouGov","5/16 - 5/18","1000 A",18,33,"-15",2015-05-17,"Kasich",-29.4117647058824,-15
+"551","FOX NewsFOX News","5/9 - 5/12","1006 RV",12,14,"-2",2015-05-10,"Kasich",-7.69230769230769,-2
+"561","The Economist/YouGovThe Economist/YouGov","4/25 - 4/27","1000 A",19,19,"Tie",2015-04-26,"Kasich",0,0
+"571","The Economist/YouGovThe Economist/YouGov","4/18 - 4/20","1000 A",18,24,"-6",2015-04-19,"Kasich",-14.2857142857143,-6
+"581","The Economist/YouGovThe Economist/YouGov","4/11 - 4/13","1000 A",18,21,"-3",2015-04-12,"Kasich",-7.69230769230769,-3
+"591","The Economist/YouGovThe Economist/YouGov","4/4 - 4/6","1000 A",18,20,"-2",2015-04-05,"Kasich",-5.26315789473684,-2
+"601","The Economist/YouGovThe Economist/YouGov","3/28 - 3/30","1000 A",17,21,"-4",2015-03-29,"Kasich",-10.5263157894737,-4
+"611","The Economist/YouGovThe Economist/YouGov","3/14 - 3/16","1000 A",19,20,"-1",2015-03-15,"Kasich",-2.56410256410256,-1
+"621","The Economist/YouGovThe Economist/YouGov","3/21 - 3/23","1000 A",17,21,"-4",2015-03-22,"Kasich",-10.5263157894737,-4
+"631","The Economist/YouGovThe Economist/YouGov","2/28 - 3/2","1000 A",21,19,"+2",2015-02-28,"Kasich",5,2
+"641","The Economist/YouGovThe Economist/YouGov","2/21 - 2/23","1000 A",16,19,"-3",2015-02-21,"Kasich",-8.57142857142857,-3
+"651","The Economist/YouGovThe Economist/YouGov","2/14 - 2/16","1000 A",19,18,"+1",2015-02-14,"Kasich",2.7027027027027,1
+"661","The Economist/YouGovThe Economist/YouGov","2/7 - 2/9","1000 A",20,16,"+4",2015-02-07,"Kasich",11.1111111111111,4
+"671","The Economist/YouGovThe Economist/YouGov","1/31 - 2/2","1000 A",18,19,"-1",2015-01-31,"Kasich",-2.7027027027027,-1
+"681","QuinnipiacQuinnipiac","6/24 - 6/30","RV",13,9,"+4",2015-06-25,"Kasich",18.1818181818182,4
+"691","Associated Press/GfKAssociated Press/GfK","3/20 - 3/24","1012 A",8,13,"-5",2015-03-21,"Kasich",-23.8095238095238,-5
+"701","QuinnipiacQuinnipiac","12/3 - 12/9","RV",12,9,"+3",2014-12-04,"Kasich",14.2857142857143,3
+"212","CNN/ORCCNN/ORC","2/24 - 2/27","920 RV",44,35,"+9",2016-02-24,"Carson",11.3924050632911,9
+"312","The Economist/YouGovThe Economist/YouGov","2/24 - 2/27","2000 A",35,47,"-12",2016-02-24,"Carson",-14.6341463414634,-12
+"412","Associated Press-GfKAssociated Press-GfK","2/11 - 2/15","1033 A",30,41,"-11",2016-02-11,"Carson",-15.4929577464789,-11
+"512","PPP (D)PPP (D)","2/2 - 2/3","1236 RV",39,44,"-5",2016-02-02,"Carson",-6.02409638554217,-5
+"612","The Economist/YouGovThe Economist/YouGov","2/11 - 2/15","2000 A",38,44,"-6",2016-02-11,"Carson",-7.31707317073171,-6
+"711","The Economist/YouGovThe Economist/YouGov","1/27 - 1/30","2000 A",40,42,"-2",2016-01-27,"Carson",-2.4390243902439,-2
+"811","The Economist/YouGovThe Economist/YouGov","1/15 - 1/19","2000 A",36,45,"-9",2016-01-15,"Carson",-11.1111111111111,-9
+"92","ABC News/Wash PostABC News/Wash Post","1/6 - 1/10","1000 A",41,43,"-2",2016-01-06,"Carson",-2.38095238095238,-2
+"102","The Economist/YouGovThe Economist/YouGov","12/30 - 1/6","2000 A",36,44,"-8",2015-12-31,"Carson",-10,-8
+"112","The Economist/YouGovThe Economist/YouGov","12/18 - 12/21","2000 A",39,44,"-5",2015-12-19,"Carson",-6.02409638554217,-5
+"122","QuinnipiacQuinnipiac","12/16 - 12/20","1140 RV",36,38,"-2",2015-12-17,"Carson",-2.7027027027027,-2
+"132","PPP (D)PPP (D)","12/16 - 12/17","1267 RV",36,45,"-9",2015-12-17,"Carson",-11.1111111111111,-9
+"142","The Economist/YouGovThe Economist/YouGov","12/4 - 12/9","2000 A",39,41,"-2",2015-12-05,"Carson",-2.5,-2
+"152","Associated Press-GfKAssociated Press-GfK","12/3 - 12/7","1007 A",32,36,"-4",2015-12-04,"Carson",-5.88235294117647,-4
+"162","QuinnipiacQuinnipiac","11/23 - 11/30","1473 RV",40,33,"+7",2015-11-24,"Carson",9.58904109589041,7
+"172","The Economist/YouGovThe Economist/YouGov","11/19 - 11/23","2000 A",39,41,"-2",2015-11-20,"Carson",-2.5,-2
+"182","The Economist/YouGovThe Economist/YouGov","11/5 - 11/9","2000 A",41,36,"+5",2015-11-06,"Carson",6.49350649350649,5
+"192","ABC News/Wash PostABC News/Wash Post","11/4 - 11/8","1023 A",50,32,"+18",2015-11-05,"Carson",21.9512195121951,18
+"202","The Economist/YouGovThe Economist/YouGov","10/23 - 10/27","2000 A",42,33,"+9",2015-10-24,"Carson",12,9
+"213","Associated Press-GfKAssociated Press-GfK","10/15 - 10/19","1027 A",32,31,"+1",2015-10-16,"Carson",1.58730158730159,1
+"222","MonmouthMonmouth","10/15 - 10/18","836 RV",40,25,"+15",2015-10-16,"Carson",23.0769230769231,15
+"232","The Economist/YouGovThe Economist/YouGov","10/8 - 10/12","2000 A",43,33,"+10",2015-10-09,"Carson",13.1578947368421,10
+"242","ABC News/Wash PostABC News/Wash Post","9/23 - 9/27","1000 A",45,27,"+18",2015-09-24,"Carson",25,18
+"252","FOX NewsFOX News","9/20 - 9/22","1013 RV",46,27,"+19",2015-09-21,"Carson",26.027397260274,19
+"262","QuinnipiacQuinnipiac","9/17 - 9/21","1574 RV",48,16,"+32",2015-09-18,"Carson",50,32
+"272","The Economist/YouGovThe Economist/YouGov","9/11 - 9/15","2000 A",41,29,"+12",2015-09-12,"Carson",17.1428571428571,12
+"282","The Economist/YouGovThe Economist/YouGov","8/28 - 9/1","2000 A",37,30,"+7",2015-08-29,"Carson",10.4477611940298,7
+"292","The Economist/YouGovThe Economist/YouGov","8/14 - 8/18","2000 A",37,31,"+6",2015-08-15,"Carson",8.82352941176471,6
+"302","The Economist/YouGovThe Economist/YouGov","7/18 - 7/20","1000 A",33,25,"+8",2015-07-19,"Carson",13.7931034482759,8
+"313","Associated Press-GfKAssociated Press-GfK","7/9 - 7/13","1004 A",20,15,"+5",2015-07-10,"Carson",14.2857142857143,5
+"322","The Economist/YouGovThe Economist/YouGov","7/4 - 7/6","1000  A",30,29,"+1",2015-07-05,"Carson",1.69491525423729,1
+"332","The Economist/YouGovThe Economist/YouGov","6/27 - 6/29","1000 A",33,31,"+2",2015-06-28,"Carson",3.125,2
+"342","The Economist/YouGovThe Economist/YouGov","6/20 - 6/22","1000 A",29,32,"-3",2015-06-21,"Carson",-4.91803278688525,-3
+"352","The Economist/YouGovThe Economist/YouGov","6/13 - 6/15","1000 A",28,30,"-2",2015-06-14,"Carson",-3.44827586206897,-2
+"362","The Economist/YouGovThe Economist/YouGov","6/6 - 6/8","1000 A",31,28,"+3",2015-06-07,"Carson",5.08474576271187,3
+"372","The Economist/YouGovThe Economist/YouGov","5/30 - 6/1","1000 A",27,30,"-3",2015-05-31,"Carson",-5.26315789473684,-3
+"382","The Economist/YouGovThe Economist/YouGov","5/23 - 5/25","1000 A",32,31,"+1",2015-05-24,"Carson",1.58730158730159,1
+"392","QuinnipiacQuinnipiac","5/19 - 5/26","1711 RV",23,15,"+8",2015-05-20,"Carson",21.0526315789474,8
+"402","The Economist/YouGovThe Economist/YouGov","5/16 - 5/18","1000 A",29,29,"Tie",2015-05-17,"Carson",0,0
+"413","FOX NewsFOX News","5/9 - 5/12","1006 RV",26,16,"+10",2015-05-10,"Carson",23.8095238095238,10
+"422","The Economist/YouGovThe Economist/YouGov","4/25 - 4/27","1000 A",27,25,"+2",2015-04-26,"Carson",3.84615384615385,2
+"432","Associated Press/GfKAssociated Press/GfK","4/23 - 4/27","1077 A",15,12,"+3",2015-04-24,"Carson",11.1111111111111,3
+"442","The Economist/YouGovThe Economist/YouGov","4/18 - 4/20","1000 A",28,30,"-2",2015-04-19,"Carson",-3.44827586206897,-2
+"452","The Economist/YouGovThe Economist/YouGov","4/11 - 4/13","1000 A",27,25,"+2",2015-04-12,"Carson",3.84615384615385,2
+"462","The Economist/YouGovThe Economist/YouGov","4/4 - 4/6","1000 A",26,26,"Tie",2015-04-05,"Carson",0,0
+"472","FOX NewsFOX News","3/29 - 3/31","1025 RV",23,14,"+9",2015-03-30,"Carson",24.3243243243243,9
+"482","PPP (D)PPP (D)","3/26 - 3/31","989 RV",27,27,"Tie",2015-03-27,"Carson",0,0
+"492","The Economist/YouGovThe Economist/YouGov","3/28 - 3/30","1000 A",29,23,"+6",2015-03-29,"Carson",11.5384615384615,6
+"502","The Economist/YouGovThe Economist/YouGov","3/21 - 3/23","1000 A",27,26,"+1",2015-03-22,"Carson",1.88679245283019,1
+"513","The Economist/YouGovThe Economist/YouGov","3/14 - 3/16","1000 A",29,23,"+6",2015-03-15,"Carson",11.5384615384615,6
+"522","CNN/Opinion ResearchCNN/Opinion Research","3/13 - 3/15","1009 A",22,14,"+8",2015-03-14,"Carson",22.2222222222222,8
+"532","GallupGallup","3/2 - 3/4","1522 A",20,8,"+12",2015-03-03,"Carson",42.8571428571429,12
+"542","The Economist/YouGovThe Economist/YouGov","2/28 - 3/2","1000 A",29,24,"+5",2015-02-28,"Carson",9.43396226415094,5
+"552","The Economist/YouGovThe Economist/YouGov","2/21 - 2/23","1000 A",27,22,"+5",2015-02-21,"Carson",10.2040816326531,5
+"562","PPP (D)PPP (D)","2/20 - 2/22","691 RV",35,17,"+18",2015-02-20,"Carson",34.6153846153846,18
+"572","The Economist/YouGovThe Economist/YouGov","2/14 - 2/16","1000 A",28,21,"+7",2015-02-14,"Carson",14.2857142857143,7
+"582","The Economist/YouGovThe Economist/YouGov","2/7 - 2/9","1000 A",27,19,"+8",2015-02-07,"Carson",17.3913043478261,8
+"592","The Economist/YouGovThe Economist/YouGov","1/31 - 2/2","1000 A",26,21,"+5",2015-01-31,"Carson",10.6382978723404,5
+"602","The Economist/YouGovThe Economist/YouGov","1/24 - 1/26","1000 A",31,23,"+8",2015-01-24,"Carson",14.8148148148148,8
+"613","The Economist/YouGovThe Economist/YouGov","1/17 - 1/19","1000 A",25,22,"+3",2015-01-17,"Carson",6.38297872340426,3
+"622","The Economist/YouGovThe Economist/YouGov","1/10 - 1/12","1000 A",30,22,"+8",2015-01-10,"Carson",15.3846153846154,8
+"632","The Economist/YouGovThe Economist/YouGov","1/3 - 1/5","1000 A",27,21,"+6",2015-01-03,"Carson",12.5,6
+"642","The Economist/YouGovThe Economist/YouGov","12/27 - 12/29","1000 A",32,21,"+11",2014-12-28,"Carson",20.7547169811321,11
+"214","The Economist/YouGovThe Economist/YouGov","3/10 - 3/12","2000 A",33,52,"-19",2016-03-10,"Rubio",-22.3529411764706,-19
+"314","ABC News/Wash PostABC News/Wash Post","3/3 - 3/6","1000 A",39,45,"-6",2016-03-03,"Rubio",-7.14285714285714,-6
+"414","GallupGallup","2/26 - 3/3","A",34,38,"-4",2016-02-26,"Rubio",-5.55555555555556,-4
+"514","CNN/ORCCNN/ORC","2/24 - 2/27","920 RV",44,38,"+6",2016-02-24,"Rubio",7.31707317073171,6
+"614","The Economist/YouGovThe Economist/YouGov","2/24 - 2/27","2000 A",37,46,"-9",2016-02-24,"Rubio",-10.8433734939759,-9
+"712","NBC News/Wall St. JrnlNBC News/Wall St. Jrnl","2/14 - 2/16","800 RV",30,33,"-3",2016-02-14,"Rubio",-4.76190476190476,-3
+"812","Associated Press-GfKAssociated Press-GfK","2/11 - 2/15","1033 A",32,38,"-6",2016-02-11,"Rubio",-8.57142857142857,-6
+"93","QuinnipiacQuinnipiac","2/10 - 2/15","1342 RV",39,37,"+2",2016-02-10,"Rubio",2.63157894736842,2
+"103","PPP (D)PPP (D)","2/2 - 2/3","1236 RV",39,41,"-2",2016-02-02,"Rubio",-2.5,-2
+"113","The Economist/YouGovThe Economist/YouGov","2/11 - 2/15","2000 A",34,45,"-11",2016-02-11,"Rubio",-13.9240506329114,-11
+"123","The Economist/YouGovThe Economist/YouGov","1/27 - 1/30","2000 A",39,40,"-1",2016-01-27,"Rubio",-1.26582278481013,-1
+"133","ABC News/Wash PostABC News/Wash Post","1/6 - 1/10","1000 A",40,43,"-3",2016-01-06,"Rubio",-3.6144578313253,-3
+"143","The Economist/YouGovThe Economist/YouGov","12/30 - 1/6","2000 A",38,39,"-1",2015-12-31,"Rubio",-1.2987012987013,-1
+"153","The Economist/YouGovThe Economist/YouGov","12/18 - 12/21","2000 A",36,42,"-6",2015-12-19,"Rubio",-7.69230769230769,-6
+"163","QuinnipiacQuinnipiac","12/16 - 12/20","1140 RV",37,28,"+9",2015-12-17,"Rubio",13.8461538461538,9
+"173","PPP (D)PPP (D)","12/16 - 12/17","1267 RV",31,47,"-16",2015-12-17,"Rubio",-20.5128205128205,-16
+"183","The Economist/YouGovThe Economist/YouGov","12/4 - 12/9","2000 A",38,36,"+2",2015-12-05,"Rubio",2.7027027027027,2
+"193","Associated Press-GfKAssociated Press-GfK","12/3 - 12/7","1007 A",30,33,"-3",2015-12-04,"Rubio",-4.76190476190476,-3
+"203","QuinnipiacQuinnipiac","11/23 - 11/30","1473 RV",37,28,"+9",2015-11-24,"Rubio",13.8461538461538,9
+"215","The Economist/YouGovThe Economist/YouGov","11/19 - 11/23","2000 A",35,40,"-5",2015-11-20,"Rubio",-6.66666666666667,-5
+"223","The Economist/YouGovThe Economist/YouGov","11/5 - 11/9","2000 A",34,39,"-5",2015-11-06,"Rubio",-6.84931506849315,-5
+"233","ABC News/Wash PostABC News/Wash Post","11/4 - 11/8","1023 A",41,37,"+4",2015-11-05,"Rubio",5.12820512820513,4
+"243","The Economist/YouGovThe Economist/YouGov","10/23 - 10/27","2000 A",33,38,"-5",2015-10-24,"Rubio",-7.04225352112676,-5
+"253","Associated Press-GfKAssociated Press-GfK","10/15 - 10/19","1027 A",23,33,"-10",2015-10-16,"Rubio",-17.8571428571429,-10
+"263","MonmouthMonmouth","10/15 - 10/18","836 RV",31,30,"+1",2015-10-16,"Rubio",1.63934426229508,1
+"273","The Economist/YouGovThe Economist/YouGov","10/8 - 10/12","2000 A",36,38,"-2",2015-10-09,"Rubio",-2.7027027027027,-2
+"283","FOX NewsFOX News","9/20 - 9/22","1013 RV",35,35,"Tie",2015-09-21,"Rubio",0,0
+"293","QuinnipiacQuinnipiac","9/17 - 9/21","1574 RV",38,28,"+10",2015-09-18,"Rubio",15.1515151515152,10
+"303","The Economist/YouGovThe Economist/YouGov","9/11 - 9/15","2000 A",33,40,"-7",2015-09-12,"Rubio",-9.58904109589041,-7
+"315","The Economist/YouGovThe Economist/YouGov","8/28 - 9/1","2000 A",35,40,"-5",2015-08-29,"Rubio",-6.66666666666667,-5
+"323","The Economist/YouGovThe Economist/YouGov","8/14 - 8/18","2000 A",35,38,"-3",2015-08-15,"Rubio",-4.10958904109589,-3
+"333","The Economist/YouGovThe Economist/YouGov","7/18 - 7/20","1000 A",38,33,"+5",2015-07-19,"Rubio",7.04225352112676,5
+"343","Associated Press-GfKAssociated Press-GfK","7/9 - 7/13","1004 A",26,28,"-2",2015-07-10,"Rubio",-3.7037037037037,-2
+"353","The Economist/YouGovThe Economist/YouGov","7/4 - 7/6","1000  A",33,35,"-2",2015-07-05,"Rubio",-2.94117647058824,-2
+"363","The Economist/YouGovThe Economist/YouGov","6/27 - 6/29","1000 A",33,38,"-5",2015-06-28,"Rubio",-7.04225352112676,-5
+"373","The Economist/YouGovThe Economist/YouGov","6/20 - 6/22","1000 A",34,39,"-5",2015-06-21,"Rubio",-6.84931506849315,-5
+"383","MonmouthMonmouth","6/11 - 6/14","829 RV",31,27,"+4",2015-06-12,"Rubio",6.89655172413793,4
+"393","The Economist/YouGovThe Economist/YouGov","6/13 - 6/15","1000 A",31,38,"-7",2015-06-14,"Rubio",-10.1449275362319,-7
+"403","The Economist/YouGovThe Economist/YouGov","6/6 - 6/8","1000 A",35,33,"+2",2015-06-07,"Rubio",2.94117647058824,2
+"415","The Economist/YouGovThe Economist/YouGov","5/30 - 6/1","1000 A",32,36,"-4",2015-05-31,"Rubio",-5.88235294117647,-4
+"423","The Economist/YouGovThe Economist/YouGov","5/23 - 5/25","1000 A",37,34,"+3",2015-05-24,"Rubio",4.22535211267606,3
+"433","QuinnipiacQuinnipiac","5/19 - 5/26","1711 RV",28,24,"+4",2015-05-20,"Rubio",7.69230769230769,4
+"443","The Economist/YouGovThe Economist/YouGov","5/16 - 5/18","1000 A",34,36,"-2",2015-05-17,"Rubio",-2.85714285714286,-2
+"453","Pew ResearchPew Research","5/12 - 5/18","2002 A",31,35,"-4",2015-05-13,"Rubio",-6.06060606060606,-4
+"463","FOX NewsFOX News","5/9 - 5/12","1006 RV",31,27,"+4",2015-05-10,"Rubio",6.89655172413793,4
+"473","The Economist/YouGovThe Economist/YouGov","4/25 - 4/27","1000 A",32,35,"-3",2015-04-26,"Rubio",-4.47761194029851,-3
+"483","Associated Press/GfKAssociated Press/GfK","4/23 - 4/27","1077 A",23,27,"-4",2015-04-24,"Rubio",-8,-4
+"493","The Economist/YouGovThe Economist/YouGov","4/18 - 4/20","1000 A",38,38,"Tie",2015-04-19,"Rubio",0,0
+"503","QuinnipiacQuinnipiac","4/16 - 4/21","1353 RV",35,25,"+10",2015-04-17,"Rubio",16.6666666666667,10
+"515","The Economist/YouGovThe Economist/YouGov","4/11 - 4/13","1000 A",34,35,"-1",2015-04-12,"Rubio",-1.44927536231884,-1
+"523","Rasmussen ReportsRasmussen Reports","4/13 - 4/14","1000 LV",39,37,"+2",2015-04-14,"Rubio",2.63157894736842,2
+"533","BloombergBloomberg","4/6 - 4/8","1008 A",27,27,"Tie",2015-04-07,"Rubio",0,0
+"543","The Economist/YouGovThe Economist/YouGov","4/4 - 4/6","1000 A",35,33,"+2",2015-04-05,"Rubio",2.94117647058824,2
+"553","FOX NewsFOX News","3/29 - 3/31","1025 RV",29,25,"+4",2015-03-30,"Rubio",7.40740740740741,4
+"563","PPP (D)PPP (D)","3/26 - 3/31","989 RV",32,40,"-8",2015-03-27,"Rubio",-11.1111111111111,-8
+"573","The Economist/YouGovThe Economist/YouGov","3/28 - 3/30","1000 A",31,32,"-1",2015-03-29,"Rubio",-1.58730158730159,-1
+"583","ABC News/Wash PostABC News/Wash Post","3/26 - 3/29","RV",25,38,"-13",2015-03-27,"Rubio",-20.6349206349206,-13
+"593","The Economist/YouGovThe Economist/YouGov","3/21 - 3/23","1000 A",31,33,"-2",2015-03-22,"Rubio",-3.125,-2
+"603","The Economist/YouGovThe Economist/YouGov","3/14 - 3/16","1000 A",31,36,"-5",2015-03-15,"Rubio",-7.46268656716418,-5
+"615","CNN/Opinion ResearchCNN/Opinion Research","3/13 - 3/15","1009 A",25,26,"-1",2015-03-14,"Rubio",-1.96078431372549,-1
+"623","GallupGallup","3/2 - 3/4","1522 A",26,21,"+5",2015-03-03,"Rubio",10.6382978723404,5
+"633","The Economist/YouGovThe Economist/YouGov","2/28 - 3/2","1000 A",33,33,"Tie",2015-02-28,"Rubio",0,0
+"643","QuinnipiacQuinnipiac","2/26 - 3/2","1286 RV",30,22,"+8",2015-02-26,"Rubio",15.3846153846154,8
+"652","The Economist/YouGovThe Economist/YouGov","2/21 - 2/23","1000 A",29,30,"-1",2015-02-21,"Rubio",-1.69491525423729,-1
+"662","PPP (D)PPP (D)","2/20 - 2/22","691 RV",30,32,"-2",2015-02-20,"Rubio",-3.2258064516129,-2
+"672","The Economist/YouGovThe Economist/YouGov","2/14 - 2/16","1000 A",33,31,"+2",2015-02-14,"Rubio",3.125,2
+"682","The Economist/YouGovThe Economist/YouGov","2/7 - 2/9","1000 A",33,30,"+3",2015-02-07,"Rubio",4.76190476190476,3
+"692","The Economist/YouGovThe Economist/YouGov","1/31 - 2/2","1000 A",32,36,"-4",2015-01-31,"Rubio",-5.88235294117647,-4
+"702","The Economist/YouGovThe Economist/YouGov","1/24 - 1/26","1000 A",35,30,"+5",2015-01-24,"Rubio",7.69230769230769,5
+"713","The Economist/YouGovThe Economist/YouGov","1/17 - 1/19","1000 A",29,35,"-6",2015-01-17,"Rubio",-9.375,-6
+"721","The Economist/YouGovThe Economist/YouGov","1/10 - 1/12","1000 A",33,37,"-4",2015-01-10,"Rubio",-5.71428571428571,-4
+"731","The Economist/YouGovThe Economist/YouGov","1/3 - 1/5","1000 A",30,34,"-4",2015-01-03,"Rubio",-6.25,-4
+"741","The Economist/YouGovThe Economist/YouGov","12/27 - 12/29","1000 A",34,38,"-4",2014-12-28,"Rubio",-5.55555555555556,-4
+"216","CBS NewsCBS News","7/22 - 7/24","1363 A",31,56,"-25",2016-07-22,"Clinton",-28.735632183908,-25
+"316","CNN/ORCCNN/ORC","7/22 - 7/24","882 RV",41,55,"-14",2016-07-22,"Clinton",-14.5833333333333,-14
+"416","Economist/YouGovEconomist","7/23 - 7/24","1300 A",42,56,"-14",2016-07-23,"Clinton",-14.2857142857143,-14
+"516","GallupGallup","7/16 - 7/23","3545 A",38,57,"-19",2016-07-16,"Clinton",-20,-19
+"616","Reuters/IpsosReuters","7/16 - 7/20","1522 A",46,54,"-8",2016-07-16,"Clinton",-8,-8
+"714","Economist/YouGovEconomist","7/15 - 7/17","1300 A",41,55,"-14",2016-07-15,"Clinton",-14.5833333333333,-14
+"813","MonmouthMonmouth","7/14 - 7/16","688 LV",35,54,"-19",2016-07-14,"Clinton",-21.3483146067416,-19
+"910","CNN/ORCCNN/ORC","7/13 - 7/16","872 RV",42,55,"-13",2016-07-13,"Clinton",-13.4020618556701,-13
+"1010","ABC News/Wash PostABC/WP","7/11 - 7/14","816 RV",40,57,"-17",2016-07-11,"Clinton",-17.5257731958763,-17
+"1110","CBS News/NY TimesCBS/NYT","7/8 - 7/12","1358 RV",28,54,"-26",2016-07-08,"Clinton",-31.7073170731707,-26
+"1210","Economist/YouGovEconomist","7/9 - 7/11","1300 A",42,55,"-13",2016-07-09,"Clinton",-13.4020618556701,-13
+"1310","NBC News/Wall St. JrnlNBC/WSJ","7/9 - 7/13","1000 RV",34,56,"-22",2016-07-09,"Clinton",-24.4444444444444,-22
+"148","Associated Press-GfKAP-GfK","7/7 - 7/11","1009 A",37,57,"-20",2016-07-07,"Clinton",-21.2765957446809,-20
+"154","McClatchy/MaristMcClatchy","7/5 - 7/9","1053 RV",36,60,"-24",2016-07-05,"Clinton",-25,-24
+"164","Reuters/IpsosReuters","7/2 - 7/6","1543 A",45,55,"-10",2016-07-02,"Clinton",-10,-10
+"174","Economist/YouGovEconomist","7/2 - 7/4","1300 A",41,55,"-14",2016-07-02,"Clinton",-14.5833333333333,-14
+"184","USA Today/SuffolkUSA Today","6/26 - 6/29","1000 LV",42,53,"-11",2016-06-26,"Clinton",-11.5789473684211,-11
+"194","PPP (D)PPP (D)","6/27 - 6/28","947 RV",39,54,"-15",2016-06-27,"Clinton",-16.1290322580645,-15
+"204","Reuters/IpsosReuters","6/25 - 6/29","1543 A",46,56,"-10",2016-06-25,"Clinton",-9.80392156862745,-10
+"217","IBD/TIPPIBD/TIPP","6/24 - 6/29","837 RV",39,61,"-22",2016-06-24,"Clinton",-22,-22
+"224","Economist/YouGovEconomist","6/24 - 6/27","1289 RV",42,56,"-14",2016-06-24,"Clinton",-14.2857142857143,-14
+"234","QuinnipiacQuinnipiac","6/21 - 6/27","1610 RV",37,57,"-20",2016-06-21,"Clinton",-21.2765957446809,-20
+"244","NBC News/Wall St. JrnlNBC/WSJ","6/19 - 6/23","1000 RV",33,55,"-22",2016-06-19,"Clinton",-25,-22
+"254","Reuters/IpsosReuters","6/18 - 6/22","1585 A",47,53,"-6",2016-06-18,"Clinton",-6,-6
+"264","Economist/YouGovEconomist","6/18 - 6/20","1288 A",41,56,"-15",2016-06-18,"Clinton",-15.4639175257732,-15
+"274","CNN/ORCCNN/ORC","6/16 - 6/19","891 RV",42,57,"-15",2016-06-16,"Clinton",-15.1515151515152,-15
+"284","MonmouthMonmouth","6/15 - 6/19","803 RV",36,52,"-16",2016-06-15,"Clinton",-18.1818181818182,-16
+"294","GallupGallup","6/13 - 6/19","3560 A",41,54,"-13",2016-06-13,"Clinton",-13.6842105263158,-13
+"304","Reuters/IpsosReuters","6/11 - 6/15","1323 RV",47,53,"-6",2016-06-11,"Clinton",-6,-6
+"317","Rasmussen ReportsRasmussen","6/12 - 6/13","1000 LV",38,59,"-21",2016-06-12,"Clinton",-21.6494845360825,-21
+"324","BloombergBloomberg","6/10 - 6/13","1000 A",43,54,"-11",2016-06-10,"Clinton",-11.340206185567,-11
+"334","CBS NewsCBS News","6/9 - 6/13","1048 RV",33,52,"-19",2016-06-09,"Clinton",-22.3529411764706,-19
+"344","ABC News/Wash PostABC/WP","6/8 - 6/12","RV",43,56,"-13",2016-06-08,"Clinton",-13.1313131313131,-13
+"354","FOX NewsFOX News","6/5 - 6/8","1004 RV",42,56,"-14",2016-06-05,"Clinton",-14.2857142857143,-14
+"364","Economist/YouGovEconomist","6/2 - 6/5","2000 A",44,53,"-9",2016-06-02,"Clinton",-9.27835051546392,-9
+"374","IBD/TIPPIBD/TIPP","5/31 - 6/5","908 A",39,61,"-22",2016-05-31,"Clinton",-22,-22
+"384","QuinnipiacQuinnipiac","5/24 - 5/30","1561 RV",37,57,"-20",2016-05-24,"Clinton",-21.2765957446809,-20
+"394","Economist/YouGovEconomist","5/20 - 5/23","2000 RV",43,54,"-11",2016-05-20,"Clinton",-11.340206185567,-11
+"404","ABC News/Wash PostABC/WP","5/16 - 5/19","829 RV",41,57,"-16",2016-05-16,"Clinton",-16.3265306122449,-16
+"417","NBC News/Wall St. JrnlNBC/WSJ","5/15 - 5/19","1000 RV",34,54,"-20",2016-05-15,"Clinton",-22.7272727272727,-20
+"424","FOX NewsFOX News","5/14 - 5/17","1021 RV",37,61,"-24",2016-05-14,"Clinton",-24.4897959183673,-24
+"434","CBS News/NY TimesCBS/NYT","5/13 - 5/17","1109 RV",31,52,"-21",2016-05-13,"Clinton",-25.3012048192771,-21
+"444","GallupGallup","5/1 - 5/22","10598 A",40,54,"-14",2016-05-01,"Clinton",-14.8936170212766,-14
+"454","PPP (D)PPP (D)","5/6 - 5/9","1222 RV",36,55,"-19",2016-05-06,"Clinton",-20.8791208791209,-19
+"464","The Economist/YouGovEconomist","5/6 - 5/8","2000 A",41,56,"-15",2016-05-06,"Clinton",-15.4639175257732,-15
+"474","CNN/ORCCNN/ORC","4/28 - 5/1","1001 A",48,49,"-1",2016-04-28,"Clinton",-1.03092783505155,-1
+"484","IBD/TIPPIBD/TIPP","4/22 - 4/28","903 A",43,56,"-13",2016-04-22,"Clinton",-13.1313131313131,-13
+"494","The Economist/YouGovEconomist","4/22 - 4/26","2000 A",42,54,"-12",2016-04-22,"Clinton",-12.5,-12
+"504","USA Today/SuffolkUSA Today","4/20 - 4/24","1000 LV",37,54,"-17",2016-04-20,"Clinton",-18.6813186813187,-17
+"517","GWU/BattlegroundGWU/Battleground","4/17 - 4/20","1000 LV",42,56,"-14",2016-04-17,"Clinton",-14.2857142857143,-14
+"524","NBC News/Wall St. JrnlNBC/WSJ","4/10 - 4/14","1000 RV",32,56,"-24",2016-04-10,"Clinton",-27.2727272727273,-24
+"534","CBS NewsCBS News","4/8 - 4/12","1320 A",31,54,"-23",2016-04-08,"Clinton",-27.0588235294118,-23
+"544","The Economist/YouGovEconomist","4/8 - 4/11","2000 A",41,56,"-15",2016-04-08,"Clinton",-15.4639175257732,-15
+"554","Associated Press-GfKAP-GfK","3/31 - 4/4","1076 A",40,55,"-15",2016-03-31,"Clinton",-15.7894736842105,-15
+"564","The Atlantic/PRRIThe Atlantic","3/30 - 4/3","2033 A",40,54,"-14",2016-03-30,"Clinton",-14.8936170212766,-14
+"574","The Economist/YouGovEconomist","3/26 - 3/29","2000 A",43,54,"-11",2016-03-26,"Clinton",-11.340206185567,-11
+"584","PPP (D)PPP (D)","3/24 - 3/26","1083 RV",37,55,"-18",2016-03-24,"Clinton",-19.5652173913043,-18
+"594","FOX NewsFOX News","3/20 - 3/22","1016 RV",39,58,"-19",2016-03-20,"Clinton",-19.5876288659794,-19
+"604","BloombergBloomberg","3/19 - 3/22","1000 A",44,53,"-9",2016-03-19,"Clinton",-9.27835051546392,-9
+"617","QuinnipiacQuinnipiac","3/16 - 3/21","1451 RV",39,56,"-17",2016-03-16,"Clinton",-17.8947368421053,-17
+"624","CBS News/NY TimesCBS/NYT","3/17 - 3/20","1252 A",31,52,"-21",2016-03-17,"Clinton",-25.3012048192771,-21
+"634","CNN/ORCCNN/ORC","3/17 - 3/20","1001 A",43,56,"-13",2016-03-17,"Clinton",-13.1313131313131,-13
+"644","MonmouthMonmouth","3/17 - 3/20","848 RV",40,51,"-11",2016-03-17,"Clinton",-12.0879120879121,-11
+"653","The Economist/YouGovEconomist","3/10 - 3/12","2000 A",43,54,"-11",2016-03-10,"Clinton",-11.340206185567,-11
+"663","ABC News/Wash PostABC/WP","3/3 - 3/6","1000 A",46,52,"-6",2016-03-03,"Clinton",-6.12244897959184,-6
+"673","GallupGallup","2/26 - 3/3","A",41,53,"-12",2016-02-26,"Clinton",-12.7659574468085,-12
+"683","CNN/ORCCNN/ORC","2/24 - 2/27","920 RV",42,55,"-13",2016-02-24,"Clinton",-13.4020618556701,-13
+"693","The Economist/YouGovEconomist","2/24 - 2/27","2000 A",41,54,"-13",2016-02-24,"Clinton",-13.6842105263158,-13
+"703","NBC News/Wall St. JrnlNBC/WSJ","2/14 - 2/16","800 RV",37,50,"-13",2016-02-14,"Clinton",-14.9425287356322,-13
+"715","Associated Press-GfKAP-GfK","2/11 - 2/15","1033 A",38,51,"-13",2016-02-11,"Clinton",-14.6067415730337,-13
+"722","QuinnipiacQuinnipiac","2/10 - 2/15","1342 RV",37,58,"-21",2016-02-10,"Clinton",-22.1052631578947,-21
+"732","PPP (D)PPP (D)","2/2 - 2/3","1236 RV",42,53,"-11",2016-02-02,"Clinton",-11.5789473684211,-11
+"742","The Economist/YouGovEconomist","2/11 - 2/15","2000 A",40,55,"-15",2016-02-11,"Clinton",-15.7894736842105,-15
+"751","The Economist/YouGovEconomist","1/27 - 1/30","2000 A",39,55,"-16",2016-01-27,"Clinton",-17.0212765957447,-16
+"761","The Economist/YouGovEconomist","1/15 - 1/19","2000 A",38,56,"-18",2016-01-15,"Clinton",-19.1489361702128,-18
+"771","ABC News/Wash PostABC/WP","1/6 - 1/10","1000 A",48,49,"-1",2016-01-06,"Clinton",-1.03092783505155,-1
+"781","The Economist/YouGovEconomist","12/30 - 1/6","2000 A",41,54,"-13",2015-12-31,"Clinton",-13.6842105263158,-13
+"791","The Economist/YouGovEconomist","12/18 - 12/21","2000 A",44,51,"-7",2015-12-19,"Clinton",-7.36842105263158,-7
+"801","QuinnipiacQuinnipiac","12/16 - 12/20","1140 RV",43,51,"-8",2015-12-17,"Clinton",-8.51063829787234,-8
+"814","PPP (D)PPP (D)","12/16 - 12/17","1267 RV",38,55,"-17",2015-12-17,"Clinton",-18.2795698924731,-17
+"821","The Economist/YouGovEconomist","12/4 - 12/9","2000 A",44,50,"-6",2015-12-05,"Clinton",-6.38297872340426,-6
+"831","Associated Press-GfKAP-GfK","12/3 - 12/7","1007 A",44,46,"-2",2015-12-04,"Clinton",-2.22222222222222,-2
+"841","QuinnipiacQuinnipiac","11/23 - 11/30","1473 RV",44,51,"-7",2015-11-24,"Clinton",-7.36842105263158,-7
+"851","The Economist/YouGovEconomist","11/19 - 11/23","2000 A",44,51,"-7",2015-11-20,"Clinton",-7.36842105263158,-7
+"861","ABC News/Wash PostABC/WP","11/4 - 11/8","1023 A",46,51,"-5",2015-11-05,"Clinton",-5.15463917525773,-5
+"871","The Economist/YouGovEconomist","11/5 - 11/9","2000 A",41,52,"-11",2015-11-06,"Clinton",-11.8279569892473,-11
+"881","The Economist/YouGovEconomist","10/23 - 10/27","2000 A",42,51,"-9",2015-10-24,"Clinton",-9.67741935483871,-9
+"891","Associated Press-GfKAP-GfK","10/15 - 10/19","1027 A",41,48,"-7",2015-10-16,"Clinton",-7.86516853932584,-7
+"90","MonmouthMonmouth","10/15 - 10/18","836 RV",41,48,"-7",2015-10-16,"Clinton",-7.86516853932584,-7
+"911","The Economist/YouGovEconomist","10/8 - 10/12","2000 A",43,49,"-6",2015-10-09,"Clinton",-6.52173913043478,-6
+"921","ABC News/Wash PostABC/WP","10/7 - 10/11","1002 A",47,49,"-2",2015-10-08,"Clinton",-2.08333333333333,-2
+"931","FOX NewsFOX News","9/20 - 9/22","1013 RV",38,56,"-18",2015-09-21,"Clinton",-19.1489361702128,-18
+"94","BloombergBloomberg","9/18 - 9/21","1001 A",38,54,"-16",2015-09-19,"Clinton",-17.3913043478261,-16
+"95","QuinnipiacQuinnipiac","9/17 - 9/21","1574 RV",41,55,"-14",2015-09-18,"Clinton",-14.5833333333333,-14
+"96","The Economist/YouGovEconomist","9/11 - 9/15","2000 A",42,52,"-10",2015-09-12,"Clinton",-10.6382978723404,-10
+"97","The Economist/YouGovEconomist","8/28 - 9/1","2000 A",41,52,"-11",2015-08-29,"Clinton",-11.8279569892473,-11
+"98","ABC News/Wash PostABC/WP","8/26 - 8/30","1005 A",45,53,"-8",2015-08-27,"Clinton",-8.16326530612245,-8
+"99","The Economist/YouGovEconomist","8/14 - 8/18","2000 A",43,51,"-8",2015-08-15,"Clinton",-8.51063829787234,-8
+"100","The Economist/YouGovEconomist","7/18 - 7/20","1000 A",45,47,"-2",2015-07-19,"Clinton",-2.17391304347826,-2
+"1011","Associated Press-GfKAP-GfK","7/9 - 7/13","1004 A",39,49,"-10",2015-07-10,"Clinton",-11.3636363636364,-10
+"1021","ABC News/Wash PostABC/WP","7/8 - 7/12","1011 A",52,45,"+7",2015-07-09,"Clinton",7.21649484536082,7
+"1031","The Economist/YouGovEconomist","7/4 - 7/6","1000  A",45,50,"-5",2015-07-05,"Clinton",-5.26315789473684,-5
+"104","The Economist/YouGovEconomist","6/27 - 6/29","1000 A",46,51,"-5",2015-06-28,"Clinton",-5.15463917525773,-5
+"105","The Economist/YouGovEconomist","6/20 - 6/22","1000 A",46,50,"-4",2015-06-21,"Clinton",-4.16666666666667,-4
+"106","MonmouthMonmouth","6/11 - 6/14","829 RV",41,44,"-3",2015-06-12,"Clinton",-3.52941176470588,-3
+"107","The Economist/YouGovEconomist","6/13 - 6/15","1000 A",46,49,"-3",2015-06-14,"Clinton",-3.15789473684211,-3
+"108","The Economist/YouGovEconomist","6/6 - 6/8","1000 A",45,50,"-5",2015-06-07,"Clinton",-5.26315789473684,-5
+"109","The Economist/YouGovEconomist","5/30 - 6/1","1000 A",47,49,"-2",2015-05-31,"Clinton",-2.08333333333333,-2
+"110","The Economist/YouGovEconomist","5/23 - 5/25","1000 A",47,47,"Tie",2015-05-24,"Clinton",0,0
+"1111","QuinnipiacQuinnipiac","5/19 - 5/26","1711 RV",45,47,"-2",2015-05-20,"Clinton",-2.17391304347826,-2
+"1121","The Economist/YouGovEconomist","5/16 - 5/18","1000 A",47,47,"Tie",2015-05-17,"Clinton",0,0
+"1131","Pew ResearchPew","5/12 - 5/18","2002 A",49,47,"+2",2015-05-13,"Clinton",2.08333333333333,2
+"114","FOX NewsFOX News","5/9 - 5/12","1006 RV",45,49,"-4",2015-05-10,"Clinton",-4.25531914893617,-4
+"115","GallupGallup","5/6 - 5/10","1024 A",50,46,"+4",2015-05-07,"Clinton",4.16666666666667,4
+"116","CBS News/NY TimesCBS/NYT","4/30 - 5/3","1027 A",35,36,"-1",2015-05-01,"Clinton",-1.40845070422535,-1
+"117","The Economist/YouGovEconomist","4/25 - 4/27","1000 A",46,50,"-4",2015-04-26,"Clinton",-4.16666666666667,-4
+"118","Associated Press/GfKAP-GfK","4/23 - 4/27","1077 A",46,41,"+5",2015-04-24,"Clinton",5.74712643678161,5
+"119","The Economist/YouGovEconomist","4/18 - 4/20","1000 A",46,48,"-2",2015-04-19,"Clinton",-2.12765957446809,-2
+"120","QuinnipiacQuinnipiac","4/16 - 4/21","1353 RV",46,47,"-1",2015-04-17,"Clinton",-1.0752688172043,-1
+"1211","Rasmussen ReportsRasmussen","4/13 - 4/14","1000 LV",47,47,"Tie",2015-04-14,"Clinton",0,0
+"1221","The Economist/YouGovEconomist","4/11 - 4/13","1000 A",51,45,"+6",2015-04-12,"Clinton",6.25,6
+"1231","BloombergBloomberg","4/6 - 4/8","1008 A",48,44,"+4",2015-04-07,"Clinton",4.34782608695652,4
+"124","The Economist/YouGovEconomist","4/4 - 4/6","1000 A",44,52,"-8",2015-04-05,"Clinton",-8.33333333333333,-8
+"125","GallupGallup","4/3 - 4/4","1023 A",48,42,"+6",2015-04-04,"Clinton",6.66666666666667,6
+"126","FOX NewsFOX News","3/29 - 3/31","1025 RV",47,50,"-3",2015-03-30,"Clinton",-3.09278350515464,-3
+"127","PPP (D)PPP (D)","3/26 - 3/31","989 RV",41,53,"-12",2015-03-27,"Clinton",-12.7659574468085,-12
+"128","The Economist/YouGovEconomist","3/28 - 3/30","1000 A",50,47,"+3",2015-03-29,"Clinton",3.09278350515464,3
+"129","ABC News/Wash PostABC/WP","3/26 - 3/29","RV",49,47,"+2",2015-03-27,"Clinton",2.08333333333333,2
+"130","CBS NewsCBS News","3/21 - 3/24","1023 A",26,37,"-11",2015-03-22,"Clinton",-17.4603174603175,-11
+"1311","The Economist/YouGovEconomist","3/21 - 3/23","1000 A",49,43,"+6",2015-03-22,"Clinton",6.52173913043478,6
+"1321","Rasmussen ReportsRasmussen","3/16 - 3/17","1000 LV",48,49,"-1",2015-03-17,"Clinton",-1.03092783505155,-1
+"1331","The Economist/YouGovEconomist","3/14 - 3/16","1000 A",47,48,"-1",2015-03-15,"Clinton",-1.05263157894737,-1
+"134","CNN/Opinion ResearchCNN/ORC","3/13 - 3/15","1009 A",53,44,"+9",2015-03-14,"Clinton",9.27835051546392,9
+"135","GallupGallup","3/2 - 3/4","1522 A",50,39,"+11",2015-03-03,"Clinton",12.3595505617978,11
+"136","The Economist/YouGovEconomist","2/28 - 3/2","1000 A",52,44,"+8",2015-02-28,"Clinton",8.33333333333333,8
+"137","QuinnipiacQuinnipiac","2/26 - 3/2","1286 RV",48,45,"+3",2015-02-26,"Clinton",3.2258064516129,3
+"138","The Economist/YouGovEconomist","2/21 - 2/23","1000 A",48,46,"+2",2015-02-21,"Clinton",2.12765957446809,2
+"139","PPP (D)PPP (D)","2/20 - 2/22","691 RV",45,47,"-2",2015-02-20,"Clinton",-2.17391304347826,-2
+"140","The Economist/YouGovEconomist","2/14 - 2/16","1000 A",48,45,"+3",2015-02-14,"Clinton",3.2258064516129,3
+"1411","The Economist/YouGovEconomist","2/7 - 2/9","1000 A",50,46,"+4",2015-02-07,"Clinton",4.16666666666667,4
+"1421","The Economist/YouGovEconomist","1/31 - 2/2","1000 A",47,45,"+2",2015-01-31,"Clinton",2.17391304347826,2
+"1431","The Economist/YouGovEconomist","1/24 - 1/26","1000 A",48,45,"+3",2015-01-24,"Clinton",3.2258064516129,3
+"144","The Economist/YouGovEconomist","1/17 - 1/19","1000 A",47,45,"+2",2015-01-17,"Clinton",2.17391304347826,2
+"145","The Economist/YouGovEconomist","1/10 - 1/12","1000 A",48,45,"+3",2015-01-10,"Clinton",3.2258064516129,3
+"146","The Economist/YouGovEconomist","1/3 - 1/5","1000 A",46,46,"Tie",2015-01-03,"Clinton",0,0
+"147","The Economist/YouGovEconomist","12/27 - 12/29","1000 A",46,48,"-2",2014-12-28,"Clinton",-2.12765957446809,-2
+"218","The Economist/YouGovThe Economist/YouGov","5/6 - 5/8","2000 A",29,58,"-29",2016-05-06,"Cruz",-33.3333333333333,-29
+"318","CNN/ORCCNN/ORC","4/28 - 5/1","1001 A",35,53,"-18",2016-04-28,"Cruz",-20.4545454545455,-18
+"418","IBD/TIPPIBD/TIPP","4/22 - 4/28","903 A",33,58,"-25",2016-04-22,"Cruz",-27.4725274725275,-25
+"518","The Economist/YouGovThe Economist/YouGov","4/22 - 4/26","2000 A",31,59,"-28",2016-04-22,"Cruz",-31.1111111111111,-28
+"618","USA Today/SuffolkUSA Today/Suffolk","4/20 - 4/24","1000 LV",26,58,"-32",2016-04-20,"Cruz",-38.0952380952381,-32
+"716","GWU/BattlegroundGWU/Battleground","4/17 - 4/20","1000 LV",35,55,"-20",2016-04-17,"Cruz",-22.2222222222222,-20
+"815","NBC News/Wall St. JrnlNBC News/Wall St. Jrnl","4/10 - 4/14","1000 RV",26,49,"-23",2016-04-10,"Cruz",-30.6666666666667,-23
+"912","CBS NewsCBS News","4/8 - 4/12","1320 A",22,48,"-26",2016-04-08,"Cruz",-37.1428571428571,-26
+"1012","The Economist/YouGovThe Economist/YouGov","4/8 - 4/11","2000 A",34,55,"-21",2016-04-08,"Cruz",-23.5955056179775,-21
+"1112","ABC News/Wash PostABC News/Wash Post","4/6 - 4/10","1010 A",36,53,"-17",2016-04-06,"Cruz",-19.1011235955056,-17
+"1212","Associated Press-GfKAssociated Press-GfK","3/31 - 4/4","1076 A",26,59,"-33",2016-03-31,"Cruz",-38.8235294117647,-33
+"1312","The Atlantic/PRRIThe Atlantic/PRRI","3/30 - 4/3","2033 A",29,57,"-28",2016-03-30,"Cruz",-32.5581395348837,-28
+"149","The Economist/YouGovThe Economist/YouGov","3/26 - 3/29","2000 A",32,57,"-25",2016-03-26,"Cruz",-28.0898876404494,-25
+"155","PPP (D)PPP (D)","3/24 - 3/26","1083 RV",30,58,"-28",2016-03-24,"Cruz",-31.8181818181818,-28
+"165","FOX NewsFOX News","3/20 - 3/22","1016 RV",36,53,"-17",2016-03-20,"Cruz",-19.1011235955056,-17
+"175","BloombergBloomberg","3/19 - 3/22","1000 A",32,55,"-23",2016-03-19,"Cruz",-26.4367816091954,-23
+"185","QuinnipiacQuinnipiac","3/16 - 3/21","1451 RV",32,47,"-15",2016-03-16,"Cruz",-18.9873417721519,-15
+"195","CNN/ORCCNN/ORC","3/17 - 3/20","1001 A",34,54,"-20",2016-03-17,"Cruz",-22.7272727272727,-20
+"205","MonmouthMonmouth","3/17 - 3/20","848 RV",37,43,"-6",2016-03-17,"Cruz",-7.5,-6
+"219","The Economist/YouGovThe Economist/YouGov","3/10 - 3/12","2000 A",32,55,"-23",2016-03-10,"Cruz",-26.4367816091954,-23
+"225","ABC News/Wash PostABC News/Wash Post","3/3 - 3/6","1000 A",35,51,"-16",2016-03-03,"Cruz",-18.6046511627907,-16
+"235","GallupGallup","2/26 - 3/3","A",29,50,"-21",2016-02-26,"Cruz",-26.5822784810127,-21
+"245","CNN/ORCCNN/ORC","2/24 - 2/27","920 RV",36,48,"-12",2016-02-24,"Cruz",-14.2857142857143,-12
+"255","The Economist/YouGovThe Economist/YouGov","2/24 - 2/27","2000 A",30,54,"-24",2016-02-24,"Cruz",-28.5714285714286,-24
+"265","NBC News/Wall St. JrnlNBC News/Wall St. Jrnl","2/14 - 2/16","800 RV",28,43,"-15",2016-02-14,"Cruz",-21.1267605633803,-15
+"275","Associated Press-GfKAssociated Press-GfK","2/11 - 2/15","1033 A",28,46,"-18",2016-02-11,"Cruz",-24.3243243243243,-18
+"285","QuinnipiacQuinnipiac","2/10 - 2/15","1342 RV",36,45,"-9",2016-02-10,"Cruz",-11.1111111111111,-9
+"295","PPP (D)PPP (D)","2/2 - 2/3","1236 RV",33,51,"-18",2016-02-02,"Cruz",-21.4285714285714,-18
+"305","The Economist/YouGovThe Economist/YouGov","2/11 - 2/15","2000 A",36,47,"-11",2016-02-11,"Cruz",-13.2530120481928,-11
+"319","The Economist/YouGovThe Economist/YouGov","1/27 - 1/30","2000 A",37,44,"-7",2016-01-27,"Cruz",-8.64197530864197,-7
+"325","ABC News/Wash PostABC News/Wash Post","1/6 - 1/10","1000 A",42,43,"-1",2016-01-06,"Cruz",-1.17647058823529,-1
+"335","The Economist/YouGovThe Economist/YouGov","12/30 - 1/6","2000 A",38,39,"-1",2015-12-31,"Cruz",-1.2987012987013,-1
+"345","The Economist/YouGovThe Economist/YouGov","12/18 - 12/21","2000 A",35,44,"-9",2015-12-19,"Cruz",-11.3924050632911,-9
+"355","QuinnipiacQuinnipiac","12/16 - 12/20","1140 RV",35,33,"+2",2015-12-17,"Cruz",2.94117647058824,2
+"365","PPP (D)PPP (D)","12/16 - 12/17","1267 RV",34,48,"-14",2015-12-17,"Cruz",-17.0731707317073,-14
+"375","The Economist/YouGovThe Economist/YouGov","12/4 - 12/9","2000 A",34,41,"-7",2015-12-05,"Cruz",-9.33333333333333,-7
+"385","Associated Press-GfKAssociated Press-GfK","12/3 - 12/7","1007 A",24,37,"-13",2015-12-04,"Cruz",-21.3114754098361,-13
+"395","QuinnipiacQuinnipiac","11/23 - 11/30","1473 RV",33,33,"Tie",2015-11-24,"Cruz",0,0
+"405","The Economist/YouGovThe Economist/YouGov","11/19 - 11/23","2000 A",34,43,"-9",2015-11-20,"Cruz",-11.6883116883117,-9
+"419","The Economist/YouGovThe Economist/YouGov","11/5 - 11/9","2000 A",33,41,"-8",2015-11-06,"Cruz",-10.8108108108108,-8
+"425","ABC News/Wash PostABC News/Wash Post","11/4 - 11/8","1023 A",34,44,"-10",2015-11-05,"Cruz",-12.8205128205128,-10
+"435","The Economist/YouGovThe Economist/YouGov","10/23 - 10/27","2000 A",29,44,"-15",2015-10-24,"Cruz",-20.5479452054795,-15
+"445","Associated Press-GfKAssociated Press-GfK","10/15 - 10/19","1027 A",17,39,"-22",2015-10-16,"Cruz",-39.2857142857143,-22
+"455","MonmouthMonmouth","10/15 - 10/18","836 RV",29,36,"-7",2015-10-16,"Cruz",-10.7692307692308,-7
+"465","The Economist/YouGovThe Economist/YouGov","10/8 - 10/12","2000 A",30,45,"-15",2015-10-09,"Cruz",-20,-15
+"475","FOX NewsFOX News","9/20 - 9/22","1013 RV",29,42,"-13",2015-09-21,"Cruz",-18.3098591549296,-13
+"485","QuinnipiacQuinnipiac","9/17 - 9/21","1574 RV",29,39,"-10",2015-09-18,"Cruz",-14.7058823529412,-10
+"495","The Economist/YouGovThe Economist/YouGov","9/11 - 9/15","2000 A",32,42,"-10",2015-09-12,"Cruz",-13.5135135135135,-10
+"505","The Economist/YouGovThe Economist/YouGov","8/28 - 9/1","2000 A",32,40,"-8",2015-08-29,"Cruz",-11.1111111111111,-8
+"519","The Economist/YouGovThe Economist/YouGov","8/14 - 8/18","2000 A",33,42,"-9",2015-08-15,"Cruz",-12,-9
+"525","The Economist/YouGovThe Economist/YouGov","7/18 - 7/20","1000 A",33,38,"-5",2015-07-19,"Cruz",-7.04225352112676,-5
+"535","Associated Press-GfKAssociated Press-GfK","7/9 - 7/13","1004 A",20,33,"-13",2015-07-10,"Cruz",-24.5283018867925,-13
+"545","The Economist/YouGovThe Economist/YouGov","7/4 - 7/6","1000  A",36,39,"-3",2015-07-05,"Cruz",-4,-3
+"555","The Economist/YouGovThe Economist/YouGov","6/27 - 6/29","1000 A",34,40,"-6",2015-06-28,"Cruz",-8.10810810810811,-6
+"565","The Economist/YouGovThe Economist/YouGov","6/20 - 6/22","1000 A",29,45,"-16",2015-06-21,"Cruz",-21.6216216216216,-16
+"575","MonmouthMonmouth","6/11 - 6/14","829 RV",25,34,"-9",2015-06-12,"Cruz",-15.2542372881356,-9
+"585","The Economist/YouGovThe Economist/YouGov","6/13 - 6/15","1000 A",32,41,"-9",2015-06-14,"Cruz",-12.3287671232877,-9
+"595","The Economist/YouGovThe Economist/YouGov","6/6 - 6/8","1000 A",31,42,"-11",2015-06-07,"Cruz",-15.0684931506849,-11
+"605","The Economist/YouGovThe Economist/YouGov","5/30 - 6/1","1000 A",32,38,"-6",2015-05-31,"Cruz",-8.57142857142857,-6
+"619","The Economist/YouGovThe Economist/YouGov","5/23 - 5/25","1000 A",32,41,"-9",2015-05-24,"Cruz",-12.3287671232877,-9
+"625","QuinnipiacQuinnipiac","5/19 - 5/26","1711 RV",28,37,"-9",2015-05-20,"Cruz",-13.8461538461538,-9
+"635","The Economist/YouGovThe Economist/YouGov","5/16 - 5/18","1000 A",33,40,"-7",2015-05-17,"Cruz",-9.58904109589041,-7
+"645","Pew ResearchPew Research","5/12 - 5/18","2002 A",28,41,"-13",2015-05-13,"Cruz",-18.8405797101449,-13
+"654","FOX NewsFOX News","5/9 - 5/12","1006 RV",27,35,"-8",2015-05-10,"Cruz",-12.9032258064516,-8
+"664","PPP (D)PPP (D)","5/7 - 5/10","685 RV",51,25,"+26",2015-05-08,"Cruz",34.2105263157895,26
+"674","The Economist/YouGovThe Economist/YouGov","4/25 - 4/27","1000 A",33,39,"-6",2015-04-26,"Cruz",-8.33333333333333,-6
+"684","Associated Press/GfKAssociated Press/GfK","4/23 - 4/27","1077 A",18,32,"-14",2015-04-24,"Cruz",-28,-14
+"694","The Economist/YouGovThe Economist/YouGov","4/18 - 4/20","1000 A",34,42,"-8",2015-04-19,"Cruz",-10.5263157894737,-8
+"704","QuinnipiacQuinnipiac","4/16 - 4/21","1353 RV",25,30,"-5",2015-04-17,"Cruz",-9.09090909090909,-5
+"717","The Economist/YouGovThe Economist/YouGov","4/11 - 4/13","1000 A",32,41,"-9",2015-04-12,"Cruz",-12.3287671232877,-9
+"723","BloombergBloomberg","4/6 - 4/8","1008 A",30,35,"-5",2015-04-07,"Cruz",-7.69230769230769,-5
+"733","The Economist/YouGovThe Economist/YouGov","4/4 - 4/6","1000 A",36,40,"-4",2015-04-05,"Cruz",-5.26315789473684,-4
+"743","FOX NewsFOX News","3/29 - 3/31","1025 RV",29,35,"-6",2015-03-30,"Cruz",-9.375,-6
+"752","PPP (D)PPP (D)","3/26 - 3/31","989 RV",31,47,"-16",2015-03-27,"Cruz",-20.5128205128205,-16
+"762","The Economist/YouGovThe Economist/YouGov","3/28 - 3/30","1000 A",34,44,"-10",2015-03-29,"Cruz",-12.8205128205128,-10
+"772","ABC News/Wash PostABC News/Wash Post","3/26 - 3/29","RV",25,45,"-20",2015-03-27,"Cruz",-28.5714285714286,-20
+"782","The Economist/YouGovThe Economist/YouGov","3/21 - 3/23","1000 A",31,35,"-4",2015-03-22,"Cruz",-6.06060606060606,-4
+"792","Rasmussen ReportsRasmussen Reports","3/24 - 3/25","1000 LV",36,41,"-5",2015-03-25,"Cruz",-6.49350649350649,-5
+"802","The Economist/YouGovThe Economist/YouGov","3/14 - 3/16","1000 A",33,36,"-3",2015-03-15,"Cruz",-4.34782608695652,-3
+"816","GallupGallup","3/2 - 3/4","1522 A",22,28,"-6",2015-03-03,"Cruz",-12,-6
+"822","The Economist/YouGovThe Economist/YouGov","2/28 - 3/2","1000 A",31,36,"-5",2015-02-28,"Cruz",-7.46268656716418,-5
+"832","QuinnipiacQuinnipiac","2/26 - 3/2","1286 RV",23,29,"-6",2015-02-26,"Cruz",-11.5384615384615,-6
+"842","The Economist/YouGovThe Economist/YouGov","2/21 - 2/23","1000 A",29,34,"-5",2015-02-21,"Cruz",-7.93650793650794,-5
+"852","PPP (D)PPP (D)","2/20 - 2/22","691 RV",26,38,"-12",2015-02-20,"Cruz",-18.75,-12
+"862","The Economist/YouGovThe Economist/YouGov","2/14 - 2/16","1000 A",30,35,"-5",2015-02-14,"Cruz",-7.69230769230769,-5
+"872","The Economist/YouGovThe Economist/YouGov","2/7 - 2/9","1000 A",31,32,"-1",2015-02-07,"Cruz",-1.58730158730159,-1
+"882","The Economist/YouGovThe Economist/YouGov","1/31 - 2/2","1000 A",28,40,"-12",2015-01-31,"Cruz",-17.6470588235294,-12
+"892","The Economist/YouGovThe Economist/YouGov","1/24 - 1/26","1000 A",30,38,"-8",2015-01-24,"Cruz",-11.7647058823529,-8
+"901","The Economist/YouGovThe Economist/YouGov","1/17 - 1/19","1000 A",29,38,"-9",2015-01-17,"Cruz",-13.4328358208955,-9
+"913","The Economist/YouGovThe Economist/YouGov","1/10 - 1/12","1000 A",32,41,"-9",2015-01-10,"Cruz",-12.3287671232877,-9
+"922","The Economist/YouGovThe Economist/YouGov","1/3 - 1/5","1000 A",27,39,"-12",2015-01-03,"Cruz",-18.1818181818182,-12
+"932","The Economist/YouGovThe Economist/YouGov","12/27 - 12/29","1000 A",29,43,"-14",2014-12-28,"Cruz",-19.4444444444444,-14
+"220","CBS NewsCBS News","7/22 - 7/24","1363 A",34,53,"-19",2016-07-22,"Trump",-21.8390804597701,-19
+"320","CNN/ORCCNN/ORC","7/22 - 7/24","882 RV",46,51,"-5",2016-07-22,"Trump",-5.15463917525773,-5
+"420","Economist/YouGovEconomist/YouGov","7/23 - 7/24","1300 A",35,61,"-26",2016-07-23,"Trump",-27.0833333333333,-26
+"520","GallupGallup","7/16 - 7/23","3545 A",36,59,"-23",2016-07-16,"Trump",-24.2105263157895,-23
+"620","Reuters/IpsosReuters/Ipsos","7/16 - 7/20","1522 A",43,57,"-14",2016-07-16,"Trump",-14,-14
+"718","Economist/YouGovEconomist/YouGov","7/15 - 7/17","1300 A",37,59,"-22",2016-07-15,"Trump",-22.9166666666667,-22
+"817","MonmouthMonmouth","7/14 - 7/16","688 LV",33,54,"-21",2016-07-14,"Trump",-24.1379310344828,-21
+"914","CNN/ORCCNN/ORC","7/13 - 7/16","872 RV",39,59,"-20",2016-07-13,"Trump",-20.4081632653061,-20
+"1013","ABC News/Wash PostABC News/Wash Post","7/11 - 7/14","816 RV",34,62,"-28",2016-07-11,"Trump",-29.1666666666667,-28
+"1113","NBC News/Wall St. JrnlNBC News/Wall St. Jrnl","7/9 - 7/13","1000 RV",27,60,"-33",2016-07-09,"Trump",-37.9310344827586,-33
+"1213","CBS News/NY TimesCBS News/NY Times","7/8 - 7/12","1358 RV",30,54,"-24",2016-07-08,"Trump",-28.5714285714286,-24
+"1313","Economist/YouGovEconomist/YouGov","7/9 - 7/11","1300 A",33,64,"-31",2016-07-09,"Trump",-31.9587628865979,-31
+"1410","Associated Press-GfKAssociated Press-GfK","7/7 - 7/11","1009 A",31,63,"-32",2016-07-07,"Trump",-34.0425531914894,-32
+"156","McClatchy/MaristMcClatchy/Marist","7/5 - 7/9","1053 RV",32,63,"-31",2016-07-05,"Trump",-32.6315789473684,-31
+"166","Reuters/IpsosReuters/Ipsos","7/2 - 7/6","1543 A",41,59,"-18",2016-07-02,"Trump",-18,-18
+"176","Economist/YouGovEconomist/YouGov","7/2 - 7/4","1300 A",32,65,"-33",2016-07-02,"Trump",-34.020618556701,-33
+"186","USA Today/SuffolkUSA Today/Suffolk","6/26 - 6/29","1000 LV",31,60,"-29",2016-06-26,"Trump",-31.8681318681319,-29
+"196","PPP (D)PPP (D)","6/27 - 6/28","947 RV",35,58,"-23",2016-06-27,"Trump",-24.7311827956989,-23
+"206","Reuters/IpsosReuters/Ipsos","6/25 - 6/29","1543 A",39,61,"-22",2016-06-25,"Trump",-22,-22
+"2110","IBD/TIPPIBD/TIPP","6/24 - 6/29","837 RV",36,62,"-26",2016-06-24,"Trump",-26.530612244898,-26
+"226","Economist/YouGovEconomist/YouGov","6/24 - 6/27","1288 RV",33,66,"-33",2016-06-24,"Trump",-33.3333333333333,-33
+"236","QuinnipiacQuinnipiac","6/21 - 6/27","1610 RV",34,57,"-23",2016-06-21,"Trump",-25.2747252747253,-23
+"246","NBC News/Wall St. JrnlNBC News/Wall St. Jrnl","6/19 - 6/23","1000 RV",29,60,"-31",2016-06-19,"Trump",-34.8314606741573,-31
+"256","Reuters/IpsosReuters/Ipsos","6/18 - 6/22","1585 A",42,58,"-16",2016-06-18,"Trump",-16,-16
+"266","Economist/YouGovEconomist/YouGov","6/18 - 6/20","1293 A",35,61,"-26",2016-06-18,"Trump",-27.0833333333333,-26
+"276","CNN/ORCCNN/ORC","6/16 - 6/19","891 RV",40,59,"-19",2016-06-16,"Trump",-19.1919191919192,-19
+"286","MonmouthMonmouth","6/15 - 6/19","803 RV",28,57,"-29",2016-06-15,"Trump",-34.1176470588235,-29
+"296","GallupGallup","6/13 - 6/19","3560 A",31,64,"-33",2016-06-13,"Trump",-34.7368421052632,-33
+"306","Reuters/IpsosReuters/Ipsos","6/11 - 6/15","1323 RV",41,59,"-18",2016-06-11,"Trump",-18,-18
+"3110","Rasmussen ReportsRasmussen Reports","6/12 - 6/13","1000 LV",37,61,"-24",2016-06-12,"Trump",-24.4897959183673,-24
+"326","BloombergBloomberg","6/10 - 6/13","1000 A",31,66,"-35",2016-06-10,"Trump",-36.0824742268041,-35
+"336","CBS NewsCBS News","6/9 - 6/13","1048 RV",26,58,"-32",2016-06-09,"Trump",-38.0952380952381,-32
+"346","ABC News/Wash PostABC News/Wash Post","6/8 - 6/12","RV",31,69,"-38",2016-06-08,"Trump",-38,-38
+"356","FOX NewsFOX News","6/5 - 6/8","1004 RV",40,58,"-18",2016-06-05,"Trump",-18.3673469387755,-18
+"366","Economist/YouGovEconomist/YouGov","6/2 - 6/5","2000 A",36,61,"-25",2016-06-02,"Trump",-25.7731958762887,-25
+"376","IBD/TIPPIBD/TIPP","5/31 - 6/5","908 A",35,63,"-28",2016-05-31,"Trump",-28.5714285714286,-28
+"386","QuinnipiacQuinnipiac","5/24 - 5/30","1561 RV",34,59,"-25",2016-05-24,"Trump",-26.8817204301075,-25
+"396","Economist/YouGovEconomist/YouGov","5/20 - 5/23","2000 RV",36,61,"-25",2016-05-20,"Trump",-25.7731958762887,-25
+"406","ABC News/Wash PostABC News/Wash Post","5/16 - 5/19","829 RV",40,57,"-17",2016-05-16,"Trump",-17.5257731958763,-17
+"4110","NBC News/Wall St. JrnlNBC News/Wall St. Jrnl","5/15 - 5/19","1000 RV",29,58,"-29",2016-05-15,"Trump",-33.3333333333333,-29
+"426","FOX NewsFOX News","5/14 - 5/17","1021 RV",41,56,"-15",2016-05-14,"Trump",-15.4639175257732,-15
+"436","CBS News/NY TimesCBS News/NY Times","5/13 - 5/17","1109 RV",26,55,"-29",2016-05-13,"Trump",-35.8024691358025,-29
+"446","GallupGallup","5/1 - 5/22","10598 A",33,60,"-27",2016-05-01,"Trump",-29.0322580645161,-27
+"456","PPP (D)PPP (D)","5/6 - 5/9","1222 RV",34,61,"-27",2016-05-06,"Trump",-28.4210526315789,-27
+"466","Economist/YouGovEconomist/YouGov","5/6 - 5/8","2000 A",35,61,"-26",2016-05-06,"Trump",-27.0833333333333,-26
+"476","CNN/ORCCNN/ORC","4/28 - 5/1","1001 A",39,57,"-18",2016-04-28,"Trump",-18.75,-18
+"486","IBD/TIPPIBD/TIPP","4/22 - 4/28","903 A",36,62,"-26",2016-04-22,"Trump",-26.530612244898,-26
+"496","The Economist/YouGovThe Economist/YouGov","4/22 - 4/26","2000 A",33,63,"-30",2016-04-22,"Trump",-31.25,-30
+"506","USA Today/SuffolkUSA Today/Suffolk","4/20 - 4/24","1000 LV",28,61,"-33",2016-04-20,"Trump",-37.0786516853933,-33
+"5110","GWU/BattlegroundGWU/Battleground","4/17 - 4/20","1000 LV",32,65,"-33",2016-04-17,"Trump",-34.020618556701,-33
+"526","NBC News/Wall St. JrnlNBC News/Wall St. Jrnl","4/10 - 4/14","1000 RV",24,65,"-41",2016-04-10,"Trump",-46.0674157303371,-41
+"536","CBS NewsCBS News","4/8 - 4/12","1098 RV",25,63,"-38",2016-04-08,"Trump",-43.1818181818182,-38
+"546","The Economist/YouGovThe Economist/YouGov","4/8 - 4/11","2000 A",34,63,"-29",2016-04-08,"Trump",-29.8969072164948,-29
+"556","ABC News/Wash PostABC News/Wash Post","4/6 - 4/10","1010 A",31,67,"-36",2016-04-06,"Trump",-36.734693877551,-36
+"566","Associated Press-GfKAssociated Press-GfK","3/31 - 4/4","1076 A",26,69,"-43",2016-03-31,"Trump",-45.2631578947368,-43
+"576","The Atlantic/PRRIThe Atlantic/PRRI","3/30 - 4/3","2033 A",24,70,"-46",2016-03-30,"Trump",-48.936170212766,-46
+"586","The Economist/YouGovThe Economist/YouGov","3/26 - 3/29","2000 A",35,62,"-27",2016-03-26,"Trump",-27.8350515463918,-27
+"596","PPP (D)PPP (D)","3/24 - 3/26","1083 RV",29,63,"-34",2016-03-24,"Trump",-36.9565217391304,-34
+"606","FOX NewsFOX News","3/20 - 3/22","1016 RV",31,65,"-34",2016-03-20,"Trump",-35.4166666666667,-34
+"6110","BloombergBloomberg","3/19 - 3/22","1000 A",29,68,"-39",2016-03-19,"Trump",-40.2061855670103,-39
+"626","QuinnipiacQuinnipiac","3/16 - 3/21","1451 RV",33,61,"-28",2016-03-16,"Trump",-29.7872340425532,-28
+"636","CBS News/NY TimesCBS News/NY Times","3/17 - 3/20","1252 A",24,57,"-33",2016-03-17,"Trump",-40.7407407407407,-33
+"646","CNN/ORCCNN/ORC","3/17 - 3/20","1001 A",31,67,"-36",2016-03-17,"Trump",-36.734693877551,-36
+"655","MonmouthMonmouth","3/17 - 3/20","848 RV",30,60,"-30",2016-03-17,"Trump",-33.3333333333333,-30
+"665","The Economist/YouGovThe Economist/YouGov","3/10 - 3/12","2000 A",36,61,"-25",2016-03-10,"Trump",-25.7731958762887,-25
+"675","ABC News/Wash PostABC News/Wash Post","3/3 - 3/6","1000 A",30,67,"-37",2016-03-03,"Trump",-38.1443298969072,-37
+"685","GallupGallup","2/26 - 3/3","A",30,63,"-33",2016-02-26,"Trump",-35.4838709677419,-33
+"695","CNN/ORCCNN/ORC","2/24 - 2/27","920 RV",37,60,"-23",2016-02-24,"Trump",-23.7113402061856,-23
+"705","The Economist/YouGovThe Economist/YouGov","2/24 - 2/27","2000 A",36,59,"-23",2016-02-24,"Trump",-24.2105263157895,-23
+"719","NBC News/Wall St. JrnlNBC News/Wall St. Jrnl","2/14 - 2/16","800 RV",28,59,"-31",2016-02-14,"Trump",-35.632183908046,-31
+"724","Associated Press-GfKAssociated Press-GfK","2/11 - 2/15","1033 A",32,58,"-26",2016-02-11,"Trump",-28.8888888888889,-26
+"734","QuinnipiacQuinnipiac","2/10 - 2/15","1342 RV",37,57,"-20",2016-02-10,"Trump",-21.2765957446809,-20
+"744","PPP (D)PPP (D)","2/2 - 2/3","1236 RV",30,63,"-33",2016-02-02,"Trump",-35.4838709677419,-33
+"753","The Economist/YouGovThe Economist/YouGov","2/11 - 2/15","2000 A",38,57,"-19",2016-02-11,"Trump",-20,-19
+"763","The Economist/YouGovThe Economist/YouGov","1/27 - 1/30","2000 A",36,58,"-22",2016-01-27,"Trump",-23.4042553191489,-22
+"773","ABC News/Wash PostABC News/Wash Post","1/6 - 1/10","1000 A",35,62,"-27",2016-01-06,"Trump",-27.8350515463918,-27
+"783","The Economist/YouGovThe Economist/YouGov","12/30 - 1/6","2000 A",39,54,"-15",2015-12-31,"Trump",-16.1290322580645,-15
+"793","The Economist/YouGovThe Economist/YouGov","12/18 - 12/21","2000 A",38,56,"-18",2015-12-19,"Trump",-19.1489361702128,-18
+"803","QuinnipiacQuinnipiac","12/16 - 12/20","1140 RV",33,59,"-26",2015-12-17,"Trump",-28.2608695652174,-26
+"818","PPP (D)PPP (D)","12/16 - 12/17","1267 RV",35,56,"-21",2015-12-17,"Trump",-23.0769230769231,-21
+"823","The Economist/YouGovThe Economist/YouGov","12/4 - 12/9","2000 A",39,55,"-16",2015-12-05,"Trump",-17.0212765957447,-16
+"833","Associated Press-GfKAssociated Press-GfK","12/3 - 12/7","1007 A",30,58,"-28",2015-12-04,"Trump",-31.8181818181818,-28
+"843","QuinnipiacQuinnipiac","11/23 - 11/30","1473 RV",35,57,"-22",2015-11-24,"Trump",-23.9130434782609,-22
+"853","The Economist/YouGovThe Economist/YouGov","11/19 - 11/23","2000 A",38,55,"-17",2015-11-20,"Trump",-18.2795698924731,-17
+"863","The Economist/YouGovThe Economist/YouGov","11/5 - 11/9","2000 A",38,54,"-16",2015-11-06,"Trump",-17.3913043478261,-16
+"873","ABC News/Wash PostABC News/Wash Post","11/4 - 11/8","1023 A",38,59,"-21",2015-11-05,"Trump",-21.6494845360825,-21
+"883","The Economist/YouGovThe Economist/YouGov","10/23 - 10/27","2000 A",37,56,"-19",2015-10-24,"Trump",-20.4301075268817,-19
+"893","Associated Press-GfKAssociated Press-GfK","10/15 - 10/19","1027 A",31,57,"-26",2015-10-16,"Trump",-29.5454545454545,-26
+"902","MonmouthMonmouth","10/15 - 10/18","836 RV",32,50,"-18",2015-10-16,"Trump",-21.9512195121951,-18
+"915","The Economist/YouGovThe Economist/YouGov","10/8 - 10/12","2000 A",38,55,"-17",2015-10-09,"Trump",-18.2795698924731,-17
+"923","ABC News/Wash PostABC News/Wash Post","9/23 - 9/27","1000 A",35,60,"-25",2015-09-24,"Trump",-26.3157894736842,-25
+"933","FOX NewsFOX News","9/20 - 9/22","1013 RV",34,59,"-25",2015-09-21,"Trump",-26.8817204301075,-25
+"941","BloombergBloomberg","9/18 - 9/21","1001 A",31,61,"-30",2015-09-19,"Trump",-32.6086956521739,-30
+"951","QuinnipiacQuinnipiac","9/17 - 9/21","1574 RV",36,57,"-21",2015-09-18,"Trump",-22.5806451612903,-21
+"961","The Economist/YouGovThe Economist/YouGov","9/11 - 9/15","2000 A",39,53,"-14",2015-09-12,"Trump",-15.2173913043478,-14
+"971","The Economist/YouGovThe Economist/YouGov","8/28 - 9/1","2000 A",39,54,"-15",2015-08-29,"Trump",-16.1290322580645,-15
+"981","ABC News/Wash PostABC News/Wash Post","8/26 - 8/30","1005 A",37,59,"-22",2015-08-27,"Trump",-22.9166666666667,-22
+"991","The Economist/YouGovThe Economist/YouGov","8/14 - 8/18","2000 A",38,54,"-16",2015-08-15,"Trump",-17.3913043478261,-16
+"1001","The Economist/YouGovThe Economist/YouGov","7/18 - 7/20","1000 A",33,60,"-27",2015-07-19,"Trump",-29.0322580645161,-27
+"1014","Associated Press-GfKAssociated Press-GfK","7/9 - 7/13","1004 A",28,58,"-30",2015-07-10,"Trump",-34.8837209302326,-30
+"1022","ABC News/Wash PostABC News/Wash Post","7/8 - 7/12","1011 A",33,61,"-28",2015-07-09,"Trump",-29.7872340425532,-28
+"1032","The Economist/YouGovThe Economist/YouGov","7/4 - 7/6","1000  A",34,58,"-24",2015-07-05,"Trump",-26.0869565217391,-24
+"1041","The Economist/YouGovThe Economist/YouGov","6/27 - 6/29","1000 A",30,60,"-30",2015-06-28,"Trump",-33.3333333333333,-30
+"1051","The Economist/YouGovThe Economist/YouGov","6/20 - 6/22","1000 A",32,60,"-28",2015-06-21,"Trump",-30.4347826086957,-28
+"1061","MonmouthMonmouth","6/11 - 6/14","829 RV",18,57,"-39",2015-06-12,"Trump",-52,-39
+"1071","The Economist/YouGovThe Economist/YouGov","6/13 - 6/15","1000 A",26,60,"-34",2015-06-14,"Trump",-39.5348837209302,-34
+"1081","QuinnipiacQuinnipiac","5/19 - 5/26","1711 RV",20,69,"-49",2015-05-20,"Trump",-55.0561797752809,-49
