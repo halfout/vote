@@ -1,0 +1,200 @@
+<html>
+
+<head>
+<title>US Senate 2016 - First-Rank Voting Skews The Election</title>
+</head>
+
+<body>
+
+
+<!--begin.rcode, echo=F, message=F
+require(ggplot2)
+require(ggthemes)
+require(Cairo)
+
+a=read.csv("input_favor.csv")
+b=read.csv("input_versus.csv")
+
+mp = function(i) {
+
+  a$votes = a$Favorable
+  b$race = paste("match:",b$versus,"    voters:",b$field,sep="")
+
+  b1 = b[b$poll_id %in% i,c("poll_date","state","votes","candidate","party","race")]
+  a1 = a[a$poll_id %in% i & a$field == "all",c("poll_date","state","votes","candidate","party","not.sure")]
+
+  b1$type = "first rank"
+  b1$not.sure=0
+
+  if(nrow(a1)==0) { # no approval poll to go with the first-rank poll
+    d = b1
+  } else {
+    a1$type = "approval"
+    a1$race = "approval"
+    d = rbind(a1,b1)
+  }
+  if (0){
+    # sort by party (and then maybe votes)
+    e=unique(d[,c("candidate", "party")])
+    #http://stackoverflow.com/questions/9944816/unique-on-a-dataframe-with-only-selected-columns
+    f=unique(e[with(e, order(party,candidate)), "candidate"])
+    f=unique(d[with(d, order(party,-votes,candidate)), "candidate"])
+    # move not sure to the end
+    ns = c("not sure - D","not sure - R")
+    x <- setdiff(f, ns)
+    x <- append(x, values = ns)
+    f=x
+    d$candidate = factor(d$candidate, levels = f)
+  } else {
+    if (0) { # <>
+      oldd=d
+      d = d[-which(d$candidate=="not sure"),]
+    }
+    d$candidate = paste( d$candidate, d$party, sep = " - ")
+    if (1) {# customize
+      if(9 %in% i) {
+        f=unique(d[with(d, order(-votes,candidate)), "candidate"])
+      } else {
+        f=unique(d[with(d, order(party,-votes,candidate)), "candidate"])
+      }
+    }
+    if (0) {
+      ns = c("not sure - D","not sure - R")
+      x <- setdiff(f, ns)
+      x <- append(x, values = ns)
+      f=x
+    }
+    if (1) {
+      ns = c("not sure - A")
+      x <- setdiff(f, ns)
+      x <- append(x, values = ns)
+      f=x
+    }
+    d$candidate = factor(d$candidate, levels = f)
+  }
+
+  if (1) { # make R red, D blue
+    g = unique(d$party)
+    nl = length(g)
+    if (nl==2) g = c("R","D")
+    else if (nl==3) g = c("R","A","D")
+    else if (nl==4) g = c("R","A","D","I")
+    else if (nl>4) {
+      g = setdiff(g, "R")
+      g = append("R",g)
+      g = setdiff(g, "D")
+      if(nl>3)
+      {
+        g = append(g,"D",after=nl-2)
+      } else {
+        g = append(g,"D",after=nl-1)
+      }
+    }
+    d$party = factor(d$party, levels = g)
+  } else {
+    d$party = factor(d$party, levels = sort(levels(d$party),decreasing=T))
+  }
+
+  mtemp = min(which(b$poll_id %in% i))
+
+  if (1) {
+    title1 = b[mtemp,"state"]
+    upol = unique(d$poll_date)
+    for(pol in upol){
+      title1 = paste(title1,pol,sep=' - ')
+    }
+
+  } else {
+    title1 = paste(b[mtemp,"state"],b[mtemp,"poll_date"],sep = " - ")
+
+    if (length(i) > 1) {
+      title1 = paste(title1," and more dates")
+    }
+  }
+  ggplot(d, aes(x=candidate,y=votes,fill=party))+geom_bar(stat="identity",position="dodge") + facet_wrap(~ race) + theme_igray(base_size=15) + theme(axis.text.x = element_text(angle = 60, hjust = 1)) + labs(title = title1) + ylab("Votes %") + xlab("")
+  #+ geom_errorbar(aes(ymin = votes, ymax = votes + not.sure))
+  # old way #  + facet_wrap(~ type + race)
+  # <> "not sure" bar is optional
+}
+
+end.rcode-->
+
+<p>I'm looking at whether Americans like their candidates.</p>
+
+<p>data - input_favor.csv -  <a href=http://pastebin.com/03EsT6cgdata>link</a></p>
+<p>data - input_versus.csv - <a href=http://pastebin.com/4BUHKpTD>link</a></p>
+<p>code - senate_favor_versus.R - <a href=http://pastebin.com/aUQQsuvf>link</a></p>
+<p>In all of these states, there is a huge barrier to entry, and candidates are stuck at single digit poll numbers.</p>
+
+<p>It was difficult to find this data, but much of it came through realclearpolitics.com.  Not many polls ask the question, "Do you have a favorable or unfavorable opinion about <this candidate>?"</p>
+
+<p>The Senate is elected using only the voters' first-ranked choice.  There is some incremental progress in California and Washington.  Both use a system called a top-two runoff.  *All* americans can vote for their first-ranked choice.  But still, they only choose *one*.  They cannot give their opinion on *all* the candidates.</p>
+
+<p>Really, the Senate race is the sideshow.  The presidential race is screwed up in the same way.</p>
+<p><a href=http://imgur.com/a/14dQ7>link</a></p>
+
+
+
+<!--begin.rcode, echo=F, fig.width=1.5*4.5, fig.height=1.5*3, dev='CairoSVG'
+mp(3)
+end.rcode-->
+<p>California Polling 2 1/2 Months Prior  - Shows Skew</p>
+<p>California is interesting.  In California, we see that there was more support for the less popular candidates than the first-rank polls show.  Approval polls show they have double the amount of support than the first-rank polls show.  This skew happens because there is vote splitting.  The lead of the strongest candidate gets exaggerated.  It is very discouraging for someone to seem to only get 2% in the polls.  Really 10% of the state like them, and they should stay in the race and not get discouraged.</p>
+
+<!--begin.rcode, echo=F, fig.width=1.5*6, fig.height=1.5*4, dev='CairoSVG'
+mp(11)
+end.rcode-->
+<p>Official Results Show More Skew</p>
+<p>The primary results allow us to see the numbers for all the candidates running in California.  There were 34 in total.  Notice the greater skew for democrats rather than republicans.  I would guess that republicans knew they wouldn't have a chance so they didn't need to consider whether their candidate really could win or not.  Democrats, on the other hand, likely stuck to the established candidates so that their votes could make a difference.</p>
+
+<!--begin.rcode, echo=F, fig.width=1.5*5.5, fig.height=1.5*4, dev='CairoSVG'
+mp(9)
+end.rcode-->
+<p>Louisiana Shows Skew in Jungle Primary</p>
+<p>Louisiana is like California.  There is a skew in the first-rank polls.  It is even worse, with candidates that are 25% favorable receiving only 10% support.  And the independent candidate is 22% approved but only 2% first-ranked.</p>
+
+<!--begin.rcode, echo=F, fig.width=1.5*5, fig.height=1.5*4.5, dev='CairoSVG'
+mp(c(10,12))
+end.rcode-->
+<p>Pennsylvania Upset</p>
+<p>Pennsylvania is a surprise.  Approval polls showed McGinty was less well known.  Head-to-head matchups showed McGinty worse than Sestak against Toomey.  Sestak should have won.  However, the vote was split with Fetterman and Vodvarka taking 25%, and McGinty won.  Now, she'll have Well, she'll probably lose to Toomey, but this is interesting.</p>
+
+<p>Of course, with just one poll, the margin of error is wide enough that this might not be a surprise.  Additionally, this counts all the democratic candidates but not all the candidates that will be in the general election, such as independents.</p>
+
+<p>The rest of the states below don't show anything near as interesting as these 3, but in all these states, if a candidate was not running because he did not want to split the vote, then the election would have changed.</p>
+
+<!--begin.rcode, echo=F, fig.width=1.5*6, fig.height=1.5*4.5, dev='CairoSVG'
+mp(1)
+end.rcode-->
+<p>Ohio - Simple</p>
+<p>Ohio is straightforward.  For the democrats, Strickland's lead over Sittenfield is exaggerated by first-rank polls in comparison to approval polls.  These were the only 5 R's and D's running.</p>
+
+<!--begin.rcode, echo=F, fig.width=1.5*6, fig.height=1.5*3, dev='CairoSVG'
+mp(2)
+end.rcode-->
+<p>New Hampshire = Ohio (Simple)</p>
+<p>New Hampshire is like Ohio, but we don't have as much data, so it is not interesting.  We don't any data on the lesser known candidates.</p>
+
+<!--begin.rcode, echo=F, fig.width=1.5*6, fig.height=1.5*3, dev='CairoSVG'
+mp(c(4,5))
+end.rcode-->
+<p>Florida is Straight-Ticket</p>
+<p>In Florida, voter's don't know either democrat very well, but faced with a choice between democrat and republican, the top democrat gets a lot of support.</p>
+
+<!--begin.rcode, echo=F, fig.width=1.5*6, fig.height=1.5*4.5, dev='CairoSVG'
+mp(6)
+end.rcode-->
+<p>Arizona is Divided on John McCain</p>
+<p>Arizona is like Florida except there is a rift inside the republican party.  In Arizona, voters don't know Ward as well as McCain, but faced with a choice between the two, half of them just want to *avoid* McCain.</p>
+
+<p>We can't see skew because we don't even have approval polls to compare to for the lesser known Republicans.  For sure, they are dividing up those single digit polls.</p>
+
+<!--begin.rcode, echo=F, fig.width=1.5*5, fig.height=1.5*4.5, dev='CairoSVG'
+mp(c(7,8))
+end.rcode-->
+<p>Maryland is Democrat (Easy)</p>
+<p>In Maryland, it's fairly straightforward.  As with all the states, we don't have enough data on the lesser known candidates to see their support.</p>
+
+
+</body>
+</html>

@@ -1,0 +1,134 @@
+<html>
+
+<head>
+<style type="text/css">
+.knitr .inline {
+  background-color: #f7f7f7;
+  border:solid 1px #B0B0B0;
+}
+.error {
+	font-weight: bold;
+	color: #FF0000;
+}
+.warning {
+	font-weight: bold;
+}
+.message {
+	font-style: italic;
+}
+.source, .output, .warning, .error, .message {
+	padding: 0 1em;
+  border:solid 1px #F7F7F7;
+}
+.source {
+  background-color: #f5f5f5;
+}
+.rimage .left {
+  text-align: left;
+}
+.rimage .right {
+  text-align: right;
+}
+.rimage .center {
+  text-align: center;
+}
+.hl.num {
+  color: #AF0F91;
+}
+.hl.str {
+  color: #317ECC;
+}
+.hl.com {
+  color: #AD95AF;
+  font-style: italic;
+}
+.hl.opt {
+  color: #000000;
+}
+.hl.std {
+  color: #585858;
+}
+.hl.kwa {
+  color: #295F94;
+  font-weight: bold;
+}
+.hl.kwb {
+  color: #B05A65;
+}
+.hl.kwc {
+  color: #55aa55;
+}
+.hl.kwd {
+  color: #BC5A65;
+  font-weight: bold;
+}
+</style>
+<title>US Senate 2016 - First-Rank Voting Skews The Election</title>
+</head>
+
+<body>
+
+
+
+
+<p>I'm looking at whether Americans like their candidates.</p>
+
+<p>data - input_favor.csv -  <a href=http://pastebin.com/03EsT6cgdata>link</a></p>
+<p>data - input_versus.csv - <a href=http://pastebin.com/4BUHKpTD>link</a></p>
+<p>code - senate_favor_versus.R - <a href=http://pastebin.com/aUQQsuvf>link</a></p>
+<p>In all of these states, there is a huge barrier to entry, and candidates are stuck at single digit poll numbers.</p>
+
+<p>It was difficult to find this data, but much of it came through realclearpolitics.com.  Not many polls ask the question, "Do you have a favorable or unfavorable opinion about <this candidate>?"</p>
+
+<p>The Senate is elected using only the voters' first-ranked choice.  There is some incremental progress in California and Washington.  Both use a system called a top-two runoff.  *All* americans can vote for their first-ranked choice.  But still, they only choose *one*.  They cannot give their opinion on *all* the candidates.</p>
+
+<p>Really, the Senate race is the sideshow.  The presidential race is screwed up in the same way.</p>
+<p><a href=http://imgur.com/a/14dQ7>link</a></p>
+
+
+
+<div class="chunk" id="unnamed-chunk-2"><div class="rimage default"><img src="figure/unnamed-chunk-2-1.svg" title="plot of chunk unnamed-chunk-2" alt="plot of chunk unnamed-chunk-2" class="plot" /></div></div>
+<p>California Polling 2 1/2 Months Prior  - Shows Skew</p>
+<p>California is interesting.  In California, we see that there was more support for the less popular candidates than the first-rank polls show.  Approval polls show they have double the amount of support than the first-rank polls show.  This skew happens because there is vote splitting.  The lead of the strongest candidate gets exaggerated.  It is very discouraging for someone to seem to only get 2% in the polls.  Really 10% of the state like them, and they should stay in the race and not get discouraged.</p>
+
+<div class="chunk" id="unnamed-chunk-3"><div class="rimage default"><img src="figure/unnamed-chunk-3-1.svg" title="plot of chunk unnamed-chunk-3" alt="plot of chunk unnamed-chunk-3" class="plot" /></div></div>
+<p>Official Results Show More Skew</p>
+<p>The primary results allow us to see the numbers for all the candidates running in California.  There were 34 in total.  Notice the greater skew for democrats rather than republicans.  I would guess that republicans knew they wouldn't have a chance so they didn't need to consider whether their candidate really could win or not.  Democrats, on the other hand, likely stuck to the established candidates so that their votes could make a difference.</p>
+
+<div class="chunk" id="unnamed-chunk-4"><div class="rimage default"><img src="figure/unnamed-chunk-4-1.svg" title="plot of chunk unnamed-chunk-4" alt="plot of chunk unnamed-chunk-4" class="plot" /></div></div>
+<p>Louisiana Shows Skew in Jungle Primary</p>
+<p>Louisiana is like California.  There is a skew in the first-rank polls.  It is even worse, with candidates that are 25% favorable receiving only 10% support.  And the independent candidate is 22% approved but only 2% first-ranked.</p>
+
+<div class="chunk" id="unnamed-chunk-5"><div class="rimage default"><img src="figure/unnamed-chunk-5-1.svg" title="plot of chunk unnamed-chunk-5" alt="plot of chunk unnamed-chunk-5" class="plot" /></div></div>
+<p>Pennsylvania Upset</p>
+<p>Pennsylvania is a surprise.  Approval polls showed McGinty was less well known.  Head-to-head matchups showed McGinty worse than Sestak against Toomey.  Sestak should have won.  However, the vote was split with Fetterman and Vodvarka taking 25%, and McGinty won.  Now, she'll have Well, she'll probably lose to Toomey, but this is interesting.</p>
+
+<p>Of course, with just one poll, the margin of error is wide enough that this might not be a surprise.  Additionally, this counts all the democratic candidates but not all the candidates that will be in the general election, such as independents.</p>
+
+<p>The rest of the states below don't show anything near as interesting as these 3, but in all these states, if a candidate was not running because he did not want to split the vote, then the election would have changed.</p>
+
+<div class="chunk" id="unnamed-chunk-6"><div class="rimage default"><img src="figure/unnamed-chunk-6-1.svg" title="plot of chunk unnamed-chunk-6" alt="plot of chunk unnamed-chunk-6" class="plot" /></div></div>
+<p>Ohio - Simple</p>
+<p>Ohio is straightforward.  For the democrats, Strickland's lead over Sittenfield is exaggerated by first-rank polls in comparison to approval polls.  These were the only 5 R's and D's running.</p>
+
+<div class="chunk" id="unnamed-chunk-7"><div class="rimage default"><img src="figure/unnamed-chunk-7-1.svg" title="plot of chunk unnamed-chunk-7" alt="plot of chunk unnamed-chunk-7" class="plot" /></div></div>
+<p>New Hampshire = Ohio (Simple)</p>
+<p>New Hampshire is like Ohio, but we don't have as much data, so it is not interesting.  We don't any data on the lesser known candidates.</p>
+
+<div class="chunk" id="unnamed-chunk-8"><div class="rimage default"><img src="figure/unnamed-chunk-8-1.svg" title="plot of chunk unnamed-chunk-8" alt="plot of chunk unnamed-chunk-8" class="plot" /></div></div>
+<p>Florida is Straight-Ticket</p>
+<p>In Florida, voter's don't know either democrat very well, but faced with a choice between democrat and republican, the top democrat gets a lot of support.</p>
+
+<div class="chunk" id="unnamed-chunk-9"><div class="rimage default"><img src="figure/unnamed-chunk-9-1.svg" title="plot of chunk unnamed-chunk-9" alt="plot of chunk unnamed-chunk-9" class="plot" /></div></div>
+<p>Arizona is Divided on John McCain</p>
+<p>Arizona is like Florida except there is a rift inside the republican party.  In Arizona, voters don't know Ward as well as McCain, but faced with a choice between the two, half of them just want to *avoid* McCain.</p>
+
+<p>We can't see skew because we don't even have approval polls to compare to for the lesser known Republicans.  For sure, they are dividing up those single digit polls.</p>
+
+<div class="chunk" id="unnamed-chunk-10"><div class="rimage default"><img src="figure/unnamed-chunk-10-1.svg" title="plot of chunk unnamed-chunk-10" alt="plot of chunk unnamed-chunk-10" class="plot" /></div></div>
+<p>Maryland is Democrat (Easy)</p>
+<p>In Maryland, it's fairly straightforward.  As with all the states, we don't have enough data on the lesser known candidates to see their support.</p>
+
+
+</body>
+</html>
