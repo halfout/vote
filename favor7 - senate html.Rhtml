@@ -6,6 +6,11 @@
 
 <body>
 
+<!--begin.rcode setup, include=FALSE, echo=F, message=F
+library(knitr)
+# to base64 encode images
+# opts_knit$set(upload.fun = image_uri)
+end.rcode-->
 
 <!--begin.rcode, echo=F, message=F
 require(ggplot2)
@@ -53,7 +58,9 @@ mp = function(i) {
     d$candidate = paste( d$candidate, d$party, sep = " - ")
     if (1) {# customize
       if(9 %in% i) {
-        f=unique(d[with(d, order(-votes,candidate)), "candidate"])
+        d3 = d[d$type=="approval",]
+        f=unique(d3[with(d3, order(-votes,candidate)), "candidate"])
+        
       } else {
         f=unique(d[with(d, order(party,-votes,candidate)), "candidate"])
       }
@@ -65,7 +72,7 @@ mp = function(i) {
       f=x
     }
     if (1) {
-      ns = c("not sure - A")
+      ns = c("not sure - NA")
       x <- setdiff(f, ns)
       x <- append(x, values = ns)
       f=x
@@ -75,9 +82,10 @@ mp = function(i) {
 
   if (1) { # make R red, D blue
     g = unique(d$party)
+    g = g[!is.na(g)]
     nl = length(g)
     if (nl==2) g = c("R","D")
-    else if (nl==3) g = c("R","A","D")
+    else if (nl==3) g = c("R","I","D")
     else if (nl==4) g = c("R","A","D","I")
     else if (nl>4) {
       g = setdiff(g, "R")

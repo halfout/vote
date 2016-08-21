@@ -6,7 +6,7 @@ library(ggplot2)
 library(ggthemes)
 library(reshape2)
 library(Cairo)
-library(cairoDevice)
+#library(cairoDevice)
 
 
 ng = list(
@@ -91,28 +91,31 @@ d=pa
 f = d$Votes
 d$Votes = as.numeric(levels(f))[f]
 
-# png(filename="Std_PNG_cairo.png", 
+# png(filename="Std_PNG_cairo.png",
 #     type="cairo",
-#     units="in", 
-#     width=5, 
-#     height=4, 
-#     pointsize=12, 
+#     units="in",
+#     width=5,
+#     height=4,
+#     pointsize=12,
 #     res=96)
-# my_sc_plot(data)
-# dev.off()
+svg(filename="figure/favor4-f1-partisan.svg",
+    width=5,
+    height=4,
+    pointsize=12)
 
-Cairo()
+#Cairo()
 
-par(cex=2)
-theme_set(theme_igrey(base_size = 10))
+#par(cex=2)
+#theme_set(theme_igrey(base_size = 10))
 
 d2 = d
 d2$candidate = factor(d2$candidate, levels = c("Kasich","Trump","Cruz","Sanders","Clinton"))
-qplot(as.Date(poll_date),Votes, data=d2, geom = c('point'),alpha=I(.01),colour=candidate,xlab="Date",ylab="Partisan Votes\n(realclearpolitics.com)",main="Democrats Voted for Clinton\nRepublicans Voted for Trump")+guides(colour = guide_legend(override.aes = list(size=4)))  +  geom_smooth(method='loess',lwd=I(2),span=.4,se=FALSE)+ theme_igray() + theme(axis.text.x = element_text(angle = 45, hjust = 1))
+qplot(as.Date(poll_date),Votes, data=d2, geom = c('point'),alpha=I(.01),colour=candidate,xlab="Date",ylab="Partisan Votes %\n(realclearpolitics.com)",main="Democrats Voted for Clinton\nRepublicans Voted for Trump")+guides(colour = guide_legend(override.aes = list(size=4)))  +  geom_smooth(method='loess',lwd=I(2),span=.4,se=FALSE)+ theme_igray(base_size = 15) + theme(axis.text.x = element_text(angle = 45, hjust = 1))
 
 #+ theme(plot.title = element_text(size=20, face="bold",family="Times New Roman"))
 
 
+dev.off()
 
 
 write.csv(d, file = paste(file_loc, "Poll4.csv",sep = ""),row.names=TRUE, na="") 

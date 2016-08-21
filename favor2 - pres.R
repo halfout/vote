@@ -118,7 +118,12 @@ d$Unfavorable = as.numeric(levels(f))[f]
 
 
 d$gain = (d$Favorable - d$Unfavorable)/(d$Favorable + d$Unfavorable)*100
+d$future = d$Favorable/(d$Favorable + d$Unfavorable)*100
 d$net = (d$Favorable - d$Unfavorable)
+
+
+write.csv(d, file = paste(file_loc, "Poll2.csv",sep = ""),row.names=TRUE, na="") 
+#,StringsAsFactors=F
 
 # png(filename="Std_PNG_cairo.png", 
 #     type="cairo",
@@ -130,26 +135,73 @@ d$net = (d$Favorable - d$Unfavorable)
 # my_sc_plot(data)
 # dev.off()
 
-Cairo()
+#Cairo()
 
-par(cex=2)
+#par(cex=2)
 #theme_set(theme_igrey(base_size = 10))
+
+
+
+
+svg(filename="figure/favor2-fig1-net-5.svg",
+    width=8,
+    height=5,
+    pointsize=12)
+
 d2 = d[d$candidate == "Trump" | d$candidate =="Clinton" | d$candidate =="Sanders" | d$candidate =="Kasich" | d$candidate =="Cruz",]
 #  | d$candidate =="Carson" | d$candidate =="Rubio"
-qplot(as.Date(poll_date),net, data=d2, geom = c('point','smooth'),colour=candidate,method='loess',lwd=I(2),span=.7,se=FALSE,xlab="Date",ylab="Net (Yes - No)",main="Favorability - Nationwide (realclearpolitics.com)\nPeople Like Sanders & Kasich - They Hate Clinton, Cruz, & Trump")+guides(colour = guide_legend(override.aes = list(size=4))) + theme(plot.title = element_text(size=20, face="bold",family="Times New Roman"))
+qplot(as.Date(poll_date),net, data=d2, geom = c('point'),alpha=I(.5),colour=candidate,lwd=I(2),xlab="Date",ylab="Net (Yes - No)",main="Favorability - Nationwide (realclearpolitics.com)\nPeople Like Sanders & Kasich - They Hate Clinton, Cruz, & Trump") + theme_gray(base_size=13) +guides(colour = guide_legend(override.aes = list(size=4))) + theme(plot.title = element_text(size=16, face="bold",family="Times New Roman")) +  geom_smooth(method='loess',lwd=I(2),span=.7,se=FALSE)
+#span=.7,se=FALSE,
+dev.off()
+
 
 # do plot of favorability
 
 
 #,method='loess',lwd=I(2),span=.7,se=FALSE
 #d2$candidate = factor(d2$candidate, levels = c("Sanders","Clinton","Kasich","Carson","Rubio","Trump","Cruz"))
+
+
+
+svg(filename="figure/favor2-fig1-likes-5.svg",
+    width=5,
+    height=4,
+    pointsize=12)
+
+d2 = d[d$candidate == "Trump" | d$candidate =="Clinton" | d$candidate =="Sanders" | d$candidate =="Kasich" | d$candidate =="Cruz",]
 d2$candidate = factor(d2$candidate, levels = c("Kasich","Trump","Cruz","Sanders","Clinton"))
-qplot(as.Date(poll_date),Favorable, data=d2,ylim=c(0,75),geom = c('point'),alpha=I(.01),colour=candidate,xlab="Date",ylab="Favorability Rating %\n(realclearpolitics.com)",main="America Likes Sanders and Kasich Better\nThan Clinton and Trump") +  geom_smooth(method='loess',lwd=I(2),span=.55,se=FALSE)+guides(colour = guide_legend(override.aes = list(size=4))) + theme_igray() + theme(axis.text.x = element_text(angle = 45, hjust = 1)) +  scale_x_date(limits = as.Date(c('2015-01-01','2016-06-01')))
+qplot(as.Date(d2$poll_date),Favorable, data=d2,ylim=c(0,75),geom = c('point'),alpha=I(.01),colour=candidate,xlab="Date",ylab="Favorability Rating %\n(realclearpolitics.com)",main="America Likes Sanders and Kasich Better\nThan Clinton and Trump") +  geom_smooth(method='loess',lwd=I(2),span=.55,se=FALSE)+guides(colour = guide_legend(override.aes = list(size=4))) + theme_igray() + theme(axis.text.x = element_text(angle = 45, hjust = 1)) +  scale_x_date(limits = as.Date(c('2015-01-01','2016-07-01'))) 
   #theme(plot.title = element_text(size=20, face="bold",family="Times New Roman"))
 
 
+dev.off()
 
-write.csv(d, file = paste(file_loc, "Poll.csv",sep = ""),StringsAsFactors=F,row.names=TRUE, na="") 
-#,StringsAsFactors=F
+svg(filename="figure/favor2-fig1-future-5.svg",
+    width=5,
+    height=4,
+    pointsize=12)
+
+d2 = d[d$candidate == "Trump" | d$candidate =="Clinton" | d$candidate =="Sanders" | d$candidate =="Kasich" | d$candidate =="Cruz",]
+d2$candidate = factor(d2$candidate, levels = c("Kasich","Trump","Cruz","Sanders","Clinton"))
+qplot(as.Date(d2$poll_date),future, data=d2,ylim=c(0,75),geom = c('point'),alpha=I(.01),colour=candidate,xlab="Date",ylab="Favorability Rating %\n(realclearpolitics.com)",main="America Likes Sanders and Kasich Better\nThan Clinton and Trump") +  geom_smooth(method='loess',lwd=I(2),span=.55,se=FALSE)+guides(colour = guide_legend(override.aes = list(size=4))) + theme_igray() + theme(axis.text.x = element_text(angle = 45, hjust = 1)) +  scale_x_date(limits = as.Date(c('2015-01-01','2016-07-01'))) 
+#theme(plot.title = element_text(size=20, face="bold",family="Times New Roman"))
+
+
+dev.off()
+
+svg(filename="figure/favor2-fig1-likes-7.svg",
+    width=7,
+    height=5,
+    pointsize=12)
+
+d2 = d[d$candidate == "Trump" | d$candidate =="Clinton" | d$candidate =="Sanders" | d$candidate =="Kasich" | d$candidate =="Cruz" | d$candidate =="Rubio" | d$candidate =="Carson",]
+d2$candidate = factor(d2$candidate, levels = c("Sanders","Kasich","Clinton", "Carson", "Rubio","Trump","Cruz"))
+qplot(as.Date(poll_date),Favorable, data=d2,ylim=c(0,75),geom = c('point'),alpha=I(.5),colour=candidate,xlab="Date",ylab="Favorability Rating %\n(realclearpolitics.com)",main="America Likes Sanders and Kasich Better\nThan Clinton and Trump") +  geom_smooth(method='loess',lwd=I(2),span=.7,se=FALSE)+guides(colour = guide_legend(override.aes = list(size=4))) + theme_igray() + theme(axis.text.x = element_text(angle = 45, hjust = 1)) +  scale_x_date(limits = as.Date(c('2015-01-01','2016-07-01'))) 
+#theme(plot.title = element_text(size=20, face="bold",family="Times New Roman"))
+
+
+dev.off()
+
+
 
 
