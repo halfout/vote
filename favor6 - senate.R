@@ -1,6 +1,7 @@
 
 # <> This symbol indicates places in the code to change things
 
+# current development moved to favor7
 
 require(ggplot2)
 require(ggthemes)
@@ -110,7 +111,7 @@ i=11  # <>  1 through 12, some together
     
   } else {
     title1 = paste(b[mtemp,"state"],b[mtemp,"poll_date"],sep = " - ")
-    
+      
     if (length(i) > 1) {
       title1 = paste(title1," and more dates")
     }
