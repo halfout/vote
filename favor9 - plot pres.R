@@ -34,20 +34,22 @@ g1=g
 # h is r and e
 h = with(n, n[(source == "Real Clear Politics" & type == "approval") | (source == "Huffington Post" & type == "first rank"),])
 
-
 # plots
 
-
 plot_style_1 = function (p) {
-  if (0) {
+  if (1) {
+    cols = c('#e41a1c','#377eb8','#4daf4a','#984ea3','#ff7f00','#ffff33','#a65628','#f781bf','#999999','#8dd3c7','#ffffb3','#bebada','#fb8072','#80b1d3','#fdb462','#b3de69','#fccde5','#d9d9d9','#bc80bd','#ccebc5','#ffed6f')
+    cols = cols[c(-6,-11)]
     p +
       theme_igray(base_size=13) +
       guides(colour = guide_legend(override.aes = list(size=4))) + 
       theme(panel.margin=unit(2,"lines")) +
       theme(plot.background = element_rect(fill = "beige")) + 
       theme(legend.background = element_rect(fill = "beige")) + 
-      scale_color_brewer(palette="Set1") +
-      theme(plot.title = element_text(size=16, face="bold",family="Georgia"))
+      theme(strip.background = element_rect(fill = "#EFEFCA")) + 
+      theme(panel.grid.major = element_line(colour = "beige")) +
+      scale_colour_manual(values = cols) +
+      theme(text = element_text(family="Georgia"))
   } else {
     p +
       theme_igray(base_size=13) +
@@ -56,6 +58,16 @@ plot_style_1 = function (p) {
   }
 }
 
+can7 = c("Kasich", "Carson", "Rubio", "Cruz", "Trump","Clinton","Sanders")
+can7 = c("Sanders","Clinton","Carson","Trump","Rubio","Cruz","Kasich")
+can5 = c("Sanders","Kasich","Clinton","Trump","Cruz")
+
+#scale_color_brewer(palette="Set3") +
+
+
+
+
+
 
 filename = "figure/favor5-fig1-net-5"
 svg(filename=paste0(filename,".svg"),
@@ -63,8 +75,8 @@ svg(filename=paste0(filename,".svg"),
     height=5,
     pointsize=12)
 
-can5 = c("Kasich","Trump","Cruz","Sanders","Clinton")
-can5 = c("Sanders","Kasich","Clinton","Trump","Cruz")
+#can5 = c("Kasich","Trump","Cruz","Sanders","Clinton")
+#can5 = c("Sanders","Kasich","Clinton","Trump","Cruz")
 a2 = anet[ anet$candidate %in% can5 ,]
 a2$candidate = factor(a2$candidate, levels = can5)
 a2$candidate = factor(a2$candidate, levels = can5)
@@ -79,8 +91,6 @@ p = ggplot(a2, aes(x=poll_date,y=votes, color=candidate)) +
 
 plot_style_1(p)
        
-#qplot(poll_date,net, data=a2, geom = c('point'),alpha=I(.5),colour=candidate,lwd=I(2),xlab="Date",ylab="Net (Yes - No)",main="Favorability - Nationwide (realclearpolitics.com)\nPeople Like Sanders & Kasich - They Hate Clinton, Cruz, & Trump") + theme_gray(base_size=13) +guides(colour = guide_legend(override.aes = list(size=4))) + theme(plot.title = element_text(size=16, face="bold",family="Times New Roman")) +  geom_smooth(method='loess',lwd=I(2),span=.7,se=FALSE)+  scale_x_date(limits = as.Date(c('2015-01-01','2016-06-15')),date_labels = "%b %y")  + theme(plot.background = element_rect(fill = "beige")) + theme(legend.background = element_rect(fill = "beige")) + scale_fill_brewer(palette="Dark2")
-#span=.7,se=FALSE,
 dev.off()
 rsvg_png(paste0(filename,".svg"),paste0(filename,".png"))
 
@@ -91,11 +101,6 @@ rsvg_png(paste0(filename,".svg"),paste0(filename,".png"))
 
 # do plot of favorability
 
-
-#,method='loess',lwd=I(2),span=.7,se=FALSE
-#a2$candidate = factor(a2$candidate, levels = c("Sanders","Clinton","Kasich","Carson","Rubio","Trump","Cruz"))
-
-
 filename = "figure/favor5-fig1-likes-5"
 svg(filename=paste0(filename,".svg"),
     width=5,
@@ -103,8 +108,8 @@ svg(filename=paste0(filename,".svg"),
     pointsize=12)
 
 # filter and sort
-can5 = c("Kasich","Trump","Cruz","Sanders","Clinton")
-can5 = c("Sanders","Kasich","Clinton","Trump","Cruz")
+#can5 = c("Kasich","Trump","Cruz","Sanders","Clinton")
+#can5 = c("Sanders","Kasich","Clinton","Trump","Cruz")
 a2 = a[a$candidate %in% can5,]
 a2$candidate = factor(a2$candidate, levels = can5)
 
@@ -117,10 +122,6 @@ p = ggplot(a2, aes(x=poll_date,y=votes, color=candidate)) +
         scale_x_date(limits = as.Date(c('2015-01-01','2016-06-15')),date_labels = "%b %y")
 
 plot_style_1(p)
-
-#qplot(as.Date(a2$poll_date),Favorable, data=a2,ylim=c(0,75),geom = c('point'),alpha=I(.01),colour=candidate,xlab="Date",ylab="Favorability Rating %\n(realclearpolitics.com)",main="America Likes Sanders and Kasich Better\nThan Clinton and Trump") +  geom_smooth(method='loess',lwd=I(2),span=.55,se=FALSE)+guides(colour = guide_legend(override.aes = list(size=4))) + theme_igray() +  scale_x_date(limits = as.Date(c('2015-01-01','2016-06-15')),date_labels = "%b %y")
-#theme(plot.title = element_text(size=20, face="bold",family="Times New Roman"))
-
 
 dev.off()
 rsvg_png(paste0(filename,".svg"),paste0(filename,".png"))
@@ -135,13 +136,10 @@ svg(filename=paste0(filename,".svg"),
 
 
 # filter and sort
-can5 = c("Trump","Clinton","Sanders","Kasich","Cruz")
-can5 = c("Kasich","Trump","Cruz","Sanders","Clinton")
+#can5 = c("Trump","Clinton","Sanders","Kasich","Cruz")
+#can5 = c("Kasich","Trump","Cruz","Sanders","Clinton")
 s2 = s[s$candidate %in% can5,]
 s2$candidate = factor(s2$candidate, levels = can5)
-
-
-# need to get future
 
 p = ggplot(s2, aes(x=poll_date,y=votes, color=candidate)) + 
   ylim(0,75) +
@@ -152,10 +150,6 @@ p = ggplot(s2, aes(x=poll_date,y=votes, color=candidate)) +
   scale_x_date(limits = as.Date(c('2015-01-01','2016-06-15')),date_labels = "%b %y")
 
 plot_style_1(p)
-
-#qplot(as.Date(a2$poll_date),future, data=a2,ylim=c(0,75),geom = c('point'),alpha=I(.01),colour=candidate,xlab="Date",ylab="Favorability Rating %\n(realclearpolitics.com)",main="America Likes Sanders and Kasich Better\nThan Clinton and Trump") +  geom_smooth(method='loess',lwd=I(2),span=.55,se=FALSE)+guides(colour = guide_legend(override.aes = list(size=4))) + theme_igray() +  scale_x_date(limits = as.Date(c('2015-01-01','2016-06-15')),date_labels = "%b %y")
-#theme(plot.title = element_text(size=20, face="bold",family="Times New Roman"))
-
 
 dev.off()
 rsvg_png(paste0(filename,".svg"),paste0(filename,".png"))
@@ -170,8 +164,8 @@ svg(filename=paste0(filename,".svg"),
     pointsize=12)
 
 # filter and sort
-can7 = c("Sanders","Kasich","Clinton","Carson","Rubio","Trump","Cruz")
-can7 = c("Sanders","Kasich","Clinton","Trump","Cruz","Carson","Rubio")
+#can7 = c("Sanders","Kasich","Clinton","Carson","Rubio","Trump","Cruz")
+#can7 = c("Sanders","Kasich","Clinton","Trump","Cruz","Carson","Rubio")
 a2 = a[a$candidate %in% can7,]
 a2$candidate = factor(a2$candidate, levels = can7)
 
@@ -186,11 +180,6 @@ p = ggplot(a2, aes(x=poll_date,y=votes, color=candidate)) +
 
 plot_style_1(p)
 
-#qplot(poll_date,Favorable, data=a2,ylim=c(0,75),geom = c('point'),alpha=I(.5),colour=candidate,xlab="Date",ylab="Favorability Rating %\n(realclearpolitics.com)",main="America Likes Sanders and Kasich Better\nThan Clinton and Trump") +  geom_smooth(method='loess',lwd=I(2),span=.7,se=FALSE)+guides(colour = guide_legend(override.aes = list(size=4))) + theme_igray()  +  scale_x_date(limits = as.Date(c('2015-01-01','2016-06-15')),date_labels = "%b %y")
-
-#theme(plot.title = element_text(size=20, face="bold",family="Times New Roman"))
-
-
 dev.off()
 rsvg_png(paste0(filename,".svg"),paste0(filename,".png"))
 
@@ -200,7 +189,7 @@ rsvg_png(paste0(filename,".svg"),paste0(filename,".png"))
 
 
 
-can5 = c("Kasich","Trump","Cruz","Sanders","Clinton")
+#can5 = c("Kasich","Trump","Cruz","Sanders","Clinton")
 d2 = d[d$candidate %in% can5,]
 d2$candidate = factor(d2$candidate, levels = can5)
 
@@ -220,10 +209,6 @@ p = ggplot(d2, aes(x=poll_date,y=votes, color=candidate)) +
        scale_x_date(limits = as.Date(c('2015-01-01','2016-06-15')),date_labels = "%b %y")
 
 plot_style_1(p)
-
-#qplot(as.Date(d2$poll_date),votes, data=d2,ylim=c(0,75),geom = c('point'),alpha=I(.01),colour=candidate,xlab="Date",ylab="Votes %\n(realclearpolitics.com)",main="America Likes Sanders and Kasich Better Than Clinton and Trump\nBut Democrats Voted Clinton And Republicans Voted Trump") +  geom_smooth(method='loess',lwd=I(2),span=.7,se=FALSE)+guides(colour = guide_legend(override.aes = list(size=4))) + theme_igray()  +  scale_x_date(limits = as.Date(c('2015-01-01','2016-06-15')),date_labels = "%b %y") + facet_wrap(~ type) + theme(panel.margin=unit(2,"lines"))
-
-
 dev.off()
 rsvg_png(paste0(filename,".svg"),paste0(filename,".png"))
 
@@ -234,8 +219,8 @@ rsvg_png(paste0(filename,".svg"),paste0(filename,".png"))
 #
 
 
-m2 = m[m$candidate == "Trump" | m$candidate =="Clinton" | m$candidate =="Sanders" | m$candidate =="Kasich" | m$candidate =="Cruz" | m$candidate =="Rubio" | m$candidate =="Carson",]
-m2$candidate = factor(m2$candidate, levels = c("Sanders","Kasich","Clinton", "Carson", "Rubio","Trump","Cruz"))
+m2 = m[m$candidate %in% can7,]
+m2$candidate = factor(m2$candidate, levels = can7)
 
 filename = "figure/favor5-fr-a-huff"
 svg(filename=paste0(filename,".svg"),
@@ -252,10 +237,6 @@ p = ggplot(m2, aes(x=poll_date,y=votes, color=candidate)) +
   scale_x_date(limits = as.Date(c('2015-01-01','2016-06-15')),date_labels = "%b %y")
 
 plot_style_1(p)
-
-#qplot(as.Date(m2$poll_date),votes, data=m2,ylim=c(0,75),geom = c('point'),alpha=I(.01),colour=candidate,xlab="Date",ylab="Votes %\n(Huffpo Pollster)",main="America Likes Sanders and Kasich Better Than Clinton and Trump\nBut Democrats Voted Clinton And Republicans Voted Trump") +  geom_smooth(method='loess',lwd=I(2),span=.9,se=FALSE)+guides(colour = guide_legend(override.aes = list(size=4))) + theme_igray()  +  scale_x_date(limits = as.Date(c('2015-01-01','2016-06-15')),date_labels = "%b %y") + facet_wrap(~ type) + theme(panel.margin=unit(2,"lines"))
-
-
 dev.off()
 rsvg_png(paste0(filename,".svg"),paste0(filename,".png"))
 
@@ -290,8 +271,6 @@ p = ggplot(d2, aes(x=poll_date,y=votes, color=candidate)) +
   scale_x_date(limits = as.Date(c('2015-01-01','2016-06-15')),date_labels = "%b %y")
 
 plot_style_1(p)
-
-#qplot(as.Date(d2$poll_date),votes, data=d2,ylim=c(0,75),geom = c('point'),alpha=I(.01),colour=candidate,xlab="Date",ylab="Votes %\n(realclearpolitics.com)",main="Republican Candidates Average Approval was at 27%") +  geom_smooth(method='loess',lwd=I(2),span=.7,se=FALSE)+guides(colour = guide_legend(override.aes = list(size=4))) + theme_igray()  +  scale_x_date(limits = as.Date(c('2015-01-01','2016-06-15')),date_labels = "%b %y") 
 
 dev.off()
 rsvg_png(paste0(filename,".svg"),paste0(filename,".png"))
@@ -332,8 +311,6 @@ p = ggplot(h2, aes(x=poll_date,y=votes, color=candidate)) +
   scale_x_date(limits = as.Date(c('2015-01-01','2016-06-15')),date_labels = "%b %y")
 
 plot_style_1(p)
-
-#qplot(as.Date(h2$poll_date),votes, data=h2,ylim=c(0,75),geom = c('point'),alpha=I(.01),colour=candidate,xlab="Date",ylab="Votes %\n(realclearpolitics.com)",main="Republican Candidates Median Approval was at 29%\nBut Their Median Vote was at 5%") +  geom_smooth(method='loess',lwd=I(2),span=.7,se=FALSE)+guides(colour = guide_legend(override.aes = list(size=4))) + theme_igray()  +  scale_x_date(limits = as.Date(c('2015-01-01','2016-06-15')),date_labels = "%b %y") + facet_wrap(~ type) + theme(panel.margin=unit(2,"lines"))
 
 dev.off()
 rsvg_png(paste0(filename,".svg"),paste0(filename,".png"))
@@ -377,20 +354,16 @@ p = ggplot(m2, aes(x=poll_date,y=votes, color=candidate)) +
 
 plot_style_1(p)
 
-#qplot(as.Date(m2$poll_date),votes, data=m2,ylim=c(0,75),geom = c('point'),alpha=I(.01),colour=candidate,xlab="Date",ylab="Votes %\n(realclearpolitics.com)",main="Republican Candidates Median Approval was at 28%\nBut Their Median Vote was at 5%") +  geom_smooth(method='loess',lwd=I(2),span=.7,se=FALSE)+guides(colour = guide_legend(override.aes = list(size=4))) + theme_igray()  +  scale_x_date(limits = as.Date(c('2015-01-01','2016-06-15')),date_labels = "%b %y") + facet_wrap(~ type) + theme(panel.margin=unit(2,"lines"))
-
 dev.off()
 rsvg_png(paste0(filename,".svg"),paste0(filename,".png"))
 
 
 
 
-
-
 # all (7) candidates from huffpo
 
-can = c("Kasich", "Carson", "Rubio", "Cruz", "Trump","Clinton","Sanders")
-m2 = m[m$candidate %in% can,]
+# can7 = c("Kasich", "Carson", "Rubio", "Cruz", "Trump","Clinton","Sanders")
+m2 = m[m$candidate %in% can7,]
 g2 = g1[g1$poll_date > as.Date("2015-01-01"),]
 f2 = aggregate(g2$votes, by=list(g2$candidate), FUN=mean, na.rm=T)
 f=unique(f2[with(f2, order(-x)), 1])
@@ -420,8 +393,6 @@ p = ggplot(m2, aes(x=poll_date,y=votes, color=candidate)) +
 
 plot_style_1(p)
 
-#qplot(as.Date(m2$poll_date),votes, data=m2,ylim=c(0,75),geom = c('point'),alpha=I(.01),colour=candidate,xlab="Date",ylab="Votes %\n(HuffPo Pollster)",main="temp title") +  geom_smooth(method='loess',lwd=I(2),span=.7,se=FALSE)+guides(colour = guide_legend(override.aes = list(size=4))) + theme_igray()  +  scale_x_date(limits = as.Date(c('2015-01-01','2016-06-15')),date_labels = "%b %y") + facet_wrap(~ type) + theme(panel.margin=unit(2,"lines"))
-
 
 dev.off()
 rsvg_png(paste0(filename,".svg"),paste0(filename,".png"))
@@ -447,7 +418,6 @@ if(flag.time) { # <> different time periods
 }
 
 can = c("Kasich", "Carson", "Rubio", "Cruz", "Trump","Walker","Paul","Christie","Bush","Huckabee","Santorum","Jindal","Perry","Fiorina","Gilmore","Graham","Pataki")
-#can=c("Bush","Rubio")
 m2 = m[m$candidate %in% can,]
 
 if(T) {
@@ -469,7 +439,6 @@ names(f2)[names(f2) == 'x'] = 'votes'
 
 #f2$ord = with(f2,order(type,-votes))
 
-
 f2$ranks<-with(f2, ave(votes, type, FUN=function(x) rank(-x)))
 
 f=unique(f2[with(f2, order(type,-votes)), 1])
@@ -489,8 +458,8 @@ p = ggplot(f2, aes(x=ranks,y=votes,fill=candidate))+
   ylab(ylabel)
 
 plot_style_1(p) + 
-  theme_igray(base_size=15) + 
   theme(axis.title.x=element_blank(), axis.text.x=element_blank(), axis.ticks.x=element_blank())
+#theme(base_size=15) + 
 
 dev.off()
 rsvg_png(paste0(filename,".svg"),paste0(filename,".png"))
@@ -569,12 +538,7 @@ p = ggplot(a2, aes(x=poll_date,y=votes, color=candidate)) +
   scale_x_date(limits = as.Date(c('2015-01-01','2016-06-15')),date_labels = "%b %y")
 
 plot_style_1(p)
-
-#qplot(as.Date(a2$poll_date),votes, data=a2,ylim=c(0,75),geom = c('point'),alpha=I(.01),colour=candidate,xlab="Date",ylab="Upvotes / (Upvotes+Downvotes) %\n(realclearpolitics.com)",main="America Likes Sanders and Kasich Better Than Clinton and Trump\nBut Democrats Voted Clinton And Republicans Voted Trump") +  geom_smooth(method='loess',lwd=I(2),span=.7,se=FALSE)+guides(colour = guide_legend(override.aes = list(size=4))) + theme_igray()  +  scale_x_date(limits = as.Date(c('2015-01-01','2016-06-15')),date_labels = "%b %y") 
-
-
 dev.off()
 rsvg_png(paste0(filename,".svg"),paste0(filename,".png"))
 
-# + theme(plot.background = element_rect(fill = "beige")) + family="Times"
-# + theme(text=element_text(family="Times"))
+
