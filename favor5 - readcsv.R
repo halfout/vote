@@ -117,8 +117,11 @@ dev.off()
 
 
 
-d2 = d[d$candidate == "Trump" | d$candidate =="Clinton" | d$candidate =="Sanders" | d$candidate =="Kasich" | d$candidate =="Cruz",]
-d2$candidate = factor(d2$candidate, levels = c("Kasich","Trump","Cruz","Sanders","Clinton"))
+#d2 = d[d$candidate == "Trump" | d$candidate =="Clinton" | d$candidate =="Sanders" | d$candidate =="Kasich" | d$candidate =="Cruz",]
+#d2$candidate = factor(d2$candidate, levels = c("Kasich","Trump","Cruz","Sanders","Clinton"))
+
+d2 = d[d$candidate == "Trump" | d$candidate =="Clinton" | d$candidate =="Sanders" | d$candidate =="Kasich" | d$candidate =="Cruz" | d$candidate =="Rubio" | d$candidate =="Carson",]
+d2$candidate = factor(d2$candidate, levels = c("Sanders","Kasich","Clinton", "Carson", "Rubio","Trump","Cruz"))
 
 svg(filename="figure/favor5-fr-a.svg",
     width=7,
@@ -128,6 +131,22 @@ qplot(as.Date(d2$poll_date),votes, data=d2,ylim=c(0,75),geom = c('point'),alpha=
 
 
 dev.off()
+
+#
+
+
+m2 = m[m$candidate == "Trump" | m$candidate =="Clinton" | m$candidate =="Sanders" | m$candidate =="Kasich" | m$candidate =="Cruz" | m$candidate =="Rubio" | m$candidate =="Carson",]
+m2$candidate = factor(m2$candidate, levels = c("Sanders","Kasich","Clinton", "Carson", "Rubio","Trump","Cruz"))
+
+svg(filename="figure/favor5-fr-a-huff.svg",
+    width=7,
+    height=4,
+    pointsize=12)
+qplot(as.Date(m2$poll_date),votes, data=m2,ylim=c(0,75),geom = c('point'),alpha=I(.01),colour=candidate,xlab="Date",ylab="Votes %\n(Huffpo Pollster)",main="America Likes Sanders and Kasich Better Than Clinton and Trump\nBut Democrats Voted Clinton And Republicans Voted Trump") +  geom_smooth(method='loess',lwd=I(2),span=.9,se=FALSE)+guides(colour = guide_legend(override.aes = list(size=4))) + theme_igray()  +  scale_x_date(limits = as.Date(c('2015-01-01','2016-06-15')),date_labels = "%b %y") + facet_wrap(~ type) + theme(panel.margin=unit(2,"lines"))
+
+
+dev.off()
+
 
 # all candidates
 
@@ -175,7 +194,7 @@ dev.off()
 
 
 
-# all candidates from huffpo
+# repubicans from huffpo
 
 can = c("Kasich", "Carson", "Rubio", "Cruz", "Trump","Walker","Paul","Christie","Bush","Huckabee","Santorum","Jindal","Perry","Fiorina","Gilmore","Graham","Pataki")
 m2 = m[m$candidate %in% can,]
@@ -195,9 +214,36 @@ svg(filename="figure/favor5-republicans-fr-v-approve-huff.svg",
     width=7,
     height=5,
     pointsize=12)
-qplot(as.Date(m2$poll_date),votes, data=m2,ylim=c(0,75),geom = c('point'),alpha=I(.01),colour=candidate,xlab="Date",ylab="Votes %\n(realclearpolitics.com)",main="Republican Candidates Median Approval was at 28%\nBut Their Median Vote was at 5%") +  geom_smooth(method='loess',lwd=I(2),span=.7,se=FALSE)+guides(colour = guide_legend(override.aes = list(size=4))) + theme_igray()  +  scale_x_date(limits = as.Date(c('2015-01-01','2016-06-15')),date_labels = "%b %y") + facet_wrap(~ type) + theme(panel.margin=unit(2,"lines"))
+qplot(as.Date(m2$poll_date),votes, data=m2,ylim=c(0,75),geom = c('point'),alpha=I(.01),colour=candidate,xlab="Date",ylab="Votes %\n(source: HuffPo Pollster)",main="Republican Candidates Median Approval was at 28%\nBut Their Median Vote was at 5%") +  geom_smooth(method='loess',lwd=I(2),span=.7,se=FALSE)+guides(colour = guide_legend(override.aes = list(size=4))) + theme_igray()  +  scale_x_date(limits = as.Date(c('2015-01-01','2016-06-15')),date_labels = "%b %y") + facet_wrap(~ type) + theme(panel.margin=unit(2,"lines"))
 
 dev.off()
+
+
+
+# all (7) candidates from huffpo
+
+can = c("Kasich", "Carson", "Rubio", "Cruz", "Trump","Clinton","Sanders")
+m2 = m[m$candidate %in% can,]
+g2 = g1[as.Date(g1$poll_date) > as.Date("2015-01-01"),]
+f2 = aggregate(g2$votes, by=list(g2$candidate), FUN=mean, na.rm=T)
+f=unique(f2[with(f2, order(-x)), 1])
+#f=unique(m2[with(m2, order(-votes)), "candidate"])
+#f=unique(g2[with(g2, order(-votes)), "candidate"])
+
+m2$candidate = factor(m2$candidate, levels = f)
+#mean(d2$votes,na.rm=T)
+
+median(aggregate(e1$votes, by=list(e1$candidate), FUN=mean, na.rm=T)[[2]])
+median(aggregate(g1$votes, by=list(g1$candidate), FUN=mean, na.rm=T)[[2]])
+
+svg(filename="figure/favor5-all-r-and-d-fr-v-approve-huff.svg",
+    width=7,
+    height=5,
+    pointsize=12)
+qplot(as.Date(m2$poll_date),votes, data=m2,ylim=c(0,75),geom = c('point'),alpha=I(.01),colour=candidate,xlab="Date",ylab="Votes %\n(HuffPo Pollster)",main="temp title") +  geom_smooth(method='loess',lwd=I(2),span=.7,se=FALSE)+guides(colour = guide_legend(override.aes = list(size=4))) + theme_igray()  +  scale_x_date(limits = as.Date(c('2015-01-01','2016-06-15')),date_labels = "%b %y") + facet_wrap(~ type) + theme(panel.margin=unit(2,"lines"))
+
+dev.off()
+
 
 
 

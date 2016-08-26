@@ -20,6 +20,9 @@ require(Cairo)
 a=read.csv("input_favor.csv")
 b=read.csv("input_versus.csv")
 
+d=rbind(a[,c("link","state")],b[,c("link","state")]) 
+write.csv(x=unique(d),file="sources7-senate.csv")
+
 mp = function(i) {
 
   a$votes = a$Favorable

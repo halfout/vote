@@ -27,6 +27,11 @@ np = list( list( "Sanders", "http://elections.huffingtonpost.com/pollster/bernie
 
 # webb is missing
 
+
+sources=do.call(rbind,np)
+write.csv(x = sources,file = "sources3.csv")
+
+
 lp = length(np)
 
 for(i in 1:lp){

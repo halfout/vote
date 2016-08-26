@@ -17,7 +17,6 @@ ng = list(
   list(4,4,5,"Clinton","http://www.realclearpolitics.com/epolls/other/clinton_favorableunfavorable-1131.html"),
   list(2,4,5,"Cruz","http://www.realclearpolitics.com/epolls/other/cruz_favorableunfavorable-3887.html"),
   list(4,4,5,"Trump","http://www.realclearpolitics.com/epolls/other/trump_favorableunfavorable-5493.html"),
-list(2,4,5,"Walker","http://www.realclearpolitics.com/epolls/other/walker_favorableunfavorable-3570.html"),
 list(4,4,5,"Romney","http://www.realclearpolitics.com/epolls/other/romney_favorableunfavorable-1134.html"),
 list(2,4,5,"Ryan","http://www.realclearpolitics.com/epolls/other/ryan_favorableunfavorable-3468.html"),
 list(2,4,5,"Paul","http://www.realclearpolitics.com/epolls/other/paul_favorableunfavorable-3716.html"),
@@ -33,6 +32,10 @@ list(1,4,5,"Warren","http://www.realclearpolitics.com/epolls/other/warren_favora
 list(2,4,5,"Webb","http://www.realclearpolitics.com/epolls/other/webb_favorableunfavorable-5264.html"),
 list(2,4,5,"Jindal","http://www.realclearpolitics.com/epolls/other/jindal_favorableunfavorable-3472.html"),
 list(2,4,5,"Cuomo","http://www.realclearpolitics.com/epolls/other/cuomo_favorableunfavorable-3474.html"))
+
+sources=do.call(rbind,ng)
+write.csv(x = sources,file = "sources2.csv")
+
 
 # Fiorina, Pataki, Perry
 
