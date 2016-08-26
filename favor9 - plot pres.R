@@ -34,20 +34,29 @@ g1=g
 # h is r and e
 h = with(n, n[(source == "Real Clear Politics" & type == "approval") | (source == "Huffington Post" & type == "first rank"),])
 
+
 # plots
 
 plot_style_1 = function (p) {
   if (1) {
     cols = c('#e41a1c','#377eb8','#4daf4a','#984ea3','#ff7f00','#ffff33','#a65628','#f781bf','#999999','#8dd3c7','#ffffb3','#bebada','#fb8072','#80b1d3','#fdb462','#b3de69','#fccde5','#d9d9d9','#bc80bd','#ccebc5','#ffed6f')
-    cols = cols[c(-6,-11)]
+    if (1) {
+      cols = cols[c(-6,-11)]
+    } else if (0) {
+      cols = cols[c(7:10)]
+    }
+    c1 = "beige"
+    c2 = "#EFEFCA"
+    c1 = "#F0EBDE"
+    c2 = "#E9DDB4"
     p +
       theme_igray(base_size=13) +
       guides(colour = guide_legend(override.aes = list(size=4))) + 
       theme(panel.margin=unit(2,"lines")) +
-      theme(plot.background = element_rect(fill = "beige")) + 
-      theme(legend.background = element_rect(fill = "beige")) + 
-      theme(strip.background = element_rect(fill = "#EFEFCA")) + 
-      theme(panel.grid.major = element_line(colour = "beige")) +
+      theme(plot.background = element_rect(fill = c1)) + 
+      theme(legend.background = element_rect(fill = c1)) + 
+      theme(strip.background = element_rect(fill = c2)) + 
+      theme(panel.grid.major = element_line(colour = c1)) +
       scale_colour_manual(values = cols) +
       theme(text = element_text(family="Georgia"))
   } else {
@@ -58,11 +67,12 @@ plot_style_1 = function (p) {
   }
 }
 
+#scale_color_brewer(palette="Set3") +
+
 can7 = c("Kasich", "Carson", "Rubio", "Cruz", "Trump","Clinton","Sanders")
 can7 = c("Sanders","Clinton","Carson","Trump","Rubio","Cruz","Kasich")
 can5 = c("Sanders","Kasich","Clinton","Trump","Cruz")
 
-#scale_color_brewer(palette="Set3") +
 
 
 
@@ -221,6 +231,7 @@ rsvg_png(paste0(filename,".svg"),paste0(filename,".png"))
 
 m2 = m[m$candidate %in% can7,]
 m2$candidate = factor(m2$candidate, levels = can7)
+m2 = m2[m2$type %in% c("approval","first rank"),]
 
 filename = "figure/favor5-fr-a-huff"
 svg(filename=paste0(filename,".svg"),
@@ -324,7 +335,11 @@ rsvg_png(paste0(filename,".svg"),paste0(filename,".png"))
 
 can = c("Kasich", "Carson", "Rubio", "Cruz", "Trump","Walker","Paul","Christie","Bush","Huckabee","Santorum","Jindal","Perry","Fiorina","Gilmore","Graham","Pataki")
 m2 = m[m$candidate %in% can,]
+m2 = m2[m2$type %in% c("approval","first rank"),]
+
 g2 = g1[g1$poll_date > as.Date("2015-01-01"),]
+g2 = g2[g2$type %in% c("approval","first rank"),]
+
 f2 = aggregate(g2$votes, by=list(g2$candidate), FUN=mean, na.rm=T)
 f=unique(f2[with(f2, order(-x)), 1])
 #f=unique(m2[with(m2, order(-votes)), "candidate"])
@@ -364,6 +379,8 @@ rsvg_png(paste0(filename,".svg"),paste0(filename,".png"))
 
 # can7 = c("Kasich", "Carson", "Rubio", "Cruz", "Trump","Clinton","Sanders")
 m2 = m[m$candidate %in% can7,]
+m2 = m2[m2$type %in% c("approval","first rank"),]
+
 g2 = g1[g1$poll_date > as.Date("2015-01-01"),]
 f2 = aggregate(g2$votes, by=list(g2$candidate), FUN=mean, na.rm=T)
 f=unique(f2[with(f2, order(-x)), 1])
@@ -423,6 +440,7 @@ m2 = m[m$candidate %in% can,]
 if(T) {
   g2 = g1[g1$poll_date > as.Date("2015-01-01"),]
   g2 = g2[g2$candidate %in% can,]
+  g2 = g2[g2$type %in% c("approval","first rank"),]
   f3 = aggregate(g2$votes, by=list(g2$candidate), FUN=mean, na.rm=T)
   f=unique(f3[with(f3, order(-x)), 1])
   m2$candidate = factor(m2$candidate, levels = f)
@@ -430,6 +448,7 @@ if(T) {
 
 m2 = m2[m2$poll_date > as.Date(fromDate),]  # <>
 m2 = m2[m2$poll_date < as.Date("2016-06-14"),]  # try changing this
+m2 = m2[m2$type %in% c("approval","first rank"),]
 
 f2 = aggregate(m2$votes, by=list(m2$candidate,m2$type), FUN=mean, na.rm=T)
 
@@ -444,6 +463,7 @@ f2$ranks<-with(f2, ave(votes, type, FUN=function(x) rank(-x)))
 f=unique(f2[with(f2, order(type,-votes)), 1])
 #f=unique(f2[with(f2[f2$type=="approval",], order(-votes)), 1])
 f2$candidate = factor(f2$candidate, levels = f)
+
 
 filename = fn1
 svg(filename=paste0(filename,".svg"),
@@ -540,5 +560,79 @@ p = ggplot(a2, aes(x=poll_date,y=votes, color=candidate)) +
 plot_style_1(p)
 dev.off()
 rsvg_png(paste0(filename,".svg"),paste0(filename,".png"))
+
+
+
+
+
+
+
+stack_up = c("approval","stack proportional low","stack proportional high","disapproval")
+d_stack = with(n, n[type %in% stack_up,])
+d_stack$type = factor(x=d_stack$type,levels=stack_up)
+
+d_stack = with(d_stack, d_stack[! candidate %in% c("Warren","Cuomo","Ryan"),]) 
+
+fromDate = "2016-02-01"
+ylabel = "Votes %\nAverage Over Primary Season, Feb-Jun"
+fn1 = "figure/favor5-projected approval"
+
+# make the bars
+d_stack = d_stack[d_stack$poll_date > as.Date(fromDate),] 
+d_bar = with(d_stack, aggregate(votes, by=list(candidate,type), FUN=mean, na.rm=T))
+# rename columns (cleanup)
+names(d_bar)[names(d_bar) == 'Group.1'] = 'candidate'
+names(d_bar)[names(d_bar) == 'Group.2'] = 'type'
+names(d_bar)[names(d_bar) == 'x'] = 'votes'
+
+# sort
+if (0) {
+  d_bar2=d_bar[d_bar$type=="approval",]
+  f=unique(d_bar2[with(d_bar2, order(-votes)), 1])
+} else if (0) {
+  d_bar2=d_bar[d_bar$type=="disapproval",]
+  f=unique(d_bar2[with(d_bar2, order(votes)), 1])
+} else {
+  d_bar1 = d_bar[d_bar$type=="approval" | d_bar$type=="stack proportional low",]
+  d_bar2 = with(d_bar1, aggregate(votes, by=list(candidate), FUN=sum, na.rm=T))
+  f=unique(d_bar2[with(d_bar2, order(-x)), 1])
+}
+#f=unique(d_bar[with(d_bar[d_bar$type=="approval",], order(-votes)), 1])
+d_bar$candidate = factor(d_bar$candidate, levels = f)
+
+# cols = c('#e41a1c','#377eb8','#4daf4a','#984ea3','#ff7f00','#ffff33','#a65628','#f781bf','#999999','#8dd3c7','#ffffb3','#bebada','#fb8072','#80b1d3','#fdb462','#b3de69','#fccde5','#d9d9d9','#bc80bd','#ccebc5','#ffed6f')
+# cols = cols[c(7:10)]
+# +
+#   scale_colour_manual(values = cols)
+
+cnames= c("Approval","Low","High",NA)
+levels(d_bar$type) = cnames
+
+filename = fn1
+svg(filename=paste0(filename,".svg"),
+    width=7,
+    height=5,
+    pointsize=12)
+p = ggplot(d_bar, aes(x=candidate,y=votes,fill=type))+
+  geom_bar(stat="identity",position="stack") + 
+  theme(axis.text.x = element_text(angle = 60, hjust = 1)) + 
+  labs(title = "Projected Ratio of Approval/Disapproval") + 
+  ylab(ylabel) + 
+  scale_fill_brewer(direction=-1,
+                    guide = guide_legend(reverse=T,
+                                         title = ""))
+
+
+plot_style_1(p) +
+  theme(axis.text.x = element_text(angle = 60, hjust = 1)) 
+
+dev.off()
+rsvg_png(paste0(filename,".svg"),paste0(filename,".png"))
+
+#facet_wrap(~ source) + 
+
+
+
+
 
 
