@@ -5,7 +5,7 @@
 require(ggplot2)
 require(ggthemes)
 require(Cairo)
-
+require(rsvg)
 library(extrafont)
 if (0) {
   font_import(pattern="[T/t]imes")
@@ -39,7 +39,7 @@ h = with(n, n[(source == "Real Clear Politics" & type == "approval") | (source =
 
 
 plot_style_1 = function (p) {
-  if (1) {
+  if (0) {
     p +
       theme_igray(base_size=13) +
       guides(colour = guide_legend(override.aes = list(size=4))) + 
@@ -57,8 +57,8 @@ plot_style_1 = function (p) {
 }
 
 
-
-svg(filename="figure/favor5-fig1-net-5.svg",
+filename = "figure/favor5-fig1-net-5"
+svg(filename=paste0(filename,".svg"),
     width=8,
     height=5,
     pointsize=12)
@@ -82,6 +82,7 @@ plot_style_1(p)
 #qplot(poll_date,net, data=a2, geom = c('point'),alpha=I(.5),colour=candidate,lwd=I(2),xlab="Date",ylab="Net (Yes - No)",main="Favorability - Nationwide (realclearpolitics.com)\nPeople Like Sanders & Kasich - They Hate Clinton, Cruz, & Trump") + theme_gray(base_size=13) +guides(colour = guide_legend(override.aes = list(size=4))) + theme(plot.title = element_text(size=16, face="bold",family="Times New Roman")) +  geom_smooth(method='loess',lwd=I(2),span=.7,se=FALSE)+  scale_x_date(limits = as.Date(c('2015-01-01','2016-06-15')),date_labels = "%b %y")  + theme(plot.background = element_rect(fill = "beige")) + theme(legend.background = element_rect(fill = "beige")) + scale_fill_brewer(palette="Dark2")
 #span=.7,se=FALSE,
 dev.off()
+rsvg_png(paste0(filename,".svg"),paste0(filename,".png"))
 
 
 
@@ -95,8 +96,8 @@ dev.off()
 #a2$candidate = factor(a2$candidate, levels = c("Sanders","Clinton","Kasich","Carson","Rubio","Trump","Cruz"))
 
 
-
-svg(filename="figure/favor5-fig1-likes-5.svg",
+filename = "figure/favor5-fig1-likes-5"
+svg(filename=paste0(filename,".svg"),
     width=5,
     height=4,
     pointsize=12)
@@ -122,12 +123,12 @@ plot_style_1(p)
 
 
 dev.off()
+rsvg_png(paste0(filename,".svg"),paste0(filename,".png"))
 
 
 
-
-
-svg(filename="figure/favor5-fig1-future-5.svg",
+filename = "figure/favor5-fig1-future-5"
+svg(filename=paste0(filename,".svg"),
     width=5,
     height=4,
     pointsize=12)
@@ -157,12 +158,13 @@ plot_style_1(p)
 
 
 dev.off()
+rsvg_png(paste0(filename,".svg"),paste0(filename,".png"))
 
 
 
 
-
-svg(filename="figure/favor5-fig1-likes-7.svg",
+filename = "figure/favor5-fig1-likes-7"
+svg(filename=paste0(filename,".svg"),
     width=7,
     height=5,
     pointsize=12)
@@ -190,6 +192,7 @@ plot_style_1(p)
 
 
 dev.off()
+rsvg_png(paste0(filename,".svg"),paste0(filename,".png"))
 
 
 
@@ -201,7 +204,8 @@ can5 = c("Kasich","Trump","Cruz","Sanders","Clinton")
 d2 = d[d$candidate %in% can5,]
 d2$candidate = factor(d2$candidate, levels = can5)
 
-svg(filename="figure/favor5-fr-a.svg",
+filename = "figure/favor5-fr-a"
+svg(filename=paste0(filename,".svg"),
     width=7,
     height=4,
     pointsize=12)
@@ -221,6 +225,7 @@ plot_style_1(p)
 
 
 dev.off()
+rsvg_png(paste0(filename,".svg"),paste0(filename,".png"))
 
 
 
@@ -232,7 +237,8 @@ dev.off()
 m2 = m[m$candidate == "Trump" | m$candidate =="Clinton" | m$candidate =="Sanders" | m$candidate =="Kasich" | m$candidate =="Cruz" | m$candidate =="Rubio" | m$candidate =="Carson",]
 m2$candidate = factor(m2$candidate, levels = c("Sanders","Kasich","Clinton", "Carson", "Rubio","Trump","Cruz"))
 
-svg(filename="figure/favor5-fr-a-huff.svg",
+filename = "figure/favor5-fr-a-huff"
+svg(filename=paste0(filename,".svg"),
     width=7,
     height=4,
     pointsize=12)
@@ -251,6 +257,7 @@ plot_style_1(p)
 
 
 dev.off()
+rsvg_png(paste0(filename,".svg"),paste0(filename,".png"))
 
 
 
@@ -268,7 +275,8 @@ mean(d2$votes,na.rm=T)
 
 mean(aggregate(d2$votes, by=list(d2$candidate), FUN=mean, na.rm=T)[[2]])
 
-svg(filename="figure/favor5-republicans.svg",
+filename = "figure/favor5-republicans"
+svg(filename=paste0(filename,".svg"),
     width=7,
     height=5,
     pointsize=12)
@@ -286,6 +294,7 @@ plot_style_1(p)
 #qplot(as.Date(d2$poll_date),votes, data=d2,ylim=c(0,75),geom = c('point'),alpha=I(.01),colour=candidate,xlab="Date",ylab="Votes %\n(realclearpolitics.com)",main="Republican Candidates Average Approval was at 27%") +  geom_smooth(method='loess',lwd=I(2),span=.7,se=FALSE)+guides(colour = guide_legend(override.aes = list(size=4))) + theme_igray()  +  scale_x_date(limits = as.Date(c('2015-01-01','2016-06-15')),date_labels = "%b %y") 
 
 dev.off()
+rsvg_png(paste0(filename,".svg"),paste0(filename,".png"))
 
 
 
@@ -307,7 +316,8 @@ h2$candidate = factor(h2$candidate, levels = f)
 
 median(aggregate(e$votes, by=list(e$candidate), FUN=mean, na.rm=T)[[2]])
 
-svg(filename="figure/favor5-republicans-fr-v-approve.svg",
+filename = "figure/favor5-republicans-fr-v-approve"
+svg(filename=paste0(filename,".svg"),
     width=7,
     height=5,
     pointsize=12)
@@ -326,6 +336,7 @@ plot_style_1(p)
 #qplot(as.Date(h2$poll_date),votes, data=h2,ylim=c(0,75),geom = c('point'),alpha=I(.01),colour=candidate,xlab="Date",ylab="Votes %\n(realclearpolitics.com)",main="Republican Candidates Median Approval was at 29%\nBut Their Median Vote was at 5%") +  geom_smooth(method='loess',lwd=I(2),span=.7,se=FALSE)+guides(colour = guide_legend(override.aes = list(size=4))) + theme_igray()  +  scale_x_date(limits = as.Date(c('2015-01-01','2016-06-15')),date_labels = "%b %y") + facet_wrap(~ type) + theme(panel.margin=unit(2,"lines"))
 
 dev.off()
+rsvg_png(paste0(filename,".svg"),paste0(filename,".png"))
 
 
 
@@ -348,7 +359,8 @@ m2$candidate = factor(m2$candidate, levels = f)
 median(aggregate(e1$votes, by=list(e1$candidate), FUN=mean, na.rm=T)[[2]])
 median(aggregate(g1$votes, by=list(g1$candidate), FUN=mean, na.rm=T)[[2]])
 
-svg(filename="figure/favor5-republicans-fr-v-approve-huff.svg",
+filename = "figure/favor5-republicans-fr-v-approve-huff"
+svg(filename=paste0(filename,".svg"),
     width=7,
     height=5,
     pointsize=12)
@@ -368,6 +380,7 @@ plot_style_1(p)
 #qplot(as.Date(m2$poll_date),votes, data=m2,ylim=c(0,75),geom = c('point'),alpha=I(.01),colour=candidate,xlab="Date",ylab="Votes %\n(realclearpolitics.com)",main="Republican Candidates Median Approval was at 28%\nBut Their Median Vote was at 5%") +  geom_smooth(method='loess',lwd=I(2),span=.7,se=FALSE)+guides(colour = guide_legend(override.aes = list(size=4))) + theme_igray()  +  scale_x_date(limits = as.Date(c('2015-01-01','2016-06-15')),date_labels = "%b %y") + facet_wrap(~ type) + theme(panel.margin=unit(2,"lines"))
 
 dev.off()
+rsvg_png(paste0(filename,".svg"),paste0(filename,".png"))
 
 
 
@@ -390,7 +403,8 @@ m2$candidate = factor(m2$candidate, levels = f)
 median(aggregate(e1$votes, by=list(e1$candidate), FUN=mean, na.rm=T)[[2]])
 median(aggregate(g1$votes, by=list(g1$candidate), FUN=mean, na.rm=T)[[2]])
 
-svg(filename="figure/favor5-all-r-and-d-fr-v-approve-huff.svg",
+filename = "figure/favor5-all-r-and-d-fr-v-approve-huff"
+svg(filename=paste0(filename,".svg"),
     width=7,
     height=5,
     pointsize=12)
@@ -410,6 +424,7 @@ plot_style_1(p)
 
 
 dev.off()
+rsvg_png(paste0(filename,".svg"),paste0(filename,".png"))
 
 
 
@@ -419,16 +434,16 @@ dev.off()
 
 # bar charts - involves a lot of averaging and sorting
 
-flag.time = F
+flag.time = T
 
 if(flag.time) { # <> different time periods
   fromDate = "2016-02-01"
   ylabel = "Votes %\nAverage Over Primary Season, Feb-Jun"
-  fn1 = "figure/favor5-republicans-fr-v-approve-huff-bar.svg"
+  fn1 = "figure/favor5-republicans-fr-v-approve-huff-bar"
 } else {
   fromDate = "2016-03-01"
   ylabel = "Votes %\nAverage Over Primary Season, Mar-Jun"
-  fn1 = "figure/favor5-republicans-fr-v-approve-huff-bar-mar.svg"
+  fn1 = "figure/favor5-republicans-fr-v-approve-huff-bar-mar"
 }
 
 can = c("Kasich", "Carson", "Rubio", "Cruz", "Trump","Walker","Paul","Christie","Bush","Huckabee","Santorum","Jindal","Perry","Fiorina","Gilmore","Graham","Pataki")
@@ -461,7 +476,8 @@ f=unique(f2[with(f2, order(type,-votes)), 1])
 #f=unique(f2[with(f2[f2$type=="approval",], order(-votes)), 1])
 f2$candidate = factor(f2$candidate, levels = f)
 
-svg(filename=fn1,
+filename = fn1
+svg(filename=paste0(filename,".svg"),
     width=7,
     height=5,
     pointsize=12)
@@ -477,18 +493,21 @@ plot_style_1(p) +
   theme(axis.title.x=element_blank(), axis.text.x=element_blank(), axis.ticks.x=element_blank())
 
 dev.off()
+rsvg_png(paste0(filename,".svg"),paste0(filename,".png"))
 
 
 
 # table
 if(flag.time) {
   library(gridExtra)
-  svg("figure/favor5-republicans-table.svg", height=3.5, width=3)
+  filename = "figure/favor5-republicans-table"
+  svg(paste0(filename,".svg"), height=3.5, width=3)
   f2$type <- factor(f2$type)
   f4=xtabs(round(votes,1) ~ candidate + type,f2,sparse=T)
   f4[f4 == 0] <- NA
   grid.table(f4)
   dev.off()
+  rsvg_png(paste0(filename,".svg"),paste0(filename,".png"))
 }
 
 # try another table
@@ -534,7 +553,8 @@ a2 = a[a$candidate %in% can,]
 f=unique(a2[with(a2, order(-votes)), "candidate"])
 a2$candidate = factor(a2$candidate, levels = f)
 
-svg(filename="figure/favor5-republicans-future.svg",
+filename = "figure/favor5-republicans-future"
+svg(filename=paste0(filename,".svg"),
     width=7,
     height=5,
     pointsize=12)
@@ -554,6 +574,7 @@ plot_style_1(p)
 
 
 dev.off()
+rsvg_png(paste0(filename,".svg"),paste0(filename,".png"))
 
 # + theme(plot.background = element_rect(fill = "beige")) + family="Times"
 # + theme(text=element_text(family="Times"))

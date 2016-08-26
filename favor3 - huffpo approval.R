@@ -1,5 +1,6 @@
 
 library(ggplot2)
+require(rsvg)
 
 np = list( list( "Sanders", "http://elections.huffingtonpost.com/pollster/bernie-sanders-favorable-rating.csv"),
            list( "Kasich", "http://elections.huffingtonpost.com/pollster/john-kasich-favorable-rating.csv"),
@@ -51,7 +52,8 @@ d$net = (d$Favorable - d$Unfavorable)
 #par(cex=2)
 #theme_set(theme_gray(base_size = 20))
 
-svg(filename="figure/favor3-fig1-huffpo.svg",
+filename = "figure/favor3-fig1-huffpo"
+svg(filename=paste0(filename,".svg"),
     width=7,
     height=5,
     pointsize=12)
@@ -59,6 +61,7 @@ svg(filename="figure/favor3-fig1-huffpo.svg",
 qplot(as.Date(End.Date),Favorable, data=d, geom = c('point','smooth'),colour=candidate,lwd=I(2),xlab="Date",ylab="Favorable Rating %",main="Favorability - Nationwide \n(elections.huffingtonpost.com/pollster)\nPeople Like Sanders & Kasich - But Hate Clinton & Trump")+guides(colour = guide_legend(override.aes = list(size=4))) + theme_igray(base_size=15) + theme(plot.title = element_text(size=15, face="bold",family="Times New Roman")) + geom_abline(slope=0,intercept=1) +  geom_smooth(method='loess',lwd=I(2),span=.8,se=FALSE)  #+ xlim(as.Date("2015-08-08"),as.Date("2016-08-08"))
 
 dev.off()
+rsvg_png(paste0(filename,".svg"),paste0(filename,".png"))
 
 #,method='loess',span=.8,se=FALSE
 

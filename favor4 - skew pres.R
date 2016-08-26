@@ -5,7 +5,8 @@ require(XML)
 library(ggplot2)
 library(ggthemes)
 library(reshape2)
-library(Cairo)
+require(rsvg)
+#library(Cairo)
 #library(cairoDevice)
 
 
@@ -98,7 +99,9 @@ d$Votes = as.numeric(levels(f))[f]
 #     height=4,
 #     pointsize=12,
 #     res=96)
-svg(filename="figure/favor4-f1-partisan.svg",
+
+filename = "figure/favor4-f1-partisan"
+svg(filename=paste0(filename,".svg"),
     width=5,
     height=4,
     pointsize=12)
@@ -116,6 +119,7 @@ qplot(as.Date(poll_date),Votes, data=d2, geom = c('point'),alpha=I(.01),colour=c
 
 
 dev.off()
+rsvg_png(paste0(filename,".svg"),paste0(filename,".png"))
 
 
 write.csv(d, file = paste(file_loc, "Poll4.csv",sep = ""),row.names=TRUE, na="") 

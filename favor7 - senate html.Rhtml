@@ -16,6 +16,8 @@ end.rcode-->
 require(ggplot2)
 require(ggthemes)
 require(Cairo)
+require(rsvg)
+library(tools)
 
 a=read.csv("input_favor.csv")
 b=read.csv("input_versus.csv")
@@ -122,6 +124,7 @@ mp = function(i) {
       title1 = paste(title1," and more dates")
     }
   }
+  
   ggplot(d, aes(x=candidate,y=votes,fill=party))+geom_bar(stat="identity",position="dodge") + facet_wrap(~ race) + theme_igray(base_size=15) + theme(axis.text.x = element_text(angle = 60, hjust = 1)) + labs(title = title1) + ylab("Votes %") + xlab("")
   #+ geom_errorbar(aes(ymin = votes, ymax = votes + not.sure))
   # old way #  + facet_wrap(~ type + race)
@@ -206,6 +209,15 @@ end.rcode-->
 <p>Maryland is Democrat (Easy)</p>
 <p>In Maryland, it's fairly straightforward.  As with all the states, we don't have enough data on the lesser known candidates to see their support.</p>
 
+<!--begin.rcode, echo=F, message=F
+
+
+filenames <- list.files("figure", pattern="unnamed-chunk.*.svg", full.names=TRUE)
+
+for (filename in filenames){
+  rsvg_png(filename,paste0(file_path_sans_ext(filename),".png"))
+}
+end.rcode-->
 
 </body>
 </html>
