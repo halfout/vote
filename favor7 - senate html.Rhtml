@@ -25,6 +25,50 @@ b=read.csv("input_versus.csv")
 d=rbind(a[,c("link","state")],b[,c("link","state")]) 
 write.csv(x=unique(d),file="sources7-senate.csv")
 
+
+stylefile="favor10 - style.R"
+if (file.exists(stylefile)) {
+  source(stylefile)
+} else {
+  library(extrafont)
+  if (0) {
+    font_import(pattern="[T/t]imes")
+    font_import(pattern="[G/g]eorgia")
+    fonts()
+  }
+  loadfonts(device="win")
+  
+  plot_style_1 = function (p) {
+    if (1) {
+      cols = c('#e41a1c','#377eb8','#4daf4a','#984ea3','#ff7f00','#ffff33','#a65628','#f781bf','#999999','#8dd3c7','#ffffb3','#bebada','#fb8072','#80b1d3','#fdb462','#b3de69','#fccde5','#d9d9d9','#bc80bd','#ccebc5','#ffed6f')
+      if (1) {
+        cols = cols[c(-6,-11)]
+      } else if (0) {
+        cols = cols[c(7:10)]
+      }
+      c1 = "beige"
+      c2 = "#EFEFCA"
+      c1 = "#F0EBDE"
+      c2 = "#E9DDB4"
+      p +
+        theme_igray(base_size=13) +
+        guides(colour = guide_legend(override.aes = list(size=4))) + 
+        theme(panel.margin=unit(2,"lines")) +
+        theme(plot.background = element_rect(fill = c1)) + 
+        theme(legend.background = element_rect(fill = c1)) + 
+        theme(strip.background = element_rect(fill = c2)) + 
+        theme(panel.grid.major = element_line(colour = c1)) +
+        scale_colour_manual(values = cols) +
+        theme(text = element_text(family="Georgia"))
+    } else {
+      p +
+        theme_igray(base_size=13) +
+        guides(colour = guide_legend(override.aes = list(size=4))) + 
+        theme(panel.margin=unit(2,"lines"))
+    }
+  }
+}
+
 mp = function(i) {
 
   a$votes = a$Favorable
@@ -125,7 +169,16 @@ mp = function(i) {
     }
   }
   
-  ggplot(d, aes(x=candidate,y=votes,fill=party))+geom_bar(stat="identity",position="dodge") + facet_wrap(~ race) + theme_igray(base_size=15) + theme(axis.text.x = element_text(angle = 60, hjust = 1)) + labs(title = title1) + ylab("Votes %") + xlab("")
+  plot1 = ggplot(d, aes(x=candidate,y=votes,fill=party)) + 
+    geom_bar(stat="identity",position="dodge") + 
+    facet_wrap(~ race) + 
+    theme_igray(base_size=15) + 
+    labs(title = title1) + 
+    ylab("Votes %") + 
+    xlab("")
+  plot_style_1(plot1) + 
+    theme(axis.text.x = element_text(angle = 60, hjust = 1))  + 
+    theme(panel.margin=unit(1,"lines"))
   #+ geom_errorbar(aes(ymin = votes, ymax = votes + not.sure))
   # old way #  + facet_wrap(~ type + race)
   # <> "not sure" bar is optional
@@ -149,25 +202,25 @@ end.rcode-->
 
 
 
-<!--begin.rcode, echo=F, fig.width=1.5*4.5, fig.height=1.5*3, dev='CairoSVG'
+<!--begin.rcode, echo=F, fig.width=1.5*5, fig.height=1.5*3, dev='CairoSVG'
 mp(3)
 end.rcode-->
 <p>California Polling 2 1/2 Months Prior  - Shows Skew</p>
 <p>California is interesting.  In California, we see that there was more support for the less popular candidates than the first-rank polls show.  Approval polls show they have double the amount of support than the first-rank polls show.  This skew happens because there is vote splitting.  The lead of the strongest candidate gets exaggerated.  It is very discouraging for someone to seem to only get 2% in the polls.  Really 10% of the state like them, and they should stay in the race and not get discouraged.</p>
 
-<!--begin.rcode, echo=F, fig.width=1.5*6, fig.height=1.5*4, dev='CairoSVG'
+<!--begin.rcode, echo=F, fig.width=1.5*5, fig.height=1.5*4, dev='CairoSVG'
 mp(11)
 end.rcode-->
 <p>Official Results Show More Skew</p>
 <p>The primary results allow us to see the numbers for all the candidates running in California.  There were 34 in total.  Notice the greater skew for democrats rather than republicans.  I would guess that republicans knew they wouldn't have a chance so they didn't need to consider whether their candidate really could win or not.  Democrats, on the other hand, likely stuck to the established candidates so that their votes could make a difference.</p>
 
-<!--begin.rcode, echo=F, fig.width=1.5*5.5, fig.height=1.5*4, dev='CairoSVG'
+<!--begin.rcode, echo=F, fig.width=1.5*5, fig.height=1.5*3, dev='CairoSVG'
 mp(9)
 end.rcode-->
 <p>Louisiana Shows Skew in Jungle Primary</p>
 <p>Louisiana is like California.  There is a skew in the first-rank polls.  It is even worse, with candidates that are 25% favorable receiving only 10% support.  And the independent candidate is 22% approved but only 2% first-ranked.</p>
 
-<!--begin.rcode, echo=F, fig.width=1.5*5, fig.height=1.5*4.5, dev='CairoSVG'
+<!--begin.rcode, echo=F, fig.width=1.5*4, fig.height=1.5*4, dev='CairoSVG'
 mp(c(10,12))
 end.rcode-->
 <p>Pennsylvania Upset</p>
@@ -177,25 +230,26 @@ end.rcode-->
 
 <p>The rest of the states below don't show anything near as interesting as these 3, but in all these states, if a candidate was not running because he did not want to split the vote, then the election would have changed.</p>
 
-<!--begin.rcode, echo=F, fig.width=1.5*6, fig.height=1.5*4.5, dev='CairoSVG'
+<!--begin.rcode, echo=F, fig.width=1.5*5, fig.height=1.5*4, dev='CairoSVG'
 mp(1)
+
 end.rcode-->
 <p>Ohio - Simple</p>
 <p>Ohio is straightforward.  For the democrats, Strickland's lead over Sittenfield is exaggerated by first-rank polls in comparison to approval polls.  These were the only 5 R's and D's running.</p>
 
-<!--begin.rcode, echo=F, fig.width=1.5*6, fig.height=1.5*3, dev='CairoSVG'
+<!--begin.rcode, echo=F, fig.width=1.5*5, fig.height=1.5*2.5, dev='CairoSVG'
 mp(2)
 end.rcode-->
 <p>New Hampshire = Ohio (Simple)</p>
 <p>New Hampshire is like Ohio, but we don't have as much data, so it is not interesting.  We don't any data on the lesser known candidates.</p>
 
-<!--begin.rcode, echo=F, fig.width=1.5*6, fig.height=1.5*3, dev='CairoSVG'
+<!--begin.rcode, echo=F, fig.width=1.5*5, fig.height=1.5*2.5, dev='CairoSVG'
 mp(c(4,5))
 end.rcode-->
 <p>Florida is Straight-Ticket</p>
 <p>In Florida, voter's don't know either democrat very well, but faced with a choice between democrat and republican, the top democrat gets a lot of support.</p>
 
-<!--begin.rcode, echo=F, fig.width=1.5*6, fig.height=1.5*4.5, dev='CairoSVG'
+<!--begin.rcode, echo=F, fig.width=1.5*5, fig.height=1.5*4, dev='CairoSVG'
 mp(6)
 end.rcode-->
 <p>Arizona is Divided on John McCain</p>
@@ -203,7 +257,7 @@ end.rcode-->
 
 <p>We can't see skew because we don't even have approval polls to compare to for the lesser known Republicans.  For sure, they are dividing up those single digit polls.</p>
 
-<!--begin.rcode, echo=F, fig.width=1.5*5, fig.height=1.5*4.5, dev='CairoSVG'
+<!--begin.rcode, echo=F, fig.width=1.5*3.5, fig.height=1.5*3.5, dev='CairoSVG'
 mp(c(7,8))
 end.rcode-->
 <p>Maryland is Democrat (Easy)</p>

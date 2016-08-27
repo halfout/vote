@@ -6,14 +6,6 @@ require(ggplot2)
 require(ggthemes)
 require(Cairo)
 require(rsvg)
-library(extrafont)
-if (0) {
-  font_import(pattern="[T/t]imes")
-  font_import(pattern="[G/g]eorgia")
-  fonts()
-}
-loadfonts(device="win")
-
 
 # in future, separate this file from the other one
 file_loc = "./"
@@ -37,36 +29,48 @@ h = with(n, n[(source == "Real Clear Politics" & type == "approval") | (source =
 
 # plots
 
-plot_style_1 = function (p) {
-  if (1) {
-    cols = c('#e41a1c','#377eb8','#4daf4a','#984ea3','#ff7f00','#ffff33','#a65628','#f781bf','#999999','#8dd3c7','#ffffb3','#bebada','#fb8072','#80b1d3','#fdb462','#b3de69','#fccde5','#d9d9d9','#bc80bd','#ccebc5','#ffed6f')
+stylefile="favor10 - style.R"
+if (file.exists(stylefile)) {
+  source(stylefile)
+} else {
+  library(extrafont)
+  if (0) {
+    font_import(pattern="[T/t]imes")
+    font_import(pattern="[G/g]eorgia")
+    fonts()
+  }
+  loadfonts(device="win")
+  
+  plot_style_1 = function (p) {
     if (1) {
-      cols = cols[c(-6,-11)]
-    } else if (0) {
-      cols = cols[c(7:10)]
+      cols = c('#e41a1c','#377eb8','#4daf4a','#984ea3','#ff7f00','#ffff33','#a65628','#f781bf','#999999','#8dd3c7','#ffffb3','#bebada','#fb8072','#80b1d3','#fdb462','#b3de69','#fccde5','#d9d9d9','#bc80bd','#ccebc5','#ffed6f')
+      if (1) {
+        cols = cols[c(-6,-11)]
+      } else if (0) {
+        cols = cols[c(7:10)]
+      }
+      c1 = "beige"
+      c2 = "#EFEFCA"
+      c1 = "#F0EBDE"
+      c2 = "#E9DDB4"
+      p +
+        theme_igray(base_size=13) +
+        guides(colour = guide_legend(override.aes = list(size=4))) + 
+        theme(panel.margin=unit(2,"lines")) +
+        theme(plot.background = element_rect(fill = c1)) + 
+        theme(legend.background = element_rect(fill = c1)) + 
+        theme(strip.background = element_rect(fill = c2)) + 
+        theme(panel.grid.major = element_line(colour = c1)) +
+        scale_colour_manual(values = cols) +
+        theme(text = element_text(family="Georgia"))
+    } else {
+      p +
+        theme_igray(base_size=13) +
+        guides(colour = guide_legend(override.aes = list(size=4))) + 
+        theme(panel.margin=unit(2,"lines"))
     }
-    c1 = "beige"
-    c2 = "#EFEFCA"
-    c1 = "#F0EBDE"
-    c2 = "#E9DDB4"
-    p +
-      theme_igray(base_size=13) +
-      guides(colour = guide_legend(override.aes = list(size=4))) + 
-      theme(panel.margin=unit(2,"lines")) +
-      theme(plot.background = element_rect(fill = c1)) + 
-      theme(legend.background = element_rect(fill = c1)) + 
-      theme(strip.background = element_rect(fill = c2)) + 
-      theme(panel.grid.major = element_line(colour = c1)) +
-      scale_colour_manual(values = cols) +
-      theme(text = element_text(family="Georgia"))
-  } else {
-    p +
-      theme_igray(base_size=13) +
-      guides(colour = guide_legend(override.aes = list(size=4))) + 
-      theme(panel.margin=unit(2,"lines"))
   }
 }
-
 #scale_color_brewer(palette="Set3") +
 
 can7 = c("Kasich", "Carson", "Rubio", "Cruz", "Trump","Clinton","Sanders")
@@ -123,15 +127,15 @@ svg(filename=paste0(filename,".svg"),
 a2 = a[a$candidate %in% can5,]
 a2$candidate = factor(a2$candidate, levels = can5)
 
-p = ggplot(a2, aes(x=poll_date,y=votes, color=candidate)) + 
-        ylim(0,75) +
+p = ggplot(a2, aes(x=poll_date,y=votes, color=candidate)) +
         labs(title = "America Likes Sanders and Kasich Better\nThan Clinton and Trump") + 
         ylab("Favorability Rating %\n(realclearpolitics.com)") + 
         xlab("Date") +
         geom_smooth(method='loess',lwd=I(2),span=.55,se=FALSE) +
         scale_x_date(limits = as.Date(c('2015-01-01','2016-06-15')),date_labels = "%b %y")
 
-plot_style_1(p)
+plot_style_1(p) + 
+  scale_y_continuous(breaks=seq(0, 100, 10),limits=c(0,65))
 
 dev.off()
 rsvg_png(paste0(filename,".svg"),paste0(filename,".png"))
@@ -152,14 +156,14 @@ s2 = s[s$candidate %in% can5,]
 s2$candidate = factor(s2$candidate, levels = can5)
 
 p = ggplot(s2, aes(x=poll_date,y=votes, color=candidate)) + 
-  ylim(0,75) +
   labs(title = "America Likes Sanders and Kasich Better\nThan Clinton and Trump") + 
   ylab("Favorability Rating %\n(realclearpolitics.com)") + 
   xlab("Date") +
   geom_smooth(method='loess',lwd=I(2),span=.55,se=FALSE) +
   scale_x_date(limits = as.Date(c('2015-01-01','2016-06-15')),date_labels = "%b %y")
 
-plot_style_1(p)
+plot_style_1(p) + 
+  scale_y_continuous(breaks=seq(0, 100, 10),limits=c(0,65))
 
 dev.off()
 rsvg_png(paste0(filename,".svg"),paste0(filename,".png"))
@@ -180,7 +184,6 @@ a2 = a[a$candidate %in% can7,]
 a2$candidate = factor(a2$candidate, levels = can7)
 
 p = ggplot(a2, aes(x=poll_date,y=votes, color=candidate)) + 
-  ylim(0,75) +
   labs(title = "America Likes Sanders and Kasich Better\nThan Clinton and Trump") + 
   ylab("Favorability Rating %\n(realclearpolitics.com)") + 
   xlab("Date") +
@@ -188,7 +191,8 @@ p = ggplot(a2, aes(x=poll_date,y=votes, color=candidate)) +
   geom_smooth(method='loess',lwd=I(2),span=.55,se=FALSE)+ 
   scale_x_date(limits = as.Date(c('2015-01-01','2016-06-15')),date_labels = "%b %y")
 
-plot_style_1(p)
+plot_style_1(p) + 
+  scale_y_continuous(breaks=seq(0, 100, 10),limits=c(0,65))
 
 dev.off()
 rsvg_png(paste0(filename,".svg"),paste0(filename,".png"))
@@ -210,7 +214,6 @@ svg(filename=paste0(filename,".svg"),
     pointsize=12)
 
 p = ggplot(d2, aes(x=poll_date,y=votes, color=candidate)) + 
-  ylim(0,75) +
   labs(title = "America Likes Sanders and Kasich Better Than Clinton and Trump\nBut Democrats Voted Clinton And Republicans Voted Trump") + 
   ylab("Votes %\n(realclearpolitics.com)") + 
        xlab("Date") +
@@ -218,7 +221,8 @@ p = ggplot(d2, aes(x=poll_date,y=votes, color=candidate)) +
        facet_wrap(~ type) + 
        scale_x_date(limits = as.Date(c('2015-01-01','2016-06-15')),date_labels = "%b %y")
 
-plot_style_1(p)
+plot_style_1(p) + 
+  scale_y_continuous(breaks=seq(0, 100, 10),limits=c(0,65))
 dev.off()
 rsvg_png(paste0(filename,".svg"),paste0(filename,".png"))
 
@@ -239,7 +243,6 @@ svg(filename=paste0(filename,".svg"),
     height=4,
     pointsize=12)
 p = ggplot(m2, aes(x=poll_date,y=votes, color=candidate)) + 
-  ylim(0,75) +
   labs(title = "America Likes Sanders and Kasich Better Than Clinton and Trump\nBut Democrats Voted Clinton And Republicans Voted Trump") + 
   ylab("Votes %\n(HuffPo Pollster)") + 
   xlab("Date") +
@@ -247,7 +250,8 @@ p = ggplot(m2, aes(x=poll_date,y=votes, color=candidate)) +
   facet_wrap(~ type) + 
   scale_x_date(limits = as.Date(c('2015-01-01','2016-06-15')),date_labels = "%b %y")
 
-plot_style_1(p)
+plot_style_1(p) + 
+  scale_y_continuous(breaks=seq(0, 100, 10),limits=c(0,65))
 dev.off()
 rsvg_png(paste0(filename,".svg"),paste0(filename,".png"))
 
@@ -274,14 +278,14 @@ svg(filename=paste0(filename,".svg"),
     pointsize=12)
 
 p = ggplot(d2, aes(x=poll_date,y=votes, color=candidate)) + 
-  ylim(0,75) +
   labs(title = "Republican Candidates Average Approval was at 27%") + 
   ylab("Votes %\n(realclearpolitics.com)") + 
   xlab("Date") +
   geom_smooth(method='loess',lwd=I(2),span=.7,se=FALSE) +
   scale_x_date(limits = as.Date(c('2015-01-01','2016-06-15')),date_labels = "%b %y")
 
-plot_style_1(p)
+plot_style_1(p) + 
+  scale_y_continuous(breaks=seq(0, 100, 10),limits=c(0,65))
 
 dev.off()
 rsvg_png(paste0(filename,".svg"),paste0(filename,".png"))
@@ -313,7 +317,6 @@ svg(filename=paste0(filename,".svg"),
     pointsize=12)
 
 p = ggplot(h2, aes(x=poll_date,y=votes, color=candidate)) + 
-  ylim(0,75) +
   labs(title = "Republican Candidates Median Approval was at 29%\nBut Their Median Vote was at 5%") + 
   ylab("Votes %\n(realclearpolitics.com)") + 
   xlab("Date") +
@@ -321,7 +324,8 @@ p = ggplot(h2, aes(x=poll_date,y=votes, color=candidate)) +
   facet_wrap(~ type) + 
   scale_x_date(limits = as.Date(c('2015-01-01','2016-06-15')),date_labels = "%b %y")
 
-plot_style_1(p)
+plot_style_1(p) + 
+  scale_y_continuous(breaks=seq(0, 100, 10),limits=c(0,65))
 
 dev.off()
 rsvg_png(paste0(filename,".svg"),paste0(filename,".png"))
@@ -359,7 +363,6 @@ svg(filename=paste0(filename,".svg"),
 
 
 p = ggplot(m2, aes(x=poll_date,y=votes, color=candidate)) + 
-  ylim(0,75) +
   labs(title = "Republican Candidates Median Approval was at 28%\nBut Their Median Vote was at 5%") + 
   ylab("Votes %\n(HuffingtonPost/Pollster)") + 
   xlab("Date") +
@@ -367,7 +370,8 @@ p = ggplot(m2, aes(x=poll_date,y=votes, color=candidate)) +
   facet_wrap(~ type) + 
   scale_x_date(limits = as.Date(c('2015-01-01','2016-06-15')),date_labels = "%b %y")
 
-plot_style_1(p)
+plot_style_1(p) + 
+  scale_y_continuous(breaks=seq(0, 100, 10),limits=c(0,65))
 
 dev.off()
 rsvg_png(paste0(filename,".svg"),paste0(filename,".png"))
@@ -400,7 +404,6 @@ svg(filename=paste0(filename,".svg"),
     pointsize=12)
 
 p = ggplot(m2, aes(x=poll_date,y=votes, color=candidate)) + 
-  ylim(0,75) +
   labs(title = "temp title") + 
   ylab("Votes %\n(HuffPo Pollster)") + 
   xlab("Date") +
@@ -408,7 +411,8 @@ p = ggplot(m2, aes(x=poll_date,y=votes, color=candidate)) +
   facet_wrap(~ type) + 
   scale_x_date(limits = as.Date(c('2015-01-01','2016-06-15')),date_labels = "%b %y")
 
-plot_style_1(p)
+plot_style_1(p) + 
+  scale_y_continuous(breaks=seq(0, 100, 10),limits=c(0,65))
 
 
 dev.off()
@@ -549,7 +553,6 @@ svg(filename=paste0(filename,".svg"),
     pointsize=12)
 
 p = ggplot(a2, aes(x=poll_date,y=votes, color=candidate)) + 
-  ylim(0,75) +
   labs(title = "America Likes Sanders and Kasich Better\nThan Clinton and Trump") + 
   ylab("Upvotes / (Upvotes+Downvotes)\n(realclearpolitics.com)") + 
   xlab("Date") +
@@ -557,7 +560,8 @@ p = ggplot(a2, aes(x=poll_date,y=votes, color=candidate)) +
   geom_smooth(method='loess',lwd=I(2),span=.7,se=FALSE) +
   scale_x_date(limits = as.Date(c('2015-01-01','2016-06-15')),date_labels = "%b %y")
 
-plot_style_1(p)
+plot_style_1(p) + 
+  scale_y_continuous(breaks=seq(0, 100, 10),limits=c(0,65))
 dev.off()
 rsvg_png(paste0(filename,".svg"),paste0(filename,".png"))
 
